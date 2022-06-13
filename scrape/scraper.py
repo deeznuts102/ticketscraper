@@ -1,5 +1,5 @@
-from typing import List
-import requests
+from typing import Dict, List
+import requests  # type: ignore
 import json
 
 from models.model import Model
@@ -116,21 +116,22 @@ def crawl_event(event_id: str) -> List[str]:
     return json.loads(response.text)
 
 
-def parse_festival_season_events(res_json: List[str]) -> List[Model]:
+def parse_festival_season_events(res_json: List[Dict]) -> List[Model]:
     models: List[Model] = []
 
-    edges = res_json[4]["data"]["explore"]["feed"]["edges"][3]["node"]["group"][
-        "items"
-    ]["edges"]
+    feed_edges = res_json[4]["data"]["explore"]["feed"]["edges"]
 
-    for edge in edges:
-        model = Model(**edge["node"])
-        models.append(model)
+    for feed_edge in feed_edges:
+        if "group" in feed_edge["node"]:
+            group_edges = feed_edge["node"]["group"]["items"]["edges"]
+            for group_edge in group_edges:
+                model = Model(**group_edge["node"])
+                models.append(model)
 
     return models
 
 
-def parse_events(res_json: str) -> Model:
+def parse_events(res_json: List[Dict]) -> Model:
     if res_json:
         if not res_json[0]["data"]["node"]:
             return None
