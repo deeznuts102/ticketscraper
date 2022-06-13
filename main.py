@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from scrape.scraper import (
     crawl_event,
     crawl_events,
@@ -16,7 +18,8 @@ def main():
         event = parse_events(res)
         events.append(event)
 
-    store_models("output/events.json", events)
+    today = datetime.now().date()
+    store_models(f"output/{today}.json", events)
 
 
 if __name__ == "__main__":
