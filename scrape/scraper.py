@@ -3,6 +3,7 @@ import requests  # type: ignore
 import json
 
 from models.model import Model
+from models.ticket import Ticket
 
 
 def crawl_events() -> List[str]:
@@ -136,7 +137,7 @@ def parse_events(res_json: List[Dict]) -> Model:
         if not res_json[0]["data"]["node"]:
             return None
         else:
-            return Model(**res_json[0]["data"]["node"])
+            return Ticket(**res_json[0]["data"]["node"])
 
 
 def drop_duplicates(path: str) -> List[Model]:
