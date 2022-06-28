@@ -34,6 +34,9 @@ def extract_tickets(events: List[Event]) -> List[Ticket]:
                 ):
                     continue
 
+                currency = (
+                    listing_edge.node.price.total_price_with_transaction_fee.currency
+                )
                 url = listing_edge.node.uri.url
                 price = (
                     listing_edge.node.price.total_price_with_transaction_fee.amount
@@ -48,6 +51,7 @@ def extract_tickets(events: List[Event]) -> List[Ticket]:
                     location=location,
                     url=url,
                     created_at=created_at,
+                    currency=currency,
                 )
                 result.append(Ticket(**res))
 
