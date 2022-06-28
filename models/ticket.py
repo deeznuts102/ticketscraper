@@ -28,6 +28,12 @@ def extract_tickets(events: List[Event]) -> List[Ticket]:
         location = event.location.name
         for edge in event.types.edges:
             for listing_edge in edge.node.available_listings.edges:
+                if (
+                    listing_edge.node.price.total_price_with_transaction_fee.currency
+                    != "EUR"
+                ):
+                    continue
+
                 url = listing_edge.node.uri.url
                 price = (
                     listing_edge.node.price.total_price_with_transaction_fee.amount
