@@ -2,9 +2,7 @@
 #   filename:  res.json
 #   timestamp: 2022-06-28T20:15:07+00:00
 
-from __future__ import annotations
-
-
+from typing import Optional
 from pydantic import BaseModel, Field
 
 
@@ -40,7 +38,7 @@ class FestivalSeasonEvent(BaseModel):
     image_url: str = Field(..., alias="imageUrl")
     category: str
     start_date: str = Field(..., alias="startDate")
-    end_date: str | None = Field(..., alias="endDate")
+    end_date: Optional[str] = Field(..., alias="endDate")
     available_tickets_count: int = Field(..., alias="availableTicketsCount")
     status: str
     artists: list
