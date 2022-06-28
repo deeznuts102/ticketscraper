@@ -152,9 +152,3 @@ def drop_duplicates(path: str) -> List[Event]:
                 models.append(Event(**model_json))
 
     return models
-
-
-def store_models(path: str, models: List[Event]):
-    with open(path, "w") as f:
-        models = [model.dict() for model in models]
-        f.write(json.dumps(models, default=str))
