@@ -2,8 +2,8 @@ from typing import Dict, List
 import requests  # type: ignore
 import json
 
-from models.model import Model
-from models.ticket import Ticket
+from models.event import Event
+from models.festival_season_event import FestivalSeasonEvent
 
 
 def crawl_events() -> List[str]:
@@ -117,8 +117,8 @@ def crawl_event(event_id: str) -> List[str]:
     return json.loads(response.text)
 
 
-def parse_festival_season_events(res_json: List[Dict]) -> List[Model]:
-    models: List[Model] = []
+def parse_festival_season_events(res_json: List[Dict]) -> List[FestivalSeasonEvent]:
+    models: List[FestivalSeasonEvent] = []
 
     feed_edges = res_json[4]["data"]["explore"]["feed"]["edges"]
 
@@ -126,22 +126,22 @@ def parse_festival_season_events(res_json: List[Dict]) -> List[Model]:
         if "group" in feed_edge["node"]:
             group_edges = feed_edge["node"]["group"]["items"]["edges"]
             for group_edge in group_edges:
-                model = Model(**group_edge["node"])
+                model = FestivalSeasonEvent(**group_edge["node"])
                 models.append(model)
 
     return models
 
 
-def parse_events(res_json: List[Dict]) -> Model:
+def parse_events(res_json: List[Dict]) -> Event:
     if res_json:
         if not res_json[0]["data"]["node"]:
             return None
         else:
-            return Ticket(**res_json[0]["data"]["node"])
+            return Event(**res_json[0]["data"]["node"])
 
 
-def drop_duplicates(path: str) -> List[Model]:
-    models: List[Model] = []
+def drop_duplicates(path: str) -> List[Event]:
+    models: List[Event] = []
 
     with open(path) as f:
         text = f.read()
@@ -149,12 +149,12 @@ def drop_duplicates(path: str) -> List[Model]:
         if text:
             json_models = json.loads(text)
             for model_json in json_models:
-                models.append(Model(**model_json))
+                models.append(Event(**model_json))
 
     return models
 
 
-def store_models(path: str, models: List[Model]):
+def store_models(path: str, models: List[Event]):
     with open(path, "w") as f:
         models = [model.dict() for model in models]
         f.write(json.dumps(models, default=str))
