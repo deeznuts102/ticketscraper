@@ -1,11 +1,12 @@
 from datetime import datetime
+from models.helper import store_models
+from models.ticket import extract_tickets
 
 from scrape.scraper import (
     crawl_event,
     crawl_events,
     parse_events,
     parse_festival_season_events,
-    store_models,
 )
 
 
@@ -18,8 +19,10 @@ def main():
         event = parse_events(res)
         events.append(event)
 
+    tickets = extract_tickets(events)
+
     today = datetime.now().date()
-    store_models(f"output/{today}.json", events)
+    store_models(f"output/tickets/{today}.json", tickets)
 
 
 if __name__ == "__main__":
