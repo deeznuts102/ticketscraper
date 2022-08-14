@@ -4,10 +4,14 @@ import json
 
 from models.event import Event
 from models.festival_season_event import FestivalSeasonEvent
+from models.nearby_events import TicketswapApiResponseNearbyEvents
+from models.reserved_listings import TicketswapApiResponseEvent
+from models.structured_event_data import StructuredEventResponse
+
+GRAPHQL_URL = "https://api.ticketswap.com/graphql/public?"
 
 
-def crawl_events() -> List[str]:
-    url = "https://api.ticketswap.com/graphql/public?"
+def get_nearby_events() -> List[str]:
     payload = json.dumps(
         [
             {
@@ -63,15 +67,12 @@ def crawl_events() -> List[str]:
         "TE": "trailers",
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload)
+    response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
 
     return json.loads(response.text)
 
 
-def crawl_event(event_id: str) -> List[str]:
-
-    url = "https://api.ticketswap.com/graphql/public?"
-
+def get_event_structure_data(event_id: str) -> List[str]:
     payload = json.dumps(
         [
             {
@@ -112,9 +113,49 @@ def crawl_event(event_id: str) -> List[str]:
         "TE": "trailers",
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload)
+    response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
 
     return json.loads(response.text)
+
+
+def get_reserved_listings(event_id: str) -> List[str]:
+    payload = json.dumps(
+        [
+            {
+                "operationName": "getReservedListings",
+                "variables": {"id": f"{event_id}", "first": 10},
+                "query": "query getReservedListings($id: ID!, $first: Int, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      reservedListings: listings(\n        first: $first\n        filter: {listingStatus: RESERVED}\n        after: $after\n      ) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
+            },
+            {
+                "operationName": "getSoldListings",
+                "variables": {"id": f"{event_id}"},
+                "query": "query getSoldListings($id: ID!, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      soldListings: listings(first: 3, filter: {listingStatus: SOLD}, after: $after) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
+            },
+        ]
+    )
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0",
+        "Accept": "*/*",
+        "Accept-Language": "en",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Referer": "https://www.ticketswap.com/",
+        "content-type": "application/json",
+        "authorization": "",
+        "Origin": "https://www.ticketswap.com",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "TE": "trailers",
+    }
+
+    response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
+
+    return json.loads(response.text)
+
+
+def parse_nearby_events(res_json: List[Dict]) -> TicketswapApiResponseNearbyEvents:
+    return TicketswapApiResponseNearbyEvents(**{"data": res_json})
 
 
 def parse_festival_season_events(res_json: List[Dict]) -> List[FestivalSeasonEvent]:
@@ -130,6 +171,16 @@ def parse_festival_season_events(res_json: List[Dict]) -> List[FestivalSeasonEve
                 models.append(model)
 
     return models
+
+
+def parse_reserved_listings(res_json: List[Dict]) -> TicketswapApiResponseEvent:
+    data = {"data": res_json}
+    return TicketswapApiResponseEvent(**data)
+
+
+def parse_structured_event_data(res_json: List[Dict]) -> StructuredEventResponse:
+    data = {"data": res_json}
+    return StructuredEventResponse(**data)
 
 
 def parse_events(res_json: List[Dict]) -> Event:
