@@ -1,8 +1,8 @@
 name: Run application ticketscraper
 on:
   push:
-  schedule:
-    - cron: "05 7 * * *" # every day at 7:05 am
+#   schedule:
+#     - cron: "05 7 * * *" # every day at 7:05 am
 
 jobs:
   scheduled:
