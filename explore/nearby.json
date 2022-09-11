@@ -1,0 +1,377 @@
+[
+  {
+    "data": {
+      "activeEvents": {
+        "period": "THIS_WEEKEND",
+        "edges": [
+          {
+            "node": {
+              "id": "RXZlbnQ6YzMyMzAzOWMtYTA3YS00NGM3LWI1ZDAtYTgyZDViOWY5YjZm",
+              "slug": "mega-carnavalsparty-summer-edition-2022",
+              "name": "MEGA Carnavalsparty Summer Edition 2022",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/public/202209/mega-carnavalsparty-summer-edition-2022-evenemententerrein-albergen-10-september-2022-1662467089.image.jpeg",
+              "category": "FESTIVALS",
+              "startDate": "2022-09-10T13:00:00+02:00",
+              "endDate": "2022-09-11T23:45:00+02:00",
+              "availableTicketsCount": 153,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/mega-carnavalsparty-summer-edition-2022/c323039c-a07a-44c7-b5d0-a82d5b9f9b6f",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTg5NTI=",
+                "name": "Evenemententerrein Albergen",
+                "city": {
+                  "id": "Q2l0eTozMTUx",
+                  "name": "Albergen",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6YTc0YmMyNDQtZDI5MC00OGU3LWFiYWMtOTE2MDU1YWNjYjZh",
+              "slug": "pina",
+              "name": "Pi\u00f1a",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/concert-2.jpg",
+              "category": "CONCERTS",
+              "startDate": "2022-09-10T23:30:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 1,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/pina/a74bc244-d290-48e7-abac-916055accb6a",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTQ5",
+                "name": "Metropool Hengelo",
+                "city": {
+                  "id": "Q2l0eTo1MA==",
+                  "name": "Hengelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6Nzg2ZmZiZDItNDFmZC00NzE3LWJjM2EtYmY1NzA3NWJlZDFj",
+              "slug": "de-grootste-tentkroeg-van-albergen",
+              "name": "De Grootste Tentkroeg van Albergen",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-1.jpg",
+              "category": null,
+              "startDate": "2022-09-10T20:00:00+02:00",
+              "endDate": "2022-09-11T01:30:00+02:00",
+              "availableTicketsCount": 5,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/de-grootste-tentkroeg-van-albergen/786ffbd2-41fd-4717-bc3a-bf57075bed1c",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTg5NTI=",
+                "name": "Evenemententerrein Albergen",
+                "city": {
+                  "id": "Q2l0eTozMTUx",
+                  "name": "Albergen",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6N2IzYWRkZjEtOWVkYi00YmE5LWFkZmUtZmQ2MjVjMWZhYzRk",
+              "slug": "avonturenpark-hellendoorn",
+              "name": "Avonturenpark Hellendoorn",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/voucher-day-out.jpg",
+              "category": "VOUCHERS_AND_DAY_OUT",
+              "startDate": "2022-05-31T10:00:00+02:00",
+              "endDate": "2022-12-31T17:00:00+01:00",
+              "availableTicketsCount": 17,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/avonturenpark-hellendoorn/7b3addf1-9edb-4ba9-adfe-fd625c1fac4d",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MzI3OA==",
+                "name": "Hellendoorn",
+                "city": {
+                  "id": "Q2l0eTo0OTU=",
+                  "name": "Hellendoorn",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6ODExNDg4MzctY2Q2ZC00NWFmLThhNDgtN2MwNTMxMjllMjBi",
+              "slug": "van-katoen-en-water",
+              "name": "Van Katoen en Water",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-11T17:00:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/van-katoen-en-water/81148837-cd6d-45af-8a48-7c053129e20b",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTY1MTU=",
+                "name": "Almelo",
+                "city": {
+                  "id": "Q2l0eTo0MDQ=",
+                  "name": "Almelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6ZTc4YTdhMTQtZGI1Ni00MzUxLTlmODAtNjIzMDk2MmM3Y2Vk",
+              "slug": "van-katoen-en-water",
+              "name": "Van Katoen en Water",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-10T17:00:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/van-katoen-en-water/e78a7a14-db56-4351-9f80-6230962c7ced",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTY1MTU=",
+                "name": "Almelo",
+                "city": {
+                  "id": "Q2l0eTo0MDQ=",
+                  "name": "Almelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6Mjc5MGQwYTctM2UyZS00YmJiLWEzNTktOWM5ZjczOWFjZDk3",
+              "slug": "lvvh-reunie-zaterdag",
+              "name": "LVVH Re\u00fcnie Zaterdag",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-3.jpg",
+              "category": null,
+              "startDate": "2022-09-10T20:30:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/lvvh-reunie-zaterdag/2790d0a7-3e2e-4bbb-a359-9c9f739acd97",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTQyNjA0",
+                "name": "De Lantaarn",
+                "city": {
+                  "id": "Q2l0eTo0OTU=",
+                  "name": "Hellendoorn",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6NTI5NjljMTQtMDMwYy00NWM3LTlkNDAtOWVlNzlmMThkNTRh",
+              "slug": "dubbel-cabaret-jasper-van-der-veen-en-kim-schuddeboom",
+              "name": "Dubbel Cabaret - Jasper Van Der Veen En Kim Schuddeboom",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-10T20:15:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/dubbel-cabaret-jasper-van-der-veen-en-kim-schuddeboom/52969c14-030c-45c7-9d40-9ee79f18d54a",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTYwNTg=",
+                "name": "luttenberg",
+                "city": {
+                  "id": "Q2l0eToyMDQ3",
+                  "name": "Luttenberg",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6YjJlYzc4YTItNmRlMS00OGI5LTgzZDMtMzA2MDJlOWQ1ZTM5",
+              "slug": "wijkfestival-berflo-es",
+              "name": "Wijkfestival Berflo Es",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": "THEATRE_AND_COMEDY",
+              "startDate": "2022-09-09T20:30:00+02:00",
+              "endDate": "2022-09-10T23:00:00+02:00",
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/wijkfestival-berflo-es/b2ec78a2-6de1-48b9-83d3-30602e9d5e39",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246ODA5ODI=",
+                "name": "Schouwburg Hengelo",
+                "city": {
+                  "id": "Q2l0eTo1MA==",
+                  "name": "Hengelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6ZTBmYzk3YjMtYjIwMS00MjFmLTgyZGYtZjI0N2IzYzExYWFh",
+              "slug": "dirk-scheele-zomerconcert",
+              "name": "Dirk Scheele - Zomerconcert",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-1.jpg",
+              "category": null,
+              "startDate": "2022-09-11T15:00:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/dirk-scheele-zomerconcert/e0fc97b3-b201-421f-82df-f247b3c11aaa",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTYwNTg=",
+                "name": "luttenberg",
+                "city": {
+                  "id": "Q2l0eToyMDQ3",
+                  "name": "Luttenberg",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "YXJyYXljb25uZWN0aW9uOjk=",
+          "hasNextPage": false,
+          "__typename": "PageInfo"
+        },
+        "__typename": "EventConnection"
+      }
+    }
+  }
+]
