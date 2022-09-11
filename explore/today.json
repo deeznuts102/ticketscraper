@@ -1,0 +1,259 @@
+[
+  {
+    "data": {
+      "loggedInUser": {
+        "id": "VXNlcjo3MjYyODM2",
+        "knowYourCustomer": {
+          "status": "NO_ACTION_REQUIRED",
+          "__typename": "KnowYourCustomer"
+        },
+        "__typename": "Viewer"
+      }
+    }
+  },
+  {
+    "data": {
+      "activeEvents": {
+        "period": "TODAY",
+        "edges": [],
+        "pageInfo": {
+          "endCursor": null,
+          "hasNextPage": false,
+          "__typename": "PageInfo"
+        },
+        "__typename": "EventConnection"
+      }
+    }
+  },
+  {
+    "data": {
+      "activeEvents": {
+        "period": "TODAY",
+        "edges": [
+          {
+            "node": {
+              "id": "RXZlbnQ6N2IzYWRkZjEtOWVkYi00YmE5LWFkZmUtZmQ2MjVjMWZhYzRk",
+              "slug": "avonturenpark-hellendoorn",
+              "name": "Avonturenpark Hellendoorn",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/voucher-day-out.jpg",
+              "category": "VOUCHERS_AND_DAY_OUT",
+              "startDate": "2022-05-31T10:00:00+02:00",
+              "endDate": "2022-12-31T17:00:00+01:00",
+              "availableTicketsCount": 17,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/avonturenpark-hellendoorn/7b3addf1-9edb-4ba9-adfe-fd625c1fac4d",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MzI3OA==",
+                "name": "Hellendoorn",
+                "city": {
+                  "id": "Q2l0eTo0OTU=",
+                  "name": "Hellendoorn",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6NGJmMDg5YzAtOTk5Yy00OTMwLTg1M2ItZmJlZGU4ZGU4Y2Q0",
+              "slug": "heracles-almelo-vvv-venlo",
+              "name": "Heracles Almelo - VVV Venlo",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-09T20:00:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 2,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/heracles-almelo-vvv-venlo/4bf089c0-999c-4930-853b-fbede8de8cd4",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTU5OTc3",
+                "name": "Erve Asito Stadion",
+                "city": {
+                  "id": "Q2l0eTo0MDQ=",
+                  "name": "Almelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6MTAyMTgwMGMtNTcxZC00Mjg5LTkzNmMtMjFjN2E1Y2RkMWRh",
+              "slug": "van-katoen-en-water",
+              "name": "Van Katoen en Water",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-09T17:00:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/van-katoen-en-water/1021800c-571d-4289-936c-21c7a5cdd1da",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTY1MTU=",
+                "name": "Almelo",
+                "city": {
+                  "id": "Q2l0eTo0MDQ=",
+                  "name": "Almelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6YTdjMjcxMWUtYTAwMC00MGI0LWJlZmMtNjE3MThmOGY5MjNk",
+              "slug": "rapalje-scotlandss-story",
+              "name": "Rapalje - Scotlands\u0027s Story",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": null,
+              "startDate": "2022-09-09T20:15:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/rapalje-scotlandss-story/a7c2711e-a000-40b4-befc-61718f8f923d",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTYwNTg=",
+                "name": "luttenberg",
+                "city": {
+                  "id": "Q2l0eToyMDQ3",
+                  "name": "Luttenberg",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6YjJlYzc4YTItNmRlMS00OGI5LTgzZDMtMzA2MDJlOWQ1ZTM5",
+              "slug": "wijkfestival-berflo-es",
+              "name": "Wijkfestival Berflo Es",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+              "category": "THEATRE_AND_COMEDY",
+              "startDate": "2022-09-09T20:30:00+02:00",
+              "endDate": "2022-09-10T23:00:00+02:00",
+              "availableTicketsCount": 0,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/wijkfestival-berflo-es/b2ec78a2-6de1-48b9-83d3-30602e9d5e39",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246ODA5ODI=",
+                "name": "Schouwburg Hengelo",
+                "city": {
+                  "id": "Q2l0eTo1MA==",
+                  "name": "Hengelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "RXZlbnQ6ZjkyYmY4YzAtYzk2ZS00MDYyLTljYzctN2RlYTQxNmEyNjcy",
+              "slug": "crystal-dream-u2-experience",
+              "name": "Crystal Dream - U2 Experience",
+              "isHighlighted": false,
+              "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/concert-1.jpg",
+              "category": "CONCERTS",
+              "startDate": "2022-09-09T19:30:00+02:00",
+              "endDate": null,
+              "availableTicketsCount": 2,
+              "status": "ACTIVE",
+              "artists": [],
+              "country": {
+                "name": "Netherlands",
+                "code": "NL",
+                "__typename": "Country"
+              },
+              "uri": {
+                "path": "/event/crystal-dream-u2-experience/f92bf8c0-c96e-4062-9cc7-7dea416a2672",
+                "__typename": "Uri"
+              },
+              "location": {
+                "id": "TG9jYXRpb246MTQ5",
+                "name": "Metropool Hengelo",
+                "city": {
+                  "id": "Q2l0eTo1MA==",
+                  "name": "Hengelo",
+                  "__typename": "City"
+                },
+                "__typename": "Location"
+              },
+              "__typename": "ActiveEvent"
+            },
+            "__typename": "EventEdge"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "YXJyYXljb25uZWN0aW9uOjU=",
+          "hasNextPage": false,
+          "__typename": "PageInfo"
+        },
+        "__typename": "EventConnection"
+      }
+    }
+  }
+]
