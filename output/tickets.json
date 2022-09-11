@@ -1,0 +1,125 @@
+{
+    "tickets_for_sale": [
+        {
+            "updated": "2022-09-11 17:56:50.316546",
+            "id": "TGlzdGluZzo3NTM5OTU0",
+            "event_name": "Frenna Freak In The Weekend",
+            "event_start_date": "2022-09-16T22:00:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 1,
+            "entrance_slug": "regular-tickets",
+            "original_price": 23.0,
+            "price": 24.87
+        },
+        {
+            "updated": "2022-09-11 17:56:50.316603",
+            "id": "TGlzdGluZzo3MjUxODQw",
+            "event_name": "Frenna Freak In The Weekend",
+            "event_start_date": "2022-09-16T22:00:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 2,
+            "entrance_slug": "regular-tickets",
+            "original_price": 25.0,
+            "price": 27.04
+        },
+        {
+            "updated": "2022-09-11 17:56:51.891918",
+            "id": "TGlzdGluZzo3NTYxNTI3",
+            "event_name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "event_start_date": "2022-09-16T19:00:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 3,
+            "entrance_slug": "regular-tickets",
+            "original_price": 20.0,
+            "price": 17.29
+        },
+        {
+            "updated": "2022-09-11 17:56:51.891961",
+            "id": "TGlzdGluZzo3NTUzNDA4",
+            "event_name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "event_start_date": "2022-09-16T19:00:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 1,
+            "entrance_slug": "regular-tickets",
+            "original_price": 20.0,
+            "price": 17.3
+        },
+        {
+            "updated": "2022-09-11 17:56:53.462367",
+            "id": "TGlzdGluZzo3NTI3NTQ2",
+            "event_name": "John Waite",
+            "event_start_date": "2022-09-17T21:30:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 2,
+            "entrance_slug": "regular-tickets",
+            "original_price": 31.75,
+            "price": 34.34
+        },
+        {
+            "updated": "2022-09-11 17:56:56.061147",
+            "id": "TGlzdGluZzo3NDA4MzM0",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 7,
+            "entrance_slug": "flex-entreeticket",
+            "original_price": 11.0,
+            "price": 14.28
+        },
+        {
+            "updated": "2022-09-11 17:56:56.061173",
+            "id": "TGlzdGluZzo3NTIyNzg0",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 4,
+            "entrance_slug": "flex-entreeticket",
+            "original_price": 28.5,
+            "price": 17.85
+        },
+        {
+            "updated": "2022-09-11 17:56:56.061191",
+            "id": "TGlzdGluZzo3MDIzNDAx",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 2,
+            "entrance_slug": "flex-entreeticket",
+            "original_price": 30.0,
+            "price": 32.45
+        },
+        {
+            "updated": "2022-09-11 17:56:57.862606",
+            "id": "TGlzdGluZzo3MzYwMjMw",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 1,
+            "entrance_slug": "entreeticket",
+            "original_price": 21.99,
+            "price": 16.22
+        },
+        {
+            "updated": "2022-09-11 17:56:57.862650",
+            "id": "TGlzdGluZzo2OTg1OTIy",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 1,
+            "entrance_slug": "entreeticket",
+            "original_price": 23.95,
+            "price": 25.9
+        },
+        {
+            "updated": "2022-09-11 17:56:57.862682",
+            "id": "TGlzdGluZzo3MzI2Mjc1",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 2,
+            "entrance_slug": "entreeticket",
+            "original_price": 28.5,
+            "price": 30.83
+        }
+    ]
+}
