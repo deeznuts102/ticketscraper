@@ -41,20 +41,3 @@ class TicketSwapScraper:
                         self.ticket_parser.parse(event_tickets_json)
 
         self.ticket_parser.store_available_tickets("output/tickets.json")
-
-
-
-
-# def drop_duplicates(path: str) -> List[Event]:
-#     models: List[Event] = []
-
-#     with open(path) as f:
-#         text = f.read()
-
-#         if text:
-#             json_models = json.loads(text)
-#             for model_json in json_models:
-#                 models.append(Event(**model_json))
-
-#     return models
-
