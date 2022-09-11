@@ -1,7 +1,7 @@
 {
     "tickets_for_sale": [
         {
-            "updated": "2022-09-11 17:56:50.316546",
+            "updated": "2022-09-11 20:47:07.098003",
             "id": "TGlzdGluZzo3NTM5OTU0",
             "event_name": "Frenna Freak In The Weekend",
             "event_start_date": "2022-09-16T22:00:00+02:00",
@@ -9,10 +9,13 @@
             "amount_of_tickets": 1,
             "entrance_slug": "regular-tickets",
             "original_price": 23.0,
-            "price": 24.87
+            "price": 24.87,
+            "location": "Club Merlijn",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/frenna-freak-in-the-weekend/7539954/60c7dbcdac?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:50.316603",
+            "updated": "2022-09-11 20:47:07.098045",
             "id": "TGlzdGluZzo3MjUxODQw",
             "event_name": "Frenna Freak In The Weekend",
             "event_start_date": "2022-09-16T22:00:00+02:00",
@@ -20,10 +23,13 @@
             "amount_of_tickets": 2,
             "entrance_slug": "regular-tickets",
             "original_price": 25.0,
-            "price": 27.04
+            "price": 27.04,
+            "location": "Club Merlijn",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/frenna-freak-in-the-weekend/7251840/10ce6c2fba?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:51.891918",
+            "updated": "2022-09-11 20:47:08.301197",
             "id": "TGlzdGluZzo3NTYxNTI3",
             "event_name": "Legends of Rock Tribute Tour - Monsters of Rock",
             "event_start_date": "2022-09-16T19:00:00+02:00",
@@ -31,10 +37,13 @@
             "amount_of_tickets": 3,
             "entrance_slug": "regular-tickets",
             "original_price": 20.0,
-            "price": 17.29
+            "price": 17.29,
+            "location": "Lucky The Feel Good Provider",
+            "city": "Rijssen",
+            "url": "http://ticketswap.com/listing/legends-of-rock-tribute-tour-monsters-of-rock/7561527/9e5be6eafc?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:51.891961",
+            "updated": "2022-09-11 20:47:08.301251",
             "id": "TGlzdGluZzo3NTUzNDA4",
             "event_name": "Legends of Rock Tribute Tour - Monsters of Rock",
             "event_start_date": "2022-09-16T19:00:00+02:00",
@@ -42,10 +51,13 @@
             "amount_of_tickets": 1,
             "entrance_slug": "regular-tickets",
             "original_price": 20.0,
-            "price": 17.3
+            "price": 17.3,
+            "location": "Lucky The Feel Good Provider",
+            "city": "Rijssen",
+            "url": "http://ticketswap.com/listing/legends-of-rock-tribute-tour-monsters-of-rock/7553408/f6761af52a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:53.462367",
+            "updated": "2022-09-11 20:47:09.513110",
             "id": "TGlzdGluZzo3NTI3NTQ2",
             "event_name": "John Waite",
             "event_start_date": "2022-09-17T21:30:00+02:00",
@@ -53,10 +65,13 @@
             "amount_of_tickets": 2,
             "entrance_slug": "regular-tickets",
             "original_price": 31.75,
-            "price": 34.34
+            "price": 34.34,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/john-waite/7527546/12678ac15b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:56.061147",
+            "updated": "2022-09-11 20:47:11.622169",
             "id": "TGlzdGluZzo3NDA4MzM0",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -64,10 +79,13 @@
             "amount_of_tickets": 7,
             "entrance_slug": "flex-entreeticket",
             "original_price": 11.0,
-            "price": 14.28
+            "price": 14.28,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7408334/6ff2f16edd?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:56.061173",
+            "updated": "2022-09-11 20:47:11.622222",
             "id": "TGlzdGluZzo3NTIyNzg0",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -75,10 +93,13 @@
             "amount_of_tickets": 4,
             "entrance_slug": "flex-entreeticket",
             "original_price": 28.5,
-            "price": 17.85
+            "price": 17.85,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7522784/b7f19e971b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:56.061191",
+            "updated": "2022-09-11 20:47:11.622264",
             "id": "TGlzdGluZzo3MDIzNDAx",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -86,10 +107,13 @@
             "amount_of_tickets": 2,
             "entrance_slug": "flex-entreeticket",
             "original_price": 30.0,
-            "price": 32.45
+            "price": 32.45,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7023401/ad5471c944?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:57.862606",
+            "updated": "2022-09-11 20:47:13.780367",
             "id": "TGlzdGluZzo3MzYwMjMw",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -97,10 +121,13 @@
             "amount_of_tickets": 1,
             "entrance_slug": "entreeticket",
             "original_price": 21.99,
-            "price": 16.22
+            "price": 16.22,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7360230/97e9644db8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:57.862650",
+            "updated": "2022-09-11 20:47:13.780421",
             "id": "TGlzdGluZzo2OTg1OTIy",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -108,10 +135,13 @@
             "amount_of_tickets": 1,
             "entrance_slug": "entreeticket",
             "original_price": 23.95,
-            "price": 25.9
+            "price": 25.9,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6985922/f192075980?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-11 17:56:57.862682",
+            "updated": "2022-09-11 20:47:13.780464",
             "id": "TGlzdGluZzo3MzI2Mjc1",
             "event_name": "Avonturenpark Hellendoorn",
             "event_start_date": "2022-05-31T10:00:00+02:00",
@@ -119,7 +149,10 @@
             "amount_of_tickets": 2,
             "entrance_slug": "entreeticket",
             "original_price": 28.5,
-            "price": 30.83
+            "price": 30.83,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7326275/e93bd22bae?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         }
     ]
 }
