@@ -7,6 +7,8 @@ from pydantic import BaseModel, Field
 
 from models.rest.tickets import TicketswapTickets
 
+BASE_URL = 'http://ticketswap.com'
+
 
 class TicketForSale(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
@@ -18,17 +20,14 @@ class TicketForSale(BaseModel):
     entrance_slug: str
     original_price: float
     price: float
+    location: str
+    city: str
+    url: str
 
 
 class TicketSold(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
     id: str
-    event_name: str
-    event_start_date: str
-    event_end_date: Optional[str]
-    amount_of_tickets: int
-    original_price: float
-    price: float
 
 
 class EventTickets(BaseModel):
@@ -38,6 +37,8 @@ class EventTickets(BaseModel):
     name: str
     start_date: str
     end_date: Optional[str]
+    city: str
+    location: str
 
     def __init__(self, **data):
         event_tickets: TicketswapTickets = TicketswapTickets(**data)
@@ -58,6 +59,12 @@ class EventTickets(BaseModel):
         event_type_slug = event_tickets.page_props.event_type_slug
         data["entrance_slug"] = event_type_slug
 
+        city = event_tickets.page_props.initial_apollo_state.city
+        data["city"] = city
+
+        location = event_tickets.page_props.initial_apollo_state.location
+        data["location"] = location
+
         tickets_for_sale = []
         try:
             for (
@@ -76,6 +83,9 @@ class EventTickets(BaseModel):
                     event_end_date=event_end_date,
                     event_name=event_name,
                     entrance_slug=event_type_slug,
+                    location = location,
+                    city=city,
+                    url= BASE_URL + public_listing.uri.path
                 )
 
                 tickets_for_sale.append(ticket_for_sale)

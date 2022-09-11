@@ -93,10 +93,13 @@ class PublicListing(BaseModel):
     price: Price
 
 
+
 class InitialApolloState(BaseModel):
     event_types: Optional[List[TicketEvent]]
     public_listings: Optional[List[PublicListing]]
     active_event: Optional[ActiveEvent]
+    location: str
+    city: str
 
     class Config:
         arbitrary_types_allowed = True
@@ -107,6 +110,8 @@ class InitialApolloState(BaseModel):
         data['event_types'] = self.parse_ticket_events(data)
         data['public_listings'] = self.parse_public_listings(data)
         data['active_event'] = self.parse_active_event(data)
+        data['location'] = self.parse_location(data)
+        data['city'] = self.parse_city(data)
 
         super().__init__(**data)
 
@@ -135,6 +140,15 @@ class InitialApolloState(BaseModel):
             if 'ActiveEvent:' in field:
                 return ActiveEvent(**data[field])
 
+    def parse_location(self, data: Dict) -> str:
+        for field in data:
+            if 'Location:' in field:
+                return data[field]['name']
+
+    def parse_city(self, data: Dict) -> str:
+        for field in data:
+            if 'City:' in field:
+                return data[field]['name']
 
 class PageProps(BaseModel):
     event_slug: str = Field(..., alias='eventSlug')
