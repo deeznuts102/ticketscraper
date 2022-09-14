@@ -1,48 +1,14 @@
 """ Wrapper class to parse GraphQL JSON response and return custom 'TicketsForSale' instance"""
-from datetime import datetime
 import json
-from typing import Dict, List, Optional
+from typing import Dict, List
+from models.custom.tickets import TicketForSale, TicketSold
 
-from pydantic import BaseModel, Field
-from models.graphql.sold_listings import SoldListings, SoldListingsResponse
+from models.graphql.sold_listings import SoldListingsResponse
 
 from models.rest.tickets import Tickets
 
 BASE_URL = "http://ticketswap.com"
 
-
-class TicketForSale(BaseModel):
-    updated: datetime = Field(default_factory=datetime.utcnow)
-    id: str
-    description: Optional[str]
-    event_name: str
-    event_start_date: str
-    event_end_date: Optional[str]
-    amount_of_tickets: int
-    entrance_slug: str
-    entrance_id: str
-    original_price: float
-    price: float
-    location: str
-    city: str
-    url: str
-
-
-class TicketSold(BaseModel):
-    updated: datetime = Field(default_factory=datetime.utcnow)
-    id: str
-    description: Optional[str]
-    event_name: str
-    event_start_date: str
-    event_end_date: Optional[str]
-    amount_of_tickets: int
-    entrance_title: str
-    entrance_id: str
-    original_price: float
-    price: float
-    location: str
-    city: str
-    url: str
 
 
 # class Event(BaseModel):
@@ -67,11 +33,14 @@ class EventTicketsParser:
         ticketswap_tickets: Tickets = Tickets(**event_tickets_json)
 
         try:
-            for (
-                public_listing
-            ) in ticketswap_tickets.page_props.initial_apollo_state.public_listings:
+            for ( public_listing) in ticketswap_tickets.page_props.initial_apollo_state.public_listings:
+                id = public_listing.id
+                if id in [ticket.id for ticket in self.tickets_for_sale]:
+                    print(f"{id} already parsed. Skipping..")
+                    continue
+
                 ticket_for_sale = TicketForSale(
-                    id=public_listing.id,
+                    id=id,
                     description=public_listing.description,
                     amount_of_tickets=public_listing.number_of_tickets_still_for_sale,
                     original_price=self.convert_price(public_listing.price.original_price.amount),
@@ -94,8 +63,13 @@ class EventTicketsParser:
         sold_listings_response: SoldListingsResponse = SoldListingsResponse(**sold_listings_json[0]["data"]['node'])
         try:
             for edge in sold_listings_response.sold_listings.edges:
+                id = edge.node.id
+                if id in [ticket.id for ticket in self.tickets_sold]:
+                    print(f"{id} already parsed. Skipping..")
+                    continue
+
                 sold_ticket = TicketSold(
-                    id=edge.node.id,
+                    id=id,
                     description=edge.node.description,
                     amount_of_tickets=edge.node.number_of_tickets_in_listing,
                     original_price=self.convert_price(
