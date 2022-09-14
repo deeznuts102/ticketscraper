@@ -160,5 +160,6 @@ class PageProps(BaseModel):
     initial_apollo_state: InitialApolloState = Field(..., alias='initialApolloState')
 
 
-class TicketswapTickets(BaseModel):
+class Tickets(BaseModel):
+    """ Tickets model returned by the Ticketswap GraphQL API"""
     page_props: PageProps = Field(..., alias='pageProps')

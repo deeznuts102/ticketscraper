@@ -129,7 +129,32 @@ class GraphQLScraper:
                     "operationName": "getReservedListings",
                     "variables": {"id": f"{event_id}", "first": 10},
                     "query": "query getReservedListings($id: ID!, $first: Int, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      reservedListings: listings(\n        first: $first\n        filter: {listingStatus: RESERVED}\n        after: $after\n      ) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
-                },
+                }
+            ]
+        )
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0",
+            "Accept": "*/*",
+            "Accept-Language": "en",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.ticketswap.com/",
+            "content-type": "application/json",
+            "authorization": "",
+            "Origin": "https://www.ticketswap.com",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site",
+            "TE": "trailers",
+        }
+
+        response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
+
+        return json.loads(response.text)
+
+    def get_sold_listings(self, event_id: str) -> List[str]:
+        payload = json.dumps(
+            [
                 {
                     "operationName": "getSoldListings",
                     "variables": {"id": f"{event_id}"},
@@ -156,7 +181,6 @@ class GraphQLScraper:
         response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
 
         return json.loads(response.text)
-
 
     def get_event_data(self, event_id: str) -> List[str]:
         payload = json.dumps([

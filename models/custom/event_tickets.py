@@ -4,20 +4,23 @@ import json
 from typing import Dict, List, Optional
 
 from pydantic import BaseModel, Field
+from models.graphql.sold_listings import SoldListings, SoldListingsResponse
 
-from models.rest.tickets import TicketswapTickets
+from models.rest.tickets import Tickets
 
-BASE_URL = 'http://ticketswap.com'
+BASE_URL = "http://ticketswap.com"
 
 
 class TicketForSale(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
     id: str
+    description: Optional[str]
     event_name: str
     event_start_date: str
     event_end_date: Optional[str]
     amount_of_tickets: int
     entrance_slug: str
+    entrance_id: str
     original_price: float
     price: float
     location: str
@@ -28,91 +31,115 @@ class TicketForSale(BaseModel):
 class TicketSold(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
     id: str
-
-
-class EventTickets(BaseModel):
-    tickets_for_sale: Optional[List[TicketForSale]]
-    tickets_sold: Optional[List[TicketSold]]
-    entrance_slug: str
-    name: str
-    start_date: str
-    end_date: Optional[str]
-    city: str
+    description: Optional[str]
+    event_name: str
+    event_start_date: str
+    event_end_date: Optional[str]
+    amount_of_tickets: int
+    entrance_title: str
+    entrance_id: str
+    original_price: float
+    price: float
     location: str
+    city: str
+    url: str
 
-    def __init__(self, **data):
-        event_tickets: TicketswapTickets = TicketswapTickets(**data)
 
-        event_name = event_tickets.page_props.initial_apollo_state.active_event.name
-        data["name"] = event_name
-
-        event_start_date = (
-            event_tickets.page_props.initial_apollo_state.active_event.start_date
-        )
-        data["start_date"] = event_start_date
-
-        event_end_date = (
-            event_tickets.page_props.initial_apollo_state.active_event.end_date
-        )
-        data["end_date"] = event_end_date
-
-        event_type_slug = event_tickets.page_props.event_type_slug
-        data["entrance_slug"] = event_type_slug
-
-        city = event_tickets.page_props.initial_apollo_state.city
-        data["city"] = city
-
-        location = event_tickets.page_props.initial_apollo_state.location
-        data["location"] = location
-
-        tickets_for_sale = []
-        try:
-            for (
-                public_listing
-            ) in event_tickets.page_props.initial_apollo_state.public_listings:
-                original_price = float(public_listing.price.original_price.amount / 100)
-                price = float(
-                    public_listing.price.total_price_with_transaction_fee.amount / 100
-                )
-                ticket_for_sale = TicketForSale(
-                    id=public_listing.id,
-                    amount_of_tickets=public_listing.number_of_tickets_still_for_sale,
-                    original_price=original_price,
-                    price=price,
-                    event_start_date=event_start_date,
-                    event_end_date=event_end_date,
-                    event_name=event_name,
-                    entrance_slug=event_type_slug,
-                    location = location,
-                    city=city,
-                    url= BASE_URL + public_listing.uri.path
-                )
-
-                tickets_for_sale.append(ticket_for_sale)
-            data["tickets_for_sale"] = tickets_for_sale
-        except AttributeError as e:
-            print(e)
-
-        super().__init__(**data)
+# class Event(BaseModel):
+#     tickets_for_sale: Optional[List[TicketForSale]]
+#     tickets_sold: Optional[List[TicketSold]]
+#     entrance_slug: str
+#     name: str
+#     start_date: str
+#     end_date: Optional[str]
+#     city: str
+#     location: str
+#     availableTicketsCount: str
+#     soldTicketsCount: str
+#     ticketAlertsCount: str
 
 
 class EventTicketsParser:
-    event_tickets: List[EventTickets] = []
+    tickets_for_sale: List[TicketForSale] = []
+    tickets_sold: List[TicketSold] = []
 
-    def parse(self, event_tickets_json: Dict):
-        self.event_tickets.append(EventTickets(**event_tickets_json))
+    def parse_available_tickets(self, event_tickets_json: Dict):
+        ticketswap_tickets: Tickets = Tickets(**event_tickets_json)
 
-    def store_available_tickets(self, path: str):
-        all_tickets_for_sale: List[Dict[str, str]] = []
-        for event in self.event_tickets:
-            for ticket in event.tickets_for_sale:
-                all_tickets_for_sale.append(ticket.dict())
+        try:
+            for (
+                public_listing
+            ) in ticketswap_tickets.page_props.initial_apollo_state.public_listings:
+                ticket_for_sale = TicketForSale(
+                    id=public_listing.id,
+                    description=public_listing.description,
+                    amount_of_tickets=public_listing.number_of_tickets_still_for_sale,
+                    original_price=self.convert_price(public_listing.price.original_price.amount),
+                    price=self.convert_price(public_listing.price.total_price_with_transaction_fee.amount),
+                    event_start_date=ticketswap_tickets.page_props.initial_apollo_state.active_event.start_date,
+                    event_end_date=ticketswap_tickets.page_props.initial_apollo_state.active_event.end_date,
+                    event_name=ticketswap_tickets.page_props.initial_apollo_state.active_event.name,
+                    entrance_slug=ticketswap_tickets.page_props.event_type_slug,
+                    entrance_id=ticketswap_tickets.page_props.event_type_id,
+                    location=ticketswap_tickets.page_props.initial_apollo_state.location,
+                    city=ticketswap_tickets.page_props.initial_apollo_state.city,
+                    url=BASE_URL + public_listing.uri.path,
+                )
 
+                self.tickets_for_sale.append(ticket_for_sale)
+        except AttributeError as e:
+            print(e)
+
+    def parse_sold_tickets(self, sold_listings_json: Dict):
+        sold_listings_response: SoldListingsResponse = SoldListingsResponse(**sold_listings_json[0]["data"]['node'])
+        try:
+            for edge in sold_listings_response.sold_listings.edges:
+                sold_ticket = TicketSold(
+                    id=edge.node.id,
+                    description=edge.node.description,
+                    amount_of_tickets=edge.node.number_of_tickets_in_listing,
+                    original_price=self.convert_price(
+                        edge.node.price.original_price.amount
+                    ),
+                    price=self.convert_price(
+                        edge.node.price.total_price_with_transaction_fee.amount
+                    ),
+                    city=edge.node.event.location.city.name,
+                    location=edge.node.event.location.name,
+                    entrance_title=edge.node.event_type.title,
+                    entrance_id=edge.node.event_type.id,
+                    event_name=edge.node.event.name,
+                    event_start_date=edge.node.event.start_date,
+                    event_end_date=edge.node.event.end_date,
+                    url=edge.node.uri.path,
+                )
+                self.tickets_sold.append(sold_ticket)
+        except AttributeError as e:
+            print(e)
+    
+    def get_available_entrance_ids(self) -> List[str]:
+        entrance_ids = []
+        for ticket in self.tickets_for_sale:
+            if ticket.entrance_id not in entrance_ids:
+                entrance_ids.append(ticket.entrance_id)
+
+        return entrance_ids
+
+    def store(self, path: str):
         with open(path, "w", encoding="utf-8") as f:
             json.dump(
-                {"tickets_for_sale": all_tickets_for_sale},
+                {
+                    "tickets_for_sale": [
+                        ticket.dict() for ticket in self.tickets_for_sale
+                    ],
+                    "sold_tickets": [ticket.dict() for ticket in self.tickets_sold],
+                },
                 f,
                 ensure_ascii=False,
                 indent=4,
-                default=str
+                default=str,
             )
+
+    def convert_price(self, price) -> float:
+        """Convert price amount in cents to decimal"""
+        return float(price / 100)

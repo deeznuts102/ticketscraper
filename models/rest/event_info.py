@@ -54,6 +54,7 @@ class EntranceType(BaseModel):
 
 
 class EventInfo(BaseModel):
+    """ Tickets model returned by the Ticketswap REST API"""
     page_props: PageProps = Field(..., alias='pageProps')
 
     def get_entrance_types(self) -> List[EntranceType]:

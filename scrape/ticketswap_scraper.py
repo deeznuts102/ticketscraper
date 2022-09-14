@@ -29,7 +29,8 @@ class TicketSwapScraper:
             if 'REDIRECT' in str(event_info_json):
                 entrance_type: SingleEntranceType = EventInfoRedirect(**(event_info_json)).get_entrance_type()
                 event_tickets_json = self.rest_scraper.get_event_tickets(session_id, event.slug, event.uri_id, entrance_type.slug, entrance_type.id)
-                self.ticket_parser.parse(event_tickets_json)
+                self.ticket_parser.parse_available_tickets(event_tickets_json)
+
             else:
                 # if there are multiple entrance types, we have to get the entrance url id from the html page first for each one
                 # since this is not provided in the graphql-, nor the rest-requests
@@ -38,6 +39,11 @@ class TicketSwapScraper:
                     if entrance_type.available_tickets > 0:
                         entrance_type_id: str = self.html_scraper.get_event_entrance_type_ids(event.uri_path, event.uri_id, entrance_type.slug)
                         event_tickets_json = self.rest_scraper.get_event_tickets(session_id, event.slug, event.uri_id, entrance_type.slug, entrance_type_id)
-                        self.ticket_parser.parse(event_tickets_json)
+                        self.ticket_parser.parse_available_tickets(event_tickets_json)
 
-        self.ticket_parser.store_available_tickets("output/tickets.json")
+            # scrape sold listings
+            for entrance_id in self.ticket_parser.get_available_entrance_ids():
+                sold_listings_json = self.graphql_scraper.get_sold_listings(entrance_id)
+                self.ticket_parser.parse_sold_tickets(sold_listings_json)
+
+        self.ticket_parser.store("output/tickets.json")
