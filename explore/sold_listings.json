@@ -1,0 +1,273 @@
+[
+  {
+    "data": {
+      "node": {
+        "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+        "slug": "regular-tickets",
+        "title": "Regular",
+        "soldListings": {
+          "edges": [
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NTM5OTU0",
+                "hash": "60c7dbcdac",
+                "description": null,
+                "isPublic": true,
+                "status": "SOLD",
+                "dateRange": null,
+                "uri": {
+                  "path": "/listing/frenna-freak-in-the-weekend/7539954/60c7dbcdac?utm_campaign=publishedListingShare\u0026utm_source=ticketswap\u0026utm_medium=manualshare",
+                  "__typename": "Uri"
+                },
+                "event": {
+                  "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
+                  "name": "Frenna Freak In The Weekend",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "slug": "frenna-freak-in-the-weekend",
+                  "status": "ACTIVE",
+                  "location": {
+                    "id": "TG9jYXRpb246MTIwOA==",
+                    "name": "Club Merlijn",
+                    "city": {
+                      "id": "Q2l0eTo1MA==",
+                      "name": "Hengelo",
+                      "__typename": "City"
+                    },
+                    "__typename": "Location"
+                  },
+                  "__typename": "ActiveEvent"
+                },
+                "eventType": {
+                  "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                  "title": "Regular",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "__typename": "EventType"
+                },
+                "seller": {
+                  "id": "VXNlcjo1MTE4MjQ2",
+                  "firstname": "Nique",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "tickets": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "VGlja2V0OjE1OTgyODQ4",
+                        "status": "SOLD",
+                        "__typename": "Ticket"
+                      },
+                      "__typename": "TicketEdge"
+                    }
+                  ],
+                  "__typename": "TicketConnection"
+                },
+                "numberOfTicketsInListing": 1,
+                "numberOfTicketsStillForSale": 0,
+                "price": {
+                  "originalPrice": {
+                    "amount": 2300,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "totalPriceWithTransactionFee": {
+                    "amount": 2487,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "sellerPrice": {
+                    "amount": 2300,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "__typename": "ListingPrice"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            },
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NTIzMjQ5",
+                "hash": "90d9588bf6",
+                "description": "2 tickets te koop - 16 september Club Merlijn Frenna!",
+                "isPublic": true,
+                "status": "SOLD",
+                "dateRange": null,
+                "uri": {
+                  "path": "/listing/frenna-freak-in-the-weekend/7523249/90d9588bf6?utm_campaign=publishedListingShare\u0026utm_source=ticketswap\u0026utm_medium=manualshare",
+                  "__typename": "Uri"
+                },
+                "event": {
+                  "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
+                  "name": "Frenna Freak In The Weekend",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "slug": "frenna-freak-in-the-weekend",
+                  "status": "ACTIVE",
+                  "location": {
+                    "id": "TG9jYXRpb246MTIwOA==",
+                    "name": "Club Merlijn",
+                    "city": {
+                      "id": "Q2l0eTo1MA==",
+                      "name": "Hengelo",
+                      "__typename": "City"
+                    },
+                    "__typename": "Location"
+                  },
+                  "__typename": "ActiveEvent"
+                },
+                "eventType": {
+                  "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                  "title": "Regular",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "__typename": "EventType"
+                },
+                "seller": {
+                  "id": "VXNlcjo4MTAwNTI4",
+                  "firstname": "Dilara",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "tickets": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "VGlja2V0OjE1OTUwMDEx",
+                        "status": "SOLD",
+                        "__typename": "Ticket"
+                      },
+                      "__typename": "TicketEdge"
+                    },
+                    {
+                      "node": {
+                        "id": "VGlja2V0OjE1OTUwMDEy",
+                        "status": "SOLD",
+                        "__typename": "Ticket"
+                      },
+                      "__typename": "TicketEdge"
+                    }
+                  ],
+                  "__typename": "TicketConnection"
+                },
+                "numberOfTicketsInListing": 2,
+                "numberOfTicketsStillForSale": 0,
+                "price": {
+                  "originalPrice": {
+                    "amount": 2500,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "totalPriceWithTransactionFee": {
+                    "amount": 2001,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "sellerPrice": {
+                    "amount": 1850,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "__typename": "ListingPrice"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            },
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NDY1NDg3",
+                "hash": "15014d8d8c",
+                "description": "kaartjes te koop voor frenna \n22:00 uur\n16-09-2022\n",
+                "isPublic": true,
+                "status": "SOLD",
+                "dateRange": null,
+                "uri": {
+                  "path": "/listing/frenna-freak-in-the-weekend/7465487/15014d8d8c?utm_campaign=publishedListingShare\u0026utm_source=ticketswap\u0026utm_medium=manualshare",
+                  "__typename": "Uri"
+                },
+                "event": {
+                  "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
+                  "name": "Frenna Freak In The Weekend",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "slug": "frenna-freak-in-the-weekend",
+                  "status": "ACTIVE",
+                  "location": {
+                    "id": "TG9jYXRpb246MTIwOA==",
+                    "name": "Club Merlijn",
+                    "city": {
+                      "id": "Q2l0eTo1MA==",
+                      "name": "Hengelo",
+                      "__typename": "City"
+                    },
+                    "__typename": "Location"
+                  },
+                  "__typename": "ActiveEvent"
+                },
+                "eventType": {
+                  "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                  "title": "Regular",
+                  "startDate": "2022-09-16T22:00:00+02:00",
+                  "endDate": null,
+                  "__typename": "EventType"
+                },
+                "seller": {
+                  "id": "VXNlcjo1MDUyMDY1",
+                  "firstname": "Yamihlia",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "tickets": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "VGlja2V0OjE1ODQwODQ5",
+                        "status": "SOLD",
+                        "__typename": "Ticket"
+                      },
+                      "__typename": "TicketEdge"
+                    }
+                  ],
+                  "__typename": "TicketConnection"
+                },
+                "numberOfTicketsInListing": 1,
+                "numberOfTicketsStillForSale": 0,
+                "price": {
+                  "originalPrice": {
+                    "amount": 2500,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "totalPriceWithTransactionFee": {
+                    "amount": 2163,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "sellerPrice": {
+                    "amount": 2000,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "__typename": "ListingPrice"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            }
+          ],
+          "pageInfo": {
+            "endCursor": "YXJyYXljb25uZWN0aW9uOjI=",
+            "hasNextPage": true,
+            "__typename": "PageInfo"
+          },
+          "__typename": "ListingConnection"
+        },
+        "__typename": "EventType"
+      }
+    }
+  }
+]
