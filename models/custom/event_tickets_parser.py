@@ -111,7 +111,7 @@ class EventTicketsParser:
                     event_name=edge.node.event.name,
                     event_start_date=edge.node.event.start_date,
                     event_end_date=edge.node.event.end_date,
-                    url=edge.node.uri.path,
+                    url=BASE_URL + edge.node.uri.path,
                 )
                 self.tickets_sold.append(sold_ticket)
         except AttributeError as e:

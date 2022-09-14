@@ -1,7 +1,7 @@
 from typing import List
 import json
 
-from models.custom.event_tickets import EventTicketsParser
+from models.custom.event_tickets_parser import EventTicketsParser
 from models.rest.event_info_redirect import EventInfoRedirect, SingleEntranceType
 from models.graphql.nearby_events import NearbyEvents
 from models.rest.event_info import EntranceType, EventInfo
