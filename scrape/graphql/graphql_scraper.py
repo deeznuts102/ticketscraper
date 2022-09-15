@@ -1,21 +1,24 @@
-
 from typing import Dict, List
 import requests  # type: ignore
 import json
 
 GRAPHQL_URL = "https://api.ticketswap.com/graphql/public?"
 
-class GraphQLScraper:
 
+class GraphQLScraper:
     def get_events_this_weekend(self) -> List[str]:
         payload = json.dumps(
             [
                 {
                     "operationName": "getPopularEvents",
                     "variables": {
-                        "nearby": {"latitude": 52.2957, "longitude": 6.5832, "radius": 20},
+                        "nearby": {
+                            "latitude": 52.2957,
+                            "longitude": 6.5832,
+                            "radius": 20,
+                        },
                         "period": "THIS_WEEKEND",
-                        "first": 50,
+                        "first": 99,
                     },
                     "query": "query getPopularEvents($first: Int, $after: String, $highlighted: Boolean, $period: Period, $dateRange: DateRangeInput, $category: EventCategory, $cityId: ID, $locationId: ID, $nearby: GeopointFilter) {\n  activeEvents(\n    first: $first\n    after: $after\n    period: $period\n    dateRange: $dateRange\n    orderBy: {field: BOOST_VALUE, direction: DESC}\n    filter: {locationId: $locationId, category: $category, highlighted: $highlighted, city: $cityId, nearby: $nearby}\n  ) {\n    period\n    edges {\n      node {\n        ...eventList\n        __typename\n      }\n      __typename\n    }\n    pageInfo {\n      endCursor\n      hasNextPage\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment eventList on Event {\n  id\n  slug\n  name\n  isHighlighted\n  imageUrl\n  category\n  startDate\n  endDate\n  availableTicketsCount\n  status\n  artists {\n    ...artist\n    __typename\n  }\n  country {\n    ...country\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  location {\n    id\n    name\n    city {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment artist on Artist {\n  id\n  name\n  slug\n  avatar\n  numberOfUpcomingEvents\n  isFollowedByViewer\n  viewerHasNotificationsEnabled\n  __typename\n}\n\nfragment country on Country {\n  name\n  code\n  __typename\n}\n",
                 }
@@ -39,7 +42,6 @@ class GraphQLScraper:
         response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
 
         return json.loads(response.text)
-
 
     def get_nearby_events(self) -> List[str]:
         payload = json.dumps(
@@ -74,7 +76,6 @@ class GraphQLScraper:
         response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
 
         return json.loads(response.text)
-
 
     def get_event_structure_data(self, event_id: str) -> List[str]:
         payload = json.dumps(
@@ -121,7 +122,6 @@ class GraphQLScraper:
 
         return json.loads(response.text)
 
-
     def get_reserved_listings(self, event_id: str) -> List[str]:
         payload = json.dumps(
             [
@@ -152,13 +152,43 @@ class GraphQLScraper:
 
         return json.loads(response.text)
 
-    def get_sold_listings(self, event_id: str) -> List[str]:
+    def get_sold_listings(self, event_id: str, first: int = 99) -> List[str]:
         payload = json.dumps(
             [
                 {
-                    "operationName": "getSoldListings",
-                    "variables": {"id": f"{event_id}"},
-                    "query": "query getSoldListings($id: ID!, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      soldListings: listings(first: 3, filter: {listingStatus: SOLD}, after: $after) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
+                    "operationName": "getAvailableListings",
+                    "variables": {"id": event_id, "first": first},
+                    "query": "query getAvailableListings($id: ID!, $first: Int, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      soldListings: listings(first: $first, filter: {listingStatus: AVAILABLE}, after: $after) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
+                },
+            ]
+        )
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0",
+            "Accept": "*/*",
+            "Accept-Language": "en",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.ticketswap.com/",
+            "content-type": "application/json",
+            "authorization": "",
+            "Origin": "https://www.ticketswap.com",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site",
+            "TE": "trailers",
+        }
+
+        response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
+
+        return json.loads(response.text)
+
+    def get_available_listings(self, event_id: str, first: int = 99) -> List[str]:
+        payload = json.dumps(
+            [
+                {
+                    "operationName": "getAvailableListings",
+                    "variables": {"id": event_id, "first": first},
+                    "query": "query getAvailableListings($id: ID!, $first: Int, $after: String) {\n  node(id: $id) {\n    ... on EventType {\n      id\n      slug\n      title\n      availableListings: listings(first: $first, filter: {listingStatus: AVAILABLE}, after: $after) {\n        ...listings\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment listings on ListingConnection {\n  edges {\n    node {\n      ...listingList\n      __typename\n    }\n    __typename\n  }\n  pageInfo {\n    endCursor\n    hasNextPage\n    __typename\n  }\n  __typename\n}\n\nfragment listingList on PublicListing {\n  id\n  hash\n  description\n  isPublic\n  status\n  dateRange {\n    startDate\n    endDate\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  event {\n    id\n    name\n    startDate\n    endDate\n    slug\n    status\n    location {\n      id\n      name\n      city {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventType {\n    id\n    title\n    startDate\n    endDate\n    __typename\n  }\n  seller {\n    id\n    firstname\n    avatar\n    __typename\n  }\n  tickets(first: 99) {\n    edges {\n      node {\n        id\n        status\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  numberOfTicketsInListing\n  numberOfTicketsStillForSale\n  price {\n    originalPrice {\n      ...money\n      __typename\n    }\n    totalPriceWithTransactionFee {\n      ...money\n      __typename\n    }\n    sellerPrice {\n      ...money\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
                 },
             ]
         )
@@ -183,29 +213,29 @@ class GraphQLScraper:
         return json.loads(response.text)
 
     def get_event_data(self, event_id: str) -> List[str]:
-        payload = json.dumps([
-            {
-                "operationName": "getEventData",
-                "variables": {
-                    "id": event_id
-                },
-                "query": "query getEventData($id: ID!) {\n  node(id: $id) {\n    ... on Event {\n      ...event\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment event on Event {\n  ...sharedEventData\n  availableTicketsCount\n  soldTicketsCount\n  ticketAlertsCount\n  cancellationReason\n  isHighlighted\n  tags(first: 1) {\n    edges {\n      node {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  country {\n    code\n    __typename\n  }\n  entranceTypes: types(first: 99, filter: {ticketCategory: ENTRANCE}) {\n    edges {\n      node {\n        ...eventTypeData\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nonEntranceTypesWithoutGroup: types(\n    first: 99\n    filter: {ticketCategory: NON_ENTRANCE, hasGroup: false}\n  ) {\n    edges {\n      node {\n        ...eventTypeData\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventTypeGroups {\n    id\n    name\n    eventTypes {\n      ...eventTypeData\n      __typename\n    }\n    __typename\n  }\n  redirectedTo {\n    id\n    slug\n    __typename\n  }\n  availableListings: listings(first: 2, filter: {listingStatus: AVAILABLE}) {\n    edges {\n      node {\n        id\n        price {\n          originalPrice {\n            ...money\n            __typename\n          }\n          __typename\n        }\n        seller {\n          id\n          avatar\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  soldListings: listings(first: 2, filter: {listingStatus: SOLD}) {\n    edges {\n      node {\n        id\n        seller {\n          id\n          avatar\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  externalPrimaryTicketShops {\n    ...externalPrimaryTicketShop\n    __typename\n  }\n  __typename\n}\n\nfragment sharedEventData on Event {\n  id\n  slug\n  name\n  status\n  isEventFavoritedByUser\n  isSellingBlocked\n  isBuyingBlocked\n  isPopular\n  category\n  timeZone\n  instagramUsername\n  startDate\n  endDate\n  hasOngoingEventType\n  tags(first: 1) {\n    edges {\n      node {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  facebookEventWalls {\n    facebookUrl\n    isMainEventWall\n    __typename\n  }\n  isVerified\n  seoMetadata {\n    title\n    description\n    __typename\n  }\n  description\n  eventVideo {\n    ...eventVideo\n    __typename\n  }\n  closedLoopInformation {\n    ...closedLoopInformation\n    __typename\n  }\n  secureSwapInformation {\n    isManualSecureSwapAvailable\n    __typename\n  }\n  alias {\n    uri {\n      url\n      path\n      __typename\n    }\n    __typename\n  }\n  headerImageUrl\n  imageUrl\n  imageSmallUrl\n  organizerShop {\n    id\n    organizerBranding {\n      name\n      image\n      __typename\n    }\n    hasDynamicProducts\n    __typename\n  }\n  location {\n    id\n    slug\n    name\n    geoInfo {\n      latitude\n      longitude\n      __typename\n    }\n    background\n    amountOfActiveUpcomingEvents\n    image\n    website\n    averageFanExperienceRating\n    totalAmountOfFanExperiences\n    city {\n      id\n      slug\n      name\n      __typename\n    }\n    country {\n      ...country\n      __typename\n    }\n    __typename\n  }\n  organizerBrands {\n    ...organizerBrand\n    __typename\n  }\n  artists {\n    ...artist\n    __typename\n  }\n  types(first: 99) {\n    edges {\n      node {\n        id\n        slug\n        title\n        availableTicketsCount\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  warning {\n    title\n    message\n    url {\n      text\n      url\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment artist on Artist {\n  id\n  name\n  slug\n  avatar\n  numberOfUpcomingEvents\n  isFollowedByViewer\n  viewerHasNotificationsEnabled\n  __typename\n}\n\nfragment organizerBrand on OrganizerBrand {\n  id\n  name\n  logoUrl\n  isFollowedByViewer\n  displayRequestForMarketingConsent\n  __typename\n}\n\nfragment eventVideo on EventVideo {\n  id\n  platform\n  videoPlatformId\n  videoUrl\n  title\n  thumbnailUrl\n  __typename\n}\n\nfragment closedLoopInformation on ClosedLoopEventInformation {\n  ticketProviderName\n  findYourTicketsUrl\n  __typename\n}\n\nfragment country on Country {\n  name\n  code\n  __typename\n}\n\nfragment eventTypeData on EventType {\n  id\n  slug\n  title\n  startDate\n  endDate\n  isOngoing\n  availableTicketsCount\n  isOngoing\n  isSellingBlocked\n  __typename\n}\n\nfragment externalPrimaryTicketShop on ExternalPrimaryTicketShop {\n  id\n  startDate\n  state\n  shopImageUrl {\n    url\n    trackingUrl\n    path\n    host\n    __typename\n  }\n  shopUrl {\n    url\n    trackingUrl\n    path\n    host\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n"
-            }
-        ])
+        payload = json.dumps(
+            [
+                {
+                    "operationName": "getEventData",
+                    "variables": {"id": event_id},
+                    "query": "query getEventData($id: ID!) {\n  node(id: $id) {\n    ... on Event {\n      ...event\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment event on Event {\n  ...sharedEventData\n  availableTicketsCount\n  soldTicketsCount\n  ticketAlertsCount\n  cancellationReason\n  isHighlighted\n  tags(first: 1) {\n    edges {\n      node {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  country {\n    code\n    __typename\n  }\n  entranceTypes: types(first: 99, filter: {ticketCategory: ENTRANCE}) {\n    edges {\n      node {\n        ...eventTypeData\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nonEntranceTypesWithoutGroup: types(\n    first: 99\n    filter: {ticketCategory: NON_ENTRANCE, hasGroup: false}\n  ) {\n    edges {\n      node {\n        ...eventTypeData\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  eventTypeGroups {\n    id\n    name\n    eventTypes {\n      ...eventTypeData\n      __typename\n    }\n    __typename\n  }\n  redirectedTo {\n    id\n    slug\n    __typename\n  }\n  availableListings: listings(first: 2, filter: {listingStatus: AVAILABLE}) {\n    edges {\n      node {\n        id\n        price {\n          originalPrice {\n            ...money\n            __typename\n          }\n          __typename\n        }\n        seller {\n          id\n          avatar\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  soldListings: listings(first: 2, filter: {listingStatus: SOLD}) {\n    edges {\n      node {\n        id\n        seller {\n          id\n          avatar\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  externalPrimaryTicketShops {\n    ...externalPrimaryTicketShop\n    __typename\n  }\n  __typename\n}\n\nfragment sharedEventData on Event {\n  id\n  slug\n  name\n  status\n  isEventFavoritedByUser\n  isSellingBlocked\n  isBuyingBlocked\n  isPopular\n  category\n  timeZone\n  instagramUsername\n  startDate\n  endDate\n  hasOngoingEventType\n  tags(first: 1) {\n    edges {\n      node {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  facebookEventWalls {\n    facebookUrl\n    isMainEventWall\n    __typename\n  }\n  isVerified\n  seoMetadata {\n    title\n    description\n    __typename\n  }\n  description\n  eventVideo {\n    ...eventVideo\n    __typename\n  }\n  closedLoopInformation {\n    ...closedLoopInformation\n    __typename\n  }\n  secureSwapInformation {\n    isManualSecureSwapAvailable\n    __typename\n  }\n  alias {\n    uri {\n      url\n      path\n      __typename\n    }\n    __typename\n  }\n  headerImageUrl\n  imageUrl\n  imageSmallUrl\n  organizerShop {\n    id\n    organizerBranding {\n      name\n      image\n      __typename\n    }\n    hasDynamicProducts\n    __typename\n  }\n  location {\n    id\n    slug\n    name\n    geoInfo {\n      latitude\n      longitude\n      __typename\n    }\n    background\n    amountOfActiveUpcomingEvents\n    image\n    website\n    averageFanExperienceRating\n    totalAmountOfFanExperiences\n    city {\n      id\n      slug\n      name\n      __typename\n    }\n    country {\n      ...country\n      __typename\n    }\n    __typename\n  }\n  organizerBrands {\n    ...organizerBrand\n    __typename\n  }\n  artists {\n    ...artist\n    __typename\n  }\n  types(first: 99) {\n    edges {\n      node {\n        id\n        slug\n        title\n        availableTicketsCount\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  warning {\n    title\n    message\n    url {\n      text\n      url\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment artist on Artist {\n  id\n  name\n  slug\n  avatar\n  numberOfUpcomingEvents\n  isFollowedByViewer\n  viewerHasNotificationsEnabled\n  __typename\n}\n\nfragment organizerBrand on OrganizerBrand {\n  id\n  name\n  logoUrl\n  isFollowedByViewer\n  displayRequestForMarketingConsent\n  __typename\n}\n\nfragment eventVideo on EventVideo {\n  id\n  platform\n  videoPlatformId\n  videoUrl\n  title\n  thumbnailUrl\n  __typename\n}\n\nfragment closedLoopInformation on ClosedLoopEventInformation {\n  ticketProviderName\n  findYourTicketsUrl\n  __typename\n}\n\nfragment country on Country {\n  name\n  code\n  __typename\n}\n\nfragment eventTypeData on EventType {\n  id\n  slug\n  title\n  startDate\n  endDate\n  isOngoing\n  availableTicketsCount\n  isOngoing\n  isSellingBlocked\n  __typename\n}\n\nfragment externalPrimaryTicketShop on ExternalPrimaryTicketShop {\n  id\n  startDate\n  state\n  shopImageUrl {\n    url\n    trackingUrl\n    path\n    host\n    __typename\n  }\n  shopUrl {\n    url\n    trackingUrl\n    path\n    host\n    __typename\n  }\n  __typename\n}\n\nfragment money on Money {\n  amount\n  currency\n  __typename\n}\n",
+                }
+            ]
+        )
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0',
-            'Accept': '*/*',
-            'Accept-Language': 'en',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.ticketswap.com/',
-            'content-type': 'application/json',
-            'authorization': '',
-            'Origin': 'https://www.ticketswap.com',
-            'Connection': 'keep-alive',
-            'Sec-Fetch-Dest': 'empty',
-            'Sec-Fetch-Mode': 'cors',
-            'Sec-Fetch-Site': 'same-site',
-            'TE': 'trailers'
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0",
+            "Accept": "*/*",
+            "Accept-Language": "en",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.ticketswap.com/",
+            "content-type": "application/json",
+            "authorization": "",
+            "Origin": "https://www.ticketswap.com",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site",
+            "TE": "trailers",
         }
 
         response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
