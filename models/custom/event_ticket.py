@@ -4,10 +4,7 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 
-BASE_URL = "http://ticketswap.com"
-
-
-class TicketForSale(BaseModel):
+class EventTicketForSale(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
     id: str
     description: Optional[str]
@@ -24,7 +21,7 @@ class TicketForSale(BaseModel):
     url: str
 
 
-class TicketSold(BaseModel):
+class EventTicketSold(BaseModel):
     updated: datetime = Field(default_factory=datetime.utcnow)
     id: str
     description: Optional[str]

@@ -26,7 +26,7 @@ class RestScraper:
 
         return json.loads(response.text)
 
-    def get_event_tickets(self, session_id: str, event_slug: str, event_uri_id: str, entrance_slug: str, entrance_type_id: int) -> List[str]:
+    def get_available_tickets(self, session_id: str, event_slug: str, event_uri_id: str, entrance_slug: str, entrance_type_id: int) -> List[str]:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0',
             'Accept': '*/*',

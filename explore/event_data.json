@@ -1,0 +1,195 @@
+[
+  {
+    "data": {
+      "node": {
+        "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
+        "slug": "frenna-freak-in-the-weekend",
+        "name": "Frenna Freak In The Weekend",
+        "status": "ACTIVE",
+        "isEventFavoritedByUser": false,
+        "isSellingBlocked": false,
+        "isBuyingBlocked": false,
+        "isPopular": false,
+        "category": null,
+        "timeZone": "Europe/Amsterdam",
+        "instagramUsername": null,
+        "startDate": "2022-09-16T22:00:00+02:00",
+        "endDate": null,
+        "hasOngoingEventType": false,
+        "tags": { "edges": [], "__typename": "TagConnection" },
+        "facebookEventWalls": [],
+        "isVerified": true,
+        "seoMetadata": {
+          "title": null,
+          "description": null,
+          "__typename": "SeoMetadata"
+        },
+        "description": null,
+        "eventVideo": null,
+        "closedLoopInformation": null,
+        "secureSwapInformation": {
+          "isManualSecureSwapAvailable": false,
+          "__typename": "SecureSwapEventInformation"
+        },
+        "alias": null,
+        "headerImageUrl": null,
+        "imageUrl": "https://cdn.ticketswap.com/static/images/placeholders/default-2.jpg",
+        "imageSmallUrl": null,
+        "organizerShop": null,
+        "location": {
+          "id": "TG9jYXRpb246MTIwOA==",
+          "slug": "club-merlijn",
+          "name": "Club Merlijn",
+          "geoInfo": {
+            "latitude": null,
+            "longitude": null,
+            "__typename": "GeoInfo"
+          },
+          "background": null,
+          "amountOfActiveUpcomingEvents": 1,
+          "image": null,
+          "website": null,
+          "averageFanExperienceRating": 0,
+          "totalAmountOfFanExperiences": 0,
+          "city": {
+            "id": "Q2l0eTo1MA==",
+            "slug": "hengelo",
+            "name": "Hengelo",
+            "__typename": "City"
+          },
+          "country": {
+            "name": "Netherlands",
+            "code": "NL",
+            "__typename": "Country"
+          },
+          "__typename": "Location"
+        },
+        "organizerBrands": [],
+        "artists": [],
+        "types": {
+          "edges": [
+            {
+              "node": {
+                "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "availableTicketsCount": 3,
+                "__typename": "EventType"
+              },
+              "__typename": "EventTypeEdge"
+            }
+          ],
+          "__typename": "EventTypeConnection"
+        },
+        "warning": null,
+        "__typename": "ActiveEvent",
+        "availableTicketsCount": 3,
+        "soldTicketsCount": 14,
+        "ticketAlertsCount": 23,
+        "cancellationReason": null,
+        "isHighlighted": false,
+        "country": { "code": "NL", "__typename": "Country" },
+        "entranceTypes": {
+          "edges": [
+            {
+              "node": {
+                "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "startDate": "2022-09-16T22:00:00+02:00",
+                "endDate": null,
+                "isOngoing": false,
+                "availableTicketsCount": 3,
+                "isSellingBlocked": false,
+                "__typename": "EventType"
+              },
+              "__typename": "EventTypeEdge"
+            }
+          ],
+          "__typename": "EventTypeConnection"
+        },
+        "nonEntranceTypesWithoutGroup": {
+          "edges": [],
+          "__typename": "EventTypeConnection"
+        },
+        "eventTypeGroups": [],
+        "redirectedTo": null,
+        "availableListings": {
+          "edges": [
+            {
+              "node": {
+                "id": "TGlzdGluZzo3MjUxODQw",
+                "price": {
+                  "originalPrice": {
+                    "amount": 2500,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "__typename": "ListingPrice"
+                },
+                "seller": {
+                  "id": "VXNlcjo3MDM3NTgz",
+                  "avatar": "https://graph.facebook.com/3179033402379100/picture?redirect=true\u0026width=120\u0026height=120",
+                  "__typename": "PublicUser"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            },
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NjA2NDU0",
+                "price": {
+                  "originalPrice": {
+                    "amount": 2500,
+                    "currency": "EUR",
+                    "__typename": "Money"
+                  },
+                  "__typename": "ListingPrice"
+                },
+                "seller": {
+                  "id": "VXNlcjo1MjU3NzIw",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            }
+          ],
+          "__typename": "ListingConnection"
+        },
+        "soldListings": {
+          "edges": [
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NTM5OTU0",
+                "seller": {
+                  "id": "VXNlcjo1MTE4MjQ2",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            },
+            {
+              "node": {
+                "id": "TGlzdGluZzo3NTIzMjQ5",
+                "seller": {
+                  "id": "VXNlcjo4MTAwNTI4",
+                  "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+                  "__typename": "PublicUser"
+                },
+                "__typename": "PublicListing"
+              },
+              "__typename": "ListingEdge"
+            }
+          ],
+          "__typename": "ListingConnection"
+        },
+        "externalPrimaryTicketShops": []
+      }
+    }
+  }
+]

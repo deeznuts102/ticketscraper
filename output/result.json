@@ -276,6 +276,7 @@
         },
         {
             "updated": "2022-09-15 07:16:52.724828",
+            "updated": "2022-09-15 09:57:55.897949",
             "id": "TGlzdGluZzo3NTQ2NTc0",
             "description": "18+",
             "event_name": "Legends of Rock Tribute Tour - Monsters of Rock",
@@ -292,6 +293,7 @@
         },
         {
             "updated": "2022-09-15 07:16:54.680901",
+            "updated": "2022-09-15 09:57:57.395744",
             "id": "TGlzdGluZzo3NDYwMDgy",
             "description": null,
             "event_name": "John Waite",
@@ -307,7 +309,11 @@
             "url": "http://ticketswap.com/listing/john-waite/7460082/cd1eaf6077?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
+<<<<<<< Updated upstream:output/tickets.json
             "updated": "2022-09-15 07:16:54.680936",
+=======
+            "updated": "2022-09-15 09:57:57.395805",
+>>>>>>> Stashed changes:output/result.json
             "id": "TGlzdGluZzo2OTE0Njg4",
             "description": null,
             "event_name": "John Waite",
@@ -323,7 +329,11 @@
             "url": "http://ticketswap.com/listing/john-waite/6914688/44671bc44a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
+<<<<<<< Updated upstream:output/tickets.json
             "updated": "2022-09-15 07:16:54.680961",
+=======
+            "updated": "2022-09-15 09:57:57.395830",
+>>>>>>> Stashed changes:output/result.json
             "id": "TGlzdGluZzo2OTExMDk0",
             "description": "Tickets waren voor het concert van 2 oktober 2021, maar door corona is het concert verplaatst naar 17 september. Helaas kunnen we dan niet.",
             "event_name": "John Waite",
@@ -339,7 +349,11 @@
             "url": "http://ticketswap.com/listing/john-waite/6911094/808ae77c4a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
+<<<<<<< Updated upstream:output/tickets.json
             "updated": "2022-09-15 07:16:58.976174",
+=======
+            "updated": "2022-09-15 09:57:59.747899",
+>>>>>>> Stashed changes:output/result.json
             "id": "TGlzdGluZzo2OTg0OTc3",
             "description": "2x entreetickets\n2x smulpakket tickets\n1x parkeerticket\n\nVandaag alleen geldig!! \n€30 voor totaal!",
             "event_name": "Avonturenpark Hellendoorn",
@@ -355,7 +369,11 @@
             "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6984977/66e43b32a8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
+<<<<<<< Updated upstream:output/tickets.json
             "updated": "2022-09-15 07:16:58.976215",
+=======
+            "updated": "2022-09-15 09:57:59.747954",
+>>>>>>> Stashed changes:output/result.json
             "id": "TGlzdGluZzo3MDU0Njcz",
             "description": "geldig tot 31-07-2022",
             "event_name": "Avonturenpark Hellendoorn",
@@ -370,5 +388,182 @@
             "city": "Hellendoorn",
             "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7054673/cd2d722320?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         }
+    ],
+    "events": [
+        {
+            "entrance_slug": "frenna-freak-in-the-weekend",
+            "name": "Frenna Freak In The Weekend",
+            "start_date": "2022-09-16T22:00:00+02:00",
+            "end_date": null,
+            "location": "Club Merlijn",
+            "city": "Hengelo",
+            "available_tickets": "3",
+            "sold_tickets": "14",
+            "wanted_tickets": "25",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T22:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 3
+                }
+            ]
+        },
+        {
+            "entrance_slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "start_date": "2022-09-16T19:00:00+02:00",
+            "end_date": null,
+            "location": "Lucky The Feel Good Provider",
+            "city": "Rijssen",
+            "available_tickets": "8",
+            "sold_tickets": "3",
+            "wanted_tickets": "0",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T19:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 8
+                }
+            ]
+        },
+        {
+            "entrance_slug": "john-waite",
+            "name": "John Waite",
+            "start_date": "2022-09-17T21:30:00+02:00",
+            "end_date": null,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "available_tickets": "2",
+            "sold_tickets": "5",
+            "wanted_tickets": "9",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-17T21:30:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 2
+                }
+            ]
+        },
+        {
+            "entrance_slug": "avonturenpark-hellendoorn",
+            "name": "Avonturenpark Hellendoorn",
+            "start_date": "2022-05-31T10:00:00+02:00",
+            "end_date": "2022-12-31T17:00:00+01:00",
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "available_tickets": "17",
+            "sold_tickets": "5",
+            "wanted_tickets": "11",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIyNDMxODU=",
+                    "slug": "flex-entreeticket",
+                    "title": "Flex Entreeticket",
+                    "start_date": "2022-05-31T12:00:00+02:00",
+                    "end_date": "2022-12-31T17:00:00+01:00",
+                    "available_tickets": 13
+                },
+                {
+                    "id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+                    "slug": "entreeticket",
+                    "title": "Entreeticket",
+                    "start_date": "2022-05-31T12:00:00+02:00",
+                    "end_date": "2022-12-31T17:00:00+01:00",
+                    "available_tickets": 4
+                }
+            ]
+        },
+        {
+            "entrance_slug": "coalafield-koos-en-moos",
+            "name": "Coalafield Koos en Moos",
+            "start_date": "2022-09-18T15:00:00+02:00",
+            "end_date": null,
+            "location": "De Reggehof",
+            "city": "Goor",
+            "available_tickets": "0",
+            "sold_tickets": "0",
+            "wanted_tickets": "0",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIyODQyNDQ=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-18T15:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        },
+        {
+            "entrance_slug": "the-brother-brothers",
+            "name": "The Brother Brothers",
+            "start_date": "2022-09-17T21:00:00+02:00",
+            "end_date": null,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "available_tickets": "0",
+            "sold_tickets": "0",
+            "wanted_tickets": "0",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIwNDc5ODM=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-17T21:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        },
+        {
+            "entrance_slug": "paulien-cornelisse-aanstalten",
+            "name": "Paulien Cornelisse - Aanstalten",
+            "start_date": "2022-09-16T20:00:00+02:00",
+            "end_date": null,
+            "location": "Schouwburg Lochem",
+            "city": "Lochem",
+            "available_tickets": "0",
+            "sold_tickets": "0",
+            "wanted_tickets": "1",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIzMjI5NjI=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T20:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        },
+        {
+            "entrance_slug": "tavares-with-uk-live-band",
+            "name": "Tavares with UK Live Band",
+            "start_date": "2022-09-17T20:00:00+02:00",
+            "end_date": null,
+            "location": "Schouwburg Hengelo",
+            "city": "Hengelo",
+            "available_tickets": "0",
+            "sold_tickets": "0",
+            "wanted_tickets": "2",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIyMDQ3ODc=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-17T20:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        }
     ]
-}

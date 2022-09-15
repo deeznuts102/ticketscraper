@@ -1,7 +1,7 @@
 from typing import List
 import json
 
-from models.custom.event_tickets_parser import EventTicketsParser
+from models.custom.event_parser import EventParser
 from models.rest.event_info_redirect import EventInfoRedirect, SingleEntranceType
 from models.graphql.nearby_events import NearbyEvents
 from models.rest.event_info import EntranceType, EventInfo
@@ -16,34 +16,26 @@ class TicketSwapScraper:
         self.html_scraper = HTMLScraper()
         self.graphql_scraper = GraphQLScraper()
         self.rest_scraper = RestScraper()
-        self.ticket_parser = EventTicketsParser()
+        self.ticket_parser = EventParser()
 
 
     def scrape_weekend_tickets(self):
         session_id = self.html_scraper.get_session_id()
         events_json = self.graphql_scraper.get_events_this_weekend()[0]
-        events = NearbyEvents(**events_json).get_events()
-        for event in events:
-            event_info_json = self.rest_scraper.get_event_info(session_id, event.slug, event.uri_id)
-            # if the response contains a 'REDIRECT' message, there is only one entrance type, which is fully provided in the redirect URL
-            if 'REDIRECT' in str(event_info_json):
-                entrance_type: SingleEntranceType = EventInfoRedirect(**(event_info_json)).get_entrance_type()
-                event_tickets_json = self.rest_scraper.get_event_tickets(session_id, event.slug, event.uri_id, entrance_type.slug, entrance_type.id)
-                self.ticket_parser.parse_available_tickets(event_tickets_json)
+        nearby_events = NearbyEvents(**events_json).get_events()
+        for nearby_event in nearby_events:
+            event_data_json = self.graphql_scraper.get_event_data(nearby_event.id)
+            event = self.ticket_parser.parse_event(event_data_json)
+            for entrance_type in event.entrance_types:
+                # scrape available tickets
+                if entrance_type.available_tickets > 0:
+                    # need to fetch the entrance type id from the HTML page in order to ge the available tickets, this is not avaialble in the Graphql or REST responses
+                    entrance_type_url_id: str = self.html_scraper.get_event_entrance_type_ids(nearby_event.uri_path, nearby_event.uri_id, entrance_type.slug)
+                    event_tickets_json = self.rest_scraper.get_available_tickets(session_id, nearby_event.slug, nearby_event.uri_id, entrance_type.slug, entrance_type_url_id)
+                    self.ticket_parser.parse_available_tickets(event_tickets_json)
 
-            else:
-                # if there are multiple entrance types, we have to get the entrance url id from the html page first for each one
-                # since this is not provided in the graphql-, nor the rest-requests
-                entrance_types: List[EntranceType] = EventInfo(**event_info_json).get_entrance_types()
-                for entrance_type in entrance_types:
-                    if entrance_type.available_tickets > 0:
-                        entrance_type_id: str = self.html_scraper.get_event_entrance_type_ids(event.uri_path, event.uri_id, entrance_type.slug)
-                        event_tickets_json = self.rest_scraper.get_event_tickets(session_id, event.slug, event.uri_id, entrance_type.slug, entrance_type_id)
-                        self.ticket_parser.parse_available_tickets(event_tickets_json)
-
-            # scrape sold listings
-            for entrance_id in self.ticket_parser.get_available_entrance_ids():
-                sold_listings_json = self.graphql_scraper.get_sold_listings(entrance_id)
+                # scrape sold tickets
+                sold_listings_json = self.graphql_scraper.get_sold_listings(entrance_type.id)
                 self.ticket_parser.parse_sold_tickets(sold_listings_json)
 
-        self.ticket_parser.store("output/tickets.json")
+        self.ticket_parser.store("output/result.json")
