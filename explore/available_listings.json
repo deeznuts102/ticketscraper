@@ -1,0 +1,380 @@
+{
+  "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+  "slug": "regular-tickets",
+  "title": "Regular",
+  "availableListings": {
+    "edges": [
+      {
+        "node": {
+          "id": "TGlzdGluZzo3NTYxNTI3",
+          "hash": "9e5be6eafc",
+          "description": null,
+          "isPublic": true,
+          "status": "AVAILABLE",
+          "dateRange": null,
+          "uri": {
+            "path": "/listing/legends-of-rock-tribute-tour-monsters-of-rock/7561527/9e5be6eafc?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare",
+            "__typename": "Uri"
+          },
+          "event": {
+            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "status": "ACTIVE",
+            "location": {
+              "id": "TG9jYXRpb246MTAwOTE5",
+              "name": "Lucky The Feel Good Provider",
+              "city": {
+                "id": "Q2l0eTo0Ng==",
+                "name": "Rijssen",
+                "__typename": "City"
+              },
+              "__typename": "Location"
+            },
+            "__typename": "ActiveEvent"
+          },
+          "eventType": {
+            "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+            "title": "Regular",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "__typename": "EventType"
+          },
+          "seller": {
+            "id": "VXNlcjozNjE5ODY1",
+            "firstname": "Rob",
+            "avatar": "https://cdn.ticketswap.com/public/202204/809fb51b-170e-43ba-aa5a-bd8fd89643fb.jpg",
+            "__typename": "PublicUser"
+          },
+          "tickets": {
+            "edges": [
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDI0MDA1",
+                  "status": "SOLD",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              },
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDI0MDA2",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              },
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDI0MDA3",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              }
+            ],
+            "__typename": "TicketConnection"
+          },
+          "numberOfTicketsInListing": 3,
+          "numberOfTicketsStillForSale": 2,
+          "price": {
+            "originalPrice": {
+              "amount": 2000,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "totalPriceWithTransactionFee": {
+              "amount": 1729,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "sellerPrice": {
+              "amount": 1599,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "__typename": "ListingPrice"
+          },
+          "__typename": "PublicListing"
+        },
+        "__typename": "ListingEdge"
+      },
+      {
+        "node": {
+          "id": "TGlzdGluZzo3NjA5Mzg3",
+          "hash": "b71a2e7d3e",
+          "description": "Legends of Rock Tribute Tour - Monsters of Rock LUCKY RIJSSEN",
+          "isPublic": true,
+          "status": "AVAILABLE",
+          "dateRange": null,
+          "uri": {
+            "path": "/listing/legends-of-rock-tribute-tour-monsters-of-rock/7609387/b71a2e7d3e?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare",
+            "__typename": "Uri"
+          },
+          "event": {
+            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "status": "ACTIVE",
+            "location": {
+              "id": "TG9jYXRpb246MTAwOTE5",
+              "name": "Lucky The Feel Good Provider",
+              "city": {
+                "id": "Q2l0eTo0Ng==",
+                "name": "Rijssen",
+                "__typename": "City"
+              },
+              "__typename": "Location"
+            },
+            "__typename": "ActiveEvent"
+          },
+          "eventType": {
+            "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+            "title": "Regular",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "__typename": "EventType"
+          },
+          "seller": {
+            "id": "VXNlcjo4NjA4MDc3",
+            "firstname": "Illyane",
+            "avatar": "https://cdn.ticketswap.com/public/202209/018a309e-5098-4d9f-a00b-99eff2fb53ef.dabab1ece9ca48151c58ba9c239167214ba82e41.jpeg",
+            "__typename": "PublicUser"
+          },
+          "tickets": {
+            "edges": [
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MTEyODYy",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              }
+            ],
+            "__typename": "TicketConnection"
+          },
+          "numberOfTicketsInListing": 1,
+          "numberOfTicketsStillForSale": 1,
+          "price": {
+            "originalPrice": {
+              "amount": 2000,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "totalPriceWithTransactionFee": {
+              "amount": 1729,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "sellerPrice": {
+              "amount": 1599,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "__typename": "ListingPrice"
+          },
+          "__typename": "PublicListing"
+        },
+        "__typename": "ListingEdge"
+      },
+      {
+        "node": {
+          "id": "TGlzdGluZzo3NTUzNDA4",
+          "hash": "f6761af52a",
+          "description": null,
+          "isPublic": true,
+          "status": "AVAILABLE",
+          "dateRange": null,
+          "uri": {
+            "path": "/listing/legends-of-rock-tribute-tour-monsters-of-rock/7553408/f6761af52a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare",
+            "__typename": "Uri"
+          },
+          "event": {
+            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "status": "ACTIVE",
+            "location": {
+              "id": "TG9jYXRpb246MTAwOTE5",
+              "name": "Lucky The Feel Good Provider",
+              "city": {
+                "id": "Q2l0eTo0Ng==",
+                "name": "Rijssen",
+                "__typename": "City"
+              },
+              "__typename": "Location"
+            },
+            "__typename": "ActiveEvent"
+          },
+          "eventType": {
+            "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+            "title": "Regular",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "__typename": "EventType"
+          },
+          "seller": {
+            "id": "VXNlcjo2OTE3Mjkz",
+            "firstname": "Esmeralda",
+            "avatar": "https://cdn.ticketswap.com/public/202204/fc858061-f9d8-427f-9594-fcbade8da8bb.jpg",
+            "__typename": "PublicUser"
+          },
+          "tickets": {
+            "edges": [
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDA4ODQz",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              }
+            ],
+            "__typename": "TicketConnection"
+          },
+          "numberOfTicketsInListing": 1,
+          "numberOfTicketsStillForSale": 1,
+          "price": {
+            "originalPrice": {
+              "amount": 2000,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "totalPriceWithTransactionFee": {
+              "amount": 1730,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "sellerPrice": {
+              "amount": 1600,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "__typename": "ListingPrice"
+          },
+          "__typename": "PublicListing"
+        },
+        "__typename": "ListingEdge"
+      },
+      {
+        "node": {
+          "id": "TGlzdGluZzo3NjAyMTIx",
+          "hash": "4a530e6b25",
+          "description": "Tickets voor Legends of Rock. Te koop aangeboden omdat we zelf niet kunnen.\n",
+          "isPublic": true,
+          "status": "AVAILABLE",
+          "dateRange": null,
+          "uri": {
+            "path": "/listing/legends-of-rock-tribute-tour-monsters-of-rock/7602121/4a530e6b25?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare",
+            "__typename": "Uri"
+          },
+          "event": {
+            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "status": "ACTIVE",
+            "location": {
+              "id": "TG9jYXRpb246MTAwOTE5",
+              "name": "Lucky The Feel Good Provider",
+              "city": {
+                "id": "Q2l0eTo0Ng==",
+                "name": "Rijssen",
+                "__typename": "City"
+              },
+              "__typename": "Location"
+            },
+            "__typename": "ActiveEvent"
+          },
+          "eventType": {
+            "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+            "title": "Regular",
+            "startDate": "2022-09-16T19:00:00+02:00",
+            "endDate": null,
+            "__typename": "EventType"
+          },
+          "seller": {
+            "id": "VXNlcjo4NTk3MjYy",
+            "firstname": "Luc",
+            "avatar": "https://cdn.ticketswap.com/static/images/avatar-unknown.png",
+            "__typename": "PublicUser"
+          },
+          "tickets": {
+            "edges": [
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDk5MTUy",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              },
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDk5MTUz",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              },
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDk5MTU0",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              },
+              {
+                "node": {
+                  "id": "VGlja2V0OjE2MDk5MTU1",
+                  "status": "AVAILABLE",
+                  "__typename": "Ticket"
+                },
+                "__typename": "TicketEdge"
+              }
+            ],
+            "__typename": "TicketConnection"
+          },
+          "numberOfTicketsInListing": 4,
+          "numberOfTicketsStillForSale": 4,
+          "price": {
+            "originalPrice": {
+              "amount": 2000,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "totalPriceWithTransactionFee": {
+              "amount": 2163,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "sellerPrice": {
+              "amount": 2000,
+              "currency": "EUR",
+              "__typename": "Money"
+            },
+            "__typename": "ListingPrice"
+          },
+          "__typename": "PublicListing"
+        },
+        "__typename": "ListingEdge"
+      }
+    ],
+    "pageInfo": {
+      "endCursor": "YXJyYXljb25uZWN0aW9uOjM=",
+      "hasNextPage": false,
+      "__typename": "PageInfo"
+    },
+    "__typename": "ListingConnection"
+  },
+  "__typename": "EventType"
+}
