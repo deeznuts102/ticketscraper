@@ -18,11 +18,15 @@ class EventParser:
     tickets_sold: List[EventTicketSold] = []
     events: List[Event] = []
 
-    def parse_available_tickets(self, event_tickets_json: Dict) -> List[EventTicketForSale]:
+    def parse_available_tickets(
+        self, event_tickets_json: Dict
+    ) -> List[EventTicketForSale]:
         ticketswap_tickets: Tickets = Tickets(**event_tickets_json)
 
         try:
-            for ( public_listing) in ticketswap_tickets.page_props.initial_apollo_state.public_listings:
+            for (
+                public_listing
+            ) in ticketswap_tickets.page_props.initial_apollo_state.public_listings:
                 id = public_listing.id
                 if id in [ticket.id for ticket in self.tickets_for_sale]:
                     print(f"{id} already parsed. Skipping..")
@@ -32,8 +36,12 @@ class EventParser:
                     id=id,
                     description=public_listing.description,
                     amount_of_tickets=public_listing.number_of_tickets_still_for_sale,
-                    original_price=self._convert_price(public_listing.price.original_price.amount),
-                    price=self._convert_price(public_listing.price.total_price_with_transaction_fee.amount),
+                    original_price=self._convert_price(
+                        public_listing.price.original_price.amount
+                    ),
+                    price=self._convert_price(
+                        public_listing.price.total_price_with_transaction_fee.amount
+                    ),
                     event_start_date=ticketswap_tickets.page_props.initial_apollo_state.active_event.start_date,
                     event_end_date=ticketswap_tickets.page_props.initial_apollo_state.active_event.end_date,
                     event_name=ticketswap_tickets.page_props.initial_apollo_state.active_event.name,
@@ -50,7 +58,9 @@ class EventParser:
         return self.tickets_for_sale
 
     def parse_sold_tickets(self, sold_listings_json: Dict) -> List[EventTicketSold]:
-        sold_listings_response: SoldListingsResponse = SoldListingsResponse(**sold_listings_json[0]["data"]['node'])
+        sold_listings_response: SoldListingsResponse = SoldListingsResponse(
+            **sold_listings_json[0]["data"]["node"]
+        )
         try:
             for edge in sold_listings_response.sold_listings.edges:
                 id = edge.node.id
@@ -83,10 +93,13 @@ class EventParser:
         return self.tickets_sold
 
     def parse_event(self, event_data_json: Dict) -> Event:
-        event_data_response = EventDataResponse(**event_data_json[0]['data']['node'])
+        event_data_response = EventDataResponse(**event_data_json[0]["data"]["node"])
         try:
-            event_entrance_types: List[EventEntranceType] = self._parse_event_entrance_types(event_data_response)
+            event_entrance_types: List[
+                EventEntranceType
+            ] = self._parse_event_entrance_types(event_data_response)
             event = Event(
+                id=event_data_response.id,
                 entrance_slug=event_data_response.slug,
                 name=event_data_response.name,
                 start_date=event_data_response.start_date,
@@ -96,15 +109,16 @@ class EventParser:
                 available_tickets=event_data_response.available_tickets_count,
                 sold_tickets=event_data_response.sold_tickets_count,
                 wanted_tickets=event_data_response.ticket_alerts_count,
-                entrance_types=event_entrance_types
+                entrance_types=event_entrance_types,
             )
             self.events.append(event)
         except AttributeError as e:
             print(e)
         return event
 
-
-    def _parse_event_entrance_types(self, event_data_response: EventDataResponse) -> List[EventEntranceType]:
+    def _parse_event_entrance_types(
+        self, event_data_response: EventDataResponse
+    ) -> List[EventEntranceType]:
         entrance_types = []
         for edge in event_data_response.entrance_types.edges:
             entrance_type = EventEntranceType(
@@ -123,16 +137,34 @@ class EventParser:
         return float(price / 100)
 
     def store(self, path: str):
-        with open(path, "w", encoding="utf-8") as f:
+        # read existing file and keep old results
+        with open(path, "r") as f_read:
+            data = json.load(f_read)
+            ticket_for_sale_ids = [ticket.id for ticket in self.tickets_for_sale]
+            for ticket in data['tickets_for_sale']:
+                if ticket['id'] not in ticket_for_sale_ids:
+                    self.tickets_for_sale.append(EventTicketForSale(**ticket))
+
+            ticket_sold_ids = [ticket.id for ticket in self.tickets_sold]
+            for ticket in data['tickets_sold']:
+                if ticket['id'] not in ticket_sold_ids:
+                    self.tickets_sold.append(EventTicketSold(**ticket))
+
+            event_ids = [event.id for event in self.events]
+            for event in data['events']:
+                if event['id'] not in event_ids:
+                    self.events.append(Event(**event))
+
+        with open(path, "w", encoding="utf-8") as f_write:
             json.dump(
                 {
                     "tickets_for_sale": [
                         ticket.dict() for ticket in self.tickets_for_sale
                     ],
-                    "sold_tickets": [ticket.dict() for ticket in self.tickets_sold],
+                    "tickets_sold": [ticket.dict() for ticket in self.tickets_sold],
                     "events": [event.dict() for event in self.events],
                 },
-                f,
+                f_write,
                 ensure_ascii=False,
                 indent=4,
                 default=str,

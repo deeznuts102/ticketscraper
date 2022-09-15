@@ -7,6 +7,7 @@ from pydantic import BaseModel
 from models.custom.event_entrance_type import EventEntranceType
 
 class Event(BaseModel):
+    id: str
     entrance_slug: str
     name: str
     start_date: str
