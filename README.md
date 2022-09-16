@@ -1,6 +1,6 @@
 # ticketscraper
 
-[Latest files]()
+[Latest files](https://flatgithub.com/lassebenni/ticketscraper/blob/master/output/result.json?filename=output%2Fresult.json&tickets_for_sale)
 
 ## Using datamodel-code-generator to generate models from JSON
 
