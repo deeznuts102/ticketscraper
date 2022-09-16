@@ -1,6 +1,118 @@
 {
     "tickets_for_sale": [
         {
+            "updated": "2022-09-16 21:28:30.312635",
+            "id": "TGlzdGluZzo3NTI3NTQ2",
+            "description": "Heel jammer, maar we zijn helaas verhindert.\nTwee staanplaatsen voor zaterdag 17 september.",
+            "event_name": "John Waite",
+            "event_start_date": "2022-09-17T21:30:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 1,
+            "entrance_slug": "regular-tickets",
+            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
+            "original_price": 31.75,
+            "price": 27.04,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/john-waite/7527546/12678ac15b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:32.217133",
+            "id": "TGlzdGluZzo3NDA4MzM0",
+            "description": "3x entre vanaf 10:00 zaterdag 27 Augustus.\n3x smul menu\n1x parkeer kaart",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 7,
+            "entrance_slug": "flex-entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
+            "original_price": 11.0,
+            "price": 14.28,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7408334/6ff2f16edd?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:32.217170",
+            "id": "TGlzdGluZzo3NTIyNzg0",
+            "description": "Avonturenpark Hellendoorn 4 flexibele entree tickets!",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 4,
+            "entrance_slug": "flex-entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
+            "original_price": 28.5,
+            "price": 17.85,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7522784/b7f19e971b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:32.217195",
+            "id": "TGlzdGluZzo3MDIzNDAx",
+            "description": "2 kaarten Hellendoorn. \nALLEEN GELDIG OP VRIJDAG 15 JULI. ENTREE TOT 10.30U. Anders helaas geen toegang.",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 2,
+            "entrance_slug": "flex-entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
+            "original_price": 30.0,
+            "price": 32.45,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7023401/ad5471c944?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:33.638607",
+            "id": "TGlzdGluZzo3MzYwMjMw",
+            "description": "21 Augustus 2022 21/08/2022\n10:30 tijdslot",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 1,
+            "entrance_slug": "entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+            "original_price": 21.99,
+            "price": 16.22,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7360230/97e9644db8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:33.638650",
+            "id": "TGlzdGluZzo2OTg1OTIy",
+            "description": "1x ticket voor hellendoorn voor €20. Pak je kans OP=OP\n\n",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 1,
+            "entrance_slug": "entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+            "original_price": 23.95,
+            "price": 25.9,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6985922/f192075980?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:33.638679",
+            "id": "TGlzdGluZzo3MzI2Mjc1",
+            "description": "Geldig t/m 30 oktober 2022.",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 2,
+            "entrance_slug": "entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+            "original_price": 28.5,
+            "price": 30.83,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7326275/e93bd22bae?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
             "updated": "2022-09-16 07:15:35.478937",
             "id": "TGlzdGluZzo3NjE4MzA0",
             "description": "Originele ticket van €27,- \n\n",
@@ -31,22 +143,6 @@
             "location": "Club Merlijn",
             "city": "Hengelo",
             "url": "http://ticketswap.com/listing/frenna-freak-in-the-weekend/7616732/59599324c1?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:38.175378",
-            "id": "TGlzdGluZzo3NTI3NTQ2",
-            "description": "Heel jammer, maar we zijn helaas verhindert.\nTwee staanplaatsen voor zaterdag 17 september.",
-            "event_name": "John Waite",
-            "event_start_date": "2022-09-17T21:30:00+02:00",
-            "event_end_date": null,
-            "amount_of_tickets": 2,
-            "entrance_slug": "regular-tickets",
-            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
-            "original_price": 31.75,
-            "price": 27.04,
-            "location": "Metropool Hengelo",
-            "city": "Hengelo",
-            "url": "http://ticketswap.com/listing/john-waite/7527546/12678ac15b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
             "updated": "2022-09-16 07:15:38.175414",
@@ -113,102 +209,6 @@
             "url": "http://ticketswap.com/listing/legends-of-rock-tribute-tour-monsters-of-rock/7602121/4a530e6b25?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-16 07:15:43.132555",
-            "id": "TGlzdGluZzo3NDA4MzM0",
-            "description": "3x entre vanaf 10:00 zaterdag 27 Augustus.\n3x smul menu\n1x parkeer kaart",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 7,
-            "entrance_slug": "flex-entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
-            "original_price": 11.0,
-            "price": 14.28,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7408334/6ff2f16edd?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:43.132591",
-            "id": "TGlzdGluZzo3NTIyNzg0",
-            "description": "Avonturenpark Hellendoorn 4 flexibele entree tickets!",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 4,
-            "entrance_slug": "flex-entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
-            "original_price": 28.5,
-            "price": 17.85,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7522784/b7f19e971b?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:43.132618",
-            "id": "TGlzdGluZzo3MDIzNDAx",
-            "description": "2 kaarten Hellendoorn. \nALLEEN GELDIG OP VRIJDAG 15 JULI. ENTREE TOT 10.30U. Anders helaas geen toegang.",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 2,
-            "entrance_slug": "flex-entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDMxODU=",
-            "original_price": 30.0,
-            "price": 32.45,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7023401/ad5471c944?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:44.947019",
-            "id": "TGlzdGluZzo3MzYwMjMw",
-            "description": "21 Augustus 2022 21/08/2022\n10:30 tijdslot",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 1,
-            "entrance_slug": "entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
-            "original_price": 21.99,
-            "price": 16.22,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7360230/97e9644db8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:44.947057",
-            "id": "TGlzdGluZzo2OTg1OTIy",
-            "description": "1x ticket voor hellendoorn voor €20. Pak je kans OP=OP\n\n",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 1,
-            "entrance_slug": "entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
-            "original_price": 23.95,
-            "price": 25.9,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6985922/f192075980?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:44.947084",
-            "id": "TGlzdGluZzo3MzI2Mjc1",
-            "description": "Geldig t/m 30 oktober 2022.",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 2,
-            "entrance_slug": "entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
-            "original_price": 28.5,
-            "price": 30.83,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7326275/e93bd22bae?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
             "updated": "2022-09-15 20:43:15.247070",
             "id": "TGlzdGluZzo3NTYxNTI3",
             "description": null,
@@ -226,6 +226,86 @@
         }
     ],
     "tickets_sold": [
+        {
+            "updated": "2022-09-16 21:28:30.670081",
+            "id": "TGlzdGluZzo3NDYwMDgy",
+            "description": null,
+            "event_name": "John Waite",
+            "event_start_date": "2022-09-17T21:30:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 1,
+            "entrance_title": "Regular",
+            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
+            "original_price": 31.75,
+            "price": 32.45,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/john-waite/7460082/cd1eaf6077?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:30.670122",
+            "id": "TGlzdGluZzo2OTE0Njg4",
+            "description": null,
+            "event_name": "John Waite",
+            "event_start_date": "2022-09-17T21:30:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 2,
+            "entrance_title": "Regular",
+            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
+            "original_price": 31.75,
+            "price": 29.2,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/john-waite/6914688/44671bc44a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:30.670150",
+            "id": "TGlzdGluZzo2OTExMDk0",
+            "description": "Tickets waren voor het concert van 2 oktober 2021, maar door corona is het concert verplaatst naar 17 september. Helaas kunnen we dan niet.",
+            "event_name": "John Waite",
+            "event_start_date": "2022-09-17T21:30:00+02:00",
+            "event_end_date": null,
+            "amount_of_tickets": 2,
+            "entrance_title": "Regular",
+            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
+            "original_price": 31.75,
+            "price": 21.63,
+            "location": "Metropool Hengelo",
+            "city": "Hengelo",
+            "url": "http://ticketswap.com/listing/john-waite/6911094/808ae77c4a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:34.007261",
+            "id": "TGlzdGluZzo2OTg0OTc3",
+            "description": "2x entreetickets\n2x smulpakket tickets\n1x parkeerticket\n\nVandaag alleen geldig!! \n€30 voor totaal!",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 1,
+            "entrance_title": "Entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+            "original_price": 23.95,
+            "price": 16.22,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6984977/66e43b32a8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
+        {
+            "updated": "2022-09-16 21:28:34.007341",
+            "id": "TGlzdGluZzo3MDU0Njcz",
+            "description": "geldig tot 31-07-2022",
+            "event_name": "Avonturenpark Hellendoorn",
+            "event_start_date": "2022-05-31T10:00:00+02:00",
+            "event_end_date": "2022-12-31T17:00:00+01:00",
+            "amount_of_tickets": 4,
+            "entrance_title": "Entreeticket",
+            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
+            "original_price": 15.0,
+            "price": 17.3,
+            "location": "Hellendoorn",
+            "city": "Hellendoorn",
+            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7054673/cd2d722320?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
+        },
         {
             "updated": "2022-09-16 07:15:36.000314",
             "id": "TGlzdGluZzo3NjE5NDE2",
@@ -355,54 +435,6 @@
             "url": "http://ticketswap.com/listing/frenna-freak-in-the-weekend/7321445/41706c7aa2?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         },
         {
-            "updated": "2022-09-16 07:15:38.633355",
-            "id": "TGlzdGluZzo3NDYwMDgy",
-            "description": null,
-            "event_name": "John Waite",
-            "event_start_date": "2022-09-17T21:30:00+02:00",
-            "event_end_date": null,
-            "amount_of_tickets": 1,
-            "entrance_title": "Regular",
-            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
-            "original_price": 31.75,
-            "price": 32.45,
-            "location": "Metropool Hengelo",
-            "city": "Hengelo",
-            "url": "http://ticketswap.com/listing/john-waite/7460082/cd1eaf6077?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:38.633392",
-            "id": "TGlzdGluZzo2OTE0Njg4",
-            "description": null,
-            "event_name": "John Waite",
-            "event_start_date": "2022-09-17T21:30:00+02:00",
-            "event_end_date": null,
-            "amount_of_tickets": 2,
-            "entrance_title": "Regular",
-            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
-            "original_price": 31.75,
-            "price": 29.2,
-            "location": "Metropool Hengelo",
-            "city": "Hengelo",
-            "url": "http://ticketswap.com/listing/john-waite/6914688/44671bc44a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:38.633420",
-            "id": "TGlzdGluZzo2OTExMDk0",
-            "description": "Tickets waren voor het concert van 2 oktober 2021, maar door corona is het concert verplaatst naar 17 september. Helaas kunnen we dan niet.",
-            "event_name": "John Waite",
-            "event_start_date": "2022-09-17T21:30:00+02:00",
-            "event_end_date": null,
-            "amount_of_tickets": 2,
-            "entrance_title": "Regular",
-            "entrance_id": "RXZlbnRUeXBlOjE4NDc1MDQ=",
-            "original_price": 31.75,
-            "price": 21.63,
-            "location": "Metropool Hengelo",
-            "city": "Hengelo",
-            "url": "http://ticketswap.com/listing/john-waite/6911094/808ae77c4a?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
             "updated": "2022-09-16 07:15:40.888917",
             "id": "TGlzdGluZzo3NTYxNTI3",
             "description": null,
@@ -449,63 +481,9 @@
             "location": "Lucky The Feel Good Provider",
             "city": "Rijssen",
             "url": "http://ticketswap.com/listing/legends-of-rock-tribute-tour-monsters-of-rock/7546574/e1414d02b8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:45.396621",
-            "id": "TGlzdGluZzo2OTg0OTc3",
-            "description": "2x entreetickets\n2x smulpakket tickets\n1x parkeerticket\n\nVandaag alleen geldig!! \n€30 voor totaal!",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 1,
-            "entrance_title": "Entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
-            "original_price": 23.95,
-            "price": 16.22,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/6984977/66e43b32a8?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
-        },
-        {
-            "updated": "2022-09-16 07:15:45.396658",
-            "id": "TGlzdGluZzo3MDU0Njcz",
-            "description": "geldig tot 31-07-2022",
-            "event_name": "Avonturenpark Hellendoorn",
-            "event_start_date": "2022-05-31T10:00:00+02:00",
-            "event_end_date": "2022-12-31T17:00:00+01:00",
-            "amount_of_tickets": 4,
-            "entrance_title": "Entreeticket",
-            "entrance_id": "RXZlbnRUeXBlOjIyNDQ2Mjk=",
-            "original_price": 15.0,
-            "price": 17.3,
-            "location": "Hellendoorn",
-            "city": "Hellendoorn",
-            "url": "http://ticketswap.com/listing/avonturenpark-hellendoorn/7054673/cd2d722320?utm_campaign=publishedListingShare&utm_source=ticketswap&utm_medium=manualshare"
         }
     ],
     "events": [
-        {
-            "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
-            "entrance_slug": "frenna-freak-in-the-weekend",
-            "name": "Frenna Freak In The Weekend",
-            "start_date": "2022-09-16T22:00:00+02:00",
-            "end_date": null,
-            "location": "Club Merlijn",
-            "city": "Hengelo",
-            "available_tickets": "2",
-            "sold_tickets": "20",
-            "wanted_tickets": "27",
-            "entrance_types": [
-                {
-                    "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
-                    "slug": "regular-tickets",
-                    "title": "Regular",
-                    "start_date": "2022-09-16T22:00:00+02:00",
-                    "end_date": null,
-                    "available_tickets": 2
-                }
-            ]
-        },
         {
             "id": "RXZlbnQ6MTI3MWZlNDItNWExMC00M2U2LWFiMGQtZTY0ZDg0OGFhZThm",
             "entrance_slug": "john-waite",
@@ -514,8 +492,8 @@
             "end_date": null,
             "location": "Metropool Hengelo",
             "city": "Hengelo",
-            "available_tickets": "4",
-            "sold_tickets": "5",
+            "available_tickets": "1",
+            "sold_tickets": "6",
             "wanted_tickets": "9",
             "entrance_types": [
                 {
@@ -524,37 +502,7 @@
                     "title": "Regular",
                     "start_date": "2022-09-17T21:30:00+02:00",
                     "end_date": null,
-                    "available_tickets": 4
-                }
-            ]
-        },
-        {
-            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
-            "entrance_slug": "legends-of-rock-tribute-tour-monsters-of-rock",
-            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
-            "start_date": "2022-09-16T19:00:00+02:00",
-            "end_date": null,
-            "location": "Lucky The Feel Good Provider",
-            "city": "Rijssen",
-            "available_tickets": "6",
-            "sold_tickets": "5",
-            "wanted_tickets": "0",
-            "entrance_types": [
-                {
-                    "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
-                    "slug": "regular-tickets",
-                    "title": "Regular",
-                    "start_date": "2022-09-16T19:00:00+02:00",
-                    "end_date": null,
-                    "available_tickets": 6
-                },
-                {
-                    "id": "RXZlbnRUeXBlOjI0MzcyNjQ=",
-                    "slug": "seats-tickets",
-                    "title": "Seats",
-                    "start_date": "2022-09-16T19:00:00+02:00",
-                    "end_date": null,
-                    "available_tickets": 0
+                    "available_tickets": 1
                 }
             ]
         },
@@ -633,28 +581,6 @@
             ]
         },
         {
-            "id": "RXZlbnQ6YjcyNTRlOTEtZDU3OC00NWFhLThkZGItMjY5M2I0Mjg1OTE1",
-            "entrance_slug": "paulien-cornelisse-aanstalten",
-            "name": "Paulien Cornelisse - Aanstalten",
-            "start_date": "2022-09-16T20:00:00+02:00",
-            "end_date": null,
-            "location": "Schouwburg Lochem",
-            "city": "Lochem",
-            "available_tickets": "0",
-            "sold_tickets": "0",
-            "wanted_tickets": "1",
-            "entrance_types": [
-                {
-                    "id": "RXZlbnRUeXBlOjIzMjI5NjI=",
-                    "slug": "regular-tickets",
-                    "title": "Regular",
-                    "start_date": "2022-09-16T20:00:00+02:00",
-                    "end_date": null,
-                    "available_tickets": 0
-                }
-            ]
-        },
-        {
             "id": "RXZlbnQ6YzA2MmJhMzQtOTcyZS00YzVlLTg2NTYtMjE2MTRlOGUwY2Mx",
             "entrance_slug": "tavares-with-uk-live-band",
             "name": "Tavares with UK Live Band",
@@ -671,6 +597,80 @@
                     "slug": "regular-tickets",
                     "title": "Regular",
                     "start_date": "2022-09-17T20:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        },
+        {
+            "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
+            "entrance_slug": "frenna-freak-in-the-weekend",
+            "name": "Frenna Freak In The Weekend",
+            "start_date": "2022-09-16T22:00:00+02:00",
+            "end_date": null,
+            "location": "Club Merlijn",
+            "city": "Hengelo",
+            "available_tickets": "2",
+            "sold_tickets": "20",
+            "wanted_tickets": "27",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIzNzI1OTE=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T22:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 2
+                }
+            ]
+        },
+        {
+            "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
+            "entrance_slug": "legends-of-rock-tribute-tour-monsters-of-rock",
+            "name": "Legends of Rock Tribute Tour - Monsters of Rock",
+            "start_date": "2022-09-16T19:00:00+02:00",
+            "end_date": null,
+            "location": "Lucky The Feel Good Provider",
+            "city": "Rijssen",
+            "available_tickets": "6",
+            "sold_tickets": "5",
+            "wanted_tickets": "0",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIyMzMzMDk=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T19:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 6
+                },
+                {
+                    "id": "RXZlbnRUeXBlOjI0MzcyNjQ=",
+                    "slug": "seats-tickets",
+                    "title": "Seats",
+                    "start_date": "2022-09-16T19:00:00+02:00",
+                    "end_date": null,
+                    "available_tickets": 0
+                }
+            ]
+        },
+        {
+            "id": "RXZlbnQ6YjcyNTRlOTEtZDU3OC00NWFhLThkZGItMjY5M2I0Mjg1OTE1",
+            "entrance_slug": "paulien-cornelisse-aanstalten",
+            "name": "Paulien Cornelisse - Aanstalten",
+            "start_date": "2022-09-16T20:00:00+02:00",
+            "end_date": null,
+            "location": "Schouwburg Lochem",
+            "city": "Lochem",
+            "available_tickets": "0",
+            "sold_tickets": "0",
+            "wanted_tickets": "1",
+            "entrance_types": [
+                {
+                    "id": "RXZlbnRUeXBlOjIzMjI5NjI=",
+                    "slug": "regular-tickets",
+                    "title": "Regular",
+                    "start_date": "2022-09-16T20:00:00+02:00",
                     "end_date": null,
                     "available_tickets": 0
                 }
