@@ -18,32 +18,38 @@ class TicketSwapScraper:
         events_json = self.graphql_scraper.get_popular_events(City.AMSTERDAM)[0]
         nearby_events = NearbyEvents(**events_json).get_events()
         for nearby_event in nearby_events:
-            event_data_json = self.graphql_scraper.get_event_data(nearby_event.id)
-            event = self.ticket_parser.parse_event(event_data_json)
-            for entrance_type in event.entrance_types:
-                # scrape available tickets
-                if entrance_type.available_tickets > 0:
-                    # need to fetch the entrance type id from the HTML page in order to ge the available tickets, this is not avaialble in the Graphql or REST responses
-                    entrance_type_url_id: str = (
-                        self.html_scraper.get_event_entrance_type_ids(
-                            nearby_event.uri_path,
-                            nearby_event.uri_id,
-                            entrance_type.slug,
-                        )
-                    )
-                    event_tickets_json = self.rest_scraper.get_available_tickets(
-                        session_id,
-                        nearby_event.slug,
-                        nearby_event.uri_id,
-                        entrance_type.slug,
-                        entrance_type_url_id,
-                    )
-                    self.ticket_parser.parse_available_tickets(event_tickets_json)
+            try:
+                event_data_json = self.graphql_scraper.get_event_data(nearby_event.id)
+                event = self.ticket_parser.parse_event(event_data_json)
+                for entrance_type in event.entrance_types:
+                    try:
+                        # scrape available tickets
+                        if entrance_type.available_tickets > 0:
+                            # need to fetch the entrance type id from the HTML page in order to ge the available tickets, this is not avaialble in the Graphql or REST responses
+                            entrance_type_url_id: str = (
+                                self.html_scraper.get_event_entrance_type_ids(
+                                    nearby_event.uri_path,
+                                    nearby_event.uri_id,
+                                    entrance_type.slug,
+                                )
+                            )
+                            event_tickets_json = self.rest_scraper.get_available_tickets(
+                                session_id,
+                                nearby_event.slug,
+                                nearby_event.uri_id,
+                                entrance_type.slug,
+                                entrance_type_url_id,
+                            )
+                            self.ticket_parser.parse_available_tickets(event_tickets_json)
 
-                # scrape sold tickets
-                sold_listings_json = self.graphql_scraper.get_sold_listings(
-                    entrance_type.id
-                )
-                self.ticket_parser.parse_sold_tickets(sold_listings_json)
+                        # scrape sold tickets
+                        sold_listings_json = self.graphql_scraper.get_sold_listings(
+                            entrance_type.id
+                        )
+                        self.ticket_parser.parse_sold_tickets(sold_listings_json)
+                    except Exception as e:
+                        print(f"Error for {entrance_type}: {e}")
+            except Exception as e:
+                print(f"Error for {nearby_event}: {e}")
 
         self.ticket_parser.store("output/result.json")
