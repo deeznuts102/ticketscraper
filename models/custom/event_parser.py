@@ -141,14 +141,12 @@ class EventParser:
             events = json.load(f_read)
             event_ids = [event.id for event in self.events]
             for event in events:
-                if event['id'] not in event_ids:
+                if event["id"] not in event_ids:
                     self.events.append(Event(**event))
 
         with open(path, "w", encoding="utf-8") as f_write:
             json.dump(
-                {
-                    "events": [event.dict() for event in self.events],
-                },
+                [event.dict() for event in self.events],
                 f_write,
                 ensure_ascii=False,
                 indent=4,
@@ -160,14 +158,12 @@ class EventParser:
             tickets = json.load(f_read)
             ticket_for_sale_ids = [ticket.id for ticket in self.tickets_for_sale]
             for ticket in tickets:
-                if ticket['id'] not in ticket_for_sale_ids:
+                if ticket["id"] not in ticket_for_sale_ids:
                     self.tickets_for_sale.append(EventTicketForSale(**ticket))
 
         with open(path, "w", encoding="utf-8") as f_write:
             json.dump(
-                {
-                    "tickets_for_sale": [ ticket.dict() for ticket in self.tickets_for_sale ]
-                },
+                [ticket.dict() for ticket in self.tickets_for_sale],
                 f_write,
                 ensure_ascii=False,
                 indent=4,
@@ -179,14 +175,12 @@ class EventParser:
             tickets = json.load(f_read)
             ticket_sold_ids = [ticket.id for ticket in self.tickets_sold]
             for ticket in tickets:
-                if ticket['id'] not in ticket_sold_ids:
+                if ticket["id"] not in ticket_sold_ids:
                     self.tickets_sold.append(EventTicketSold(**ticket))
 
         with open(path, "w", encoding="utf-8") as f_write:
             json.dump(
-                {
-                    "tickets_sold": [ticket.dict() for ticket in self.tickets_sold],
-                },
+                [ticket.dict() for ticket in self.tickets_sold],
                 f_write,
                 ensure_ascii=False,
                 indent=4,
