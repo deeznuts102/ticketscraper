@@ -1,4 +1,5 @@
 """ Wrapper class to parse GraphQL JSON response and return custom 'TicketsForSale' instance"""
+from datetime import datetime
 import json
 from typing import Dict, List
 from models.custom.event_entrance_type import EventEntranceType
@@ -33,6 +34,7 @@ class EventParser:
                     continue
 
                 ticket_for_sale = EventTicketForSale(
+                    updated=datetime.now(),
                     id=id,
                     description=public_listing.description,
                     amount_of_tickets=public_listing.number_of_tickets_still_for_sale,
@@ -69,6 +71,7 @@ class EventParser:
                     continue
 
                 sold_ticket = EventTicketSold(
+                    updated=datetime.now(),
                     id=id,
                     description=edge.node.description,
                     amount_of_tickets=edge.node.number_of_tickets_in_listing,
@@ -99,6 +102,7 @@ class EventParser:
                 EventEntranceType
             ] = self._parse_event_entrance_types(event_data_response)
             event = Event(
+                updated=datetime.now(),
                 id=event_data_response.id,
                 entrance_slug=event_data_response.slug,
                 name=event_data_response.name,
