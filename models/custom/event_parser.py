@@ -137,11 +137,10 @@ class EventParser:
         return float(price / 100)
 
     def store_events(self, path: str):
-        # read existing file and keep old results
         with open(path, "r") as f_read:
-            data = json.load(f_read)
+            events = json.load(f_read)
             event_ids = [event.id for event in self.events]
-            for event in data['events']:
+            for event in events:
                 if event['id'] not in event_ids:
                     self.events.append(Event(**event))
 
@@ -157,11 +156,10 @@ class EventParser:
             )
 
     def store_tickets_for_sale(self, path: str):
-        # read existing file and keep old results
         with open(path, "r") as f_read:
-            data = json.load(f_read)
+            tickets = json.load(f_read)
             ticket_for_sale_ids = [ticket.id for ticket in self.tickets_for_sale]
-            for ticket in data['tickets_for_sale']:
+            for ticket in tickets:
                 if ticket['id'] not in ticket_for_sale_ids:
                     self.tickets_for_sale.append(EventTicketForSale(**ticket))
 
@@ -177,11 +175,10 @@ class EventParser:
             )
 
     def store_tickets_sold(self, path: str):
-        # read existing file and keep old results
         with open(path, "r") as f_read:
-            data = json.load(f_read)
+            tickets = json.load(f_read)
             ticket_sold_ids = [ticket.id for ticket in self.tickets_sold]
-            for ticket in data['tickets_sold']:
+            for ticket in tickets:
                 if ticket['id'] not in ticket_sold_ids:
                     self.tickets_sold.append(EventTicketSold(**ticket))
 
