@@ -1,11 +1,51 @@
+from enum import Enum
 from typing import Dict, List
 import requests  # type: ignore
 import json
 
 GRAPHQL_URL = "https://api.ticketswap.com/graphql/public?"
 
+class City(Enum):
+    AMSTERDAM = "Q2l0eToz",
 
 class GraphQLScraper:
+    def get_popular_events(self, city: City) -> List[str]:
+        payload = json.dumps(
+            [
+                {
+                    "operationName": "getPopularEvents",
+                    "variables": {
+                        "cityId": city.value[0],
+                        "period": "ANYTIME",
+                        "first": 99,
+                        "highlighted": False,
+                    },
+                    "query": "query getPopularEvents($first: Int, $after: String, $highlighted: Boolean, $period: Period, $dateRange: DateRangeInput, $category: EventCategory, $cityId: ID, $locationId: ID, $nearby: GeopointFilter) {\n  activeEvents(\n    first: $first\n    after: $after\n    period: $period\n    dateRange: $dateRange\n    orderBy: {field: BOOST_VALUE, direction: DESC}\n    filter: {locationId: $locationId, category: $category, highlighted: $highlighted, city: $cityId, nearby: $nearby}\n  ) {\n    period\n    edges {\n      node {\n        ...eventList\n        __typename\n      }\n      __typename\n    }\n    pageInfo {\n      endCursor\n      hasNextPage\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment eventList on Event {\n  id\n  slug\n  name\n  isHighlighted\n  imageUrl\n  category\n  startDate\n  endDate\n  hasOngoingEventType\n  availableTicketsCount\n  status\n  artists {\n    ...artist\n    __typename\n  }\n  country {\n    ...country\n    __typename\n  }\n  uri {\n    path\n    __typename\n  }\n  location {\n    id\n    name\n    city {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment artist on Artist {\n  id\n  name\n  slug\n  avatar\n  numberOfUpcomingEvents\n  isFollowedByViewer\n  viewerHasNotificationsEnabled\n  __typename\n}\n\nfragment country on Country {\n  name\n  code\n  __typename\n}\n",
+                }
+            ]
+        )
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0",
+            "Accept": "*/*",
+            "Accept-Language": "en",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.ticketswap.com/",
+            "content-type": "application/json",
+            "authorization": "",
+            "device-id": "df8da00f-0ee0-4776-b3f5-739f7f2c5142",
+            "Origin": "https://www.ticketswap.com",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site",
+            "TE": "trailers",
+        }
+
+        response = requests.request("POST", GRAPHQL_URL, headers=headers, data=payload)
+
+        return json.loads(response.text)
+
     def get_events_this_weekend(self) -> List[str]:
         payload = json.dumps(
             [

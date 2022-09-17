@@ -2,7 +2,7 @@ from models.custom.event_parser import EventParser
 from models.graphql.nearby_events import NearbyEvents
 
 from scrape.html.html_scraper import HTMLScraper
-from scrape.graphql.graphql_scraper import GraphQLScraper
+from scrape.graphql.graphql_scraper import City, GraphQLScraper
 from scrape.rest.rest_scraper import RestScraper
 
 
@@ -15,7 +15,7 @@ class TicketSwapScraper:
 
     def scrape_weekend_tickets(self):
         session_id = self.html_scraper.get_session_id()
-        events_json = self.graphql_scraper.get_events_this_weekend()[0]
+        events_json = self.graphql_scraper.get_popular_events(City.AMSTERDAM)[0]
         nearby_events = NearbyEvents(**events_json).get_events()
         for nearby_event in nearby_events:
             event_data_json = self.graphql_scraper.get_event_data(nearby_event.id)
