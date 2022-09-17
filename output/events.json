@@ -1,5 +1,6 @@
 [
     {
+        "updated": "2022-09-17 12:28:09.092881",
         "id": "RXZlbnQ6MjY0M2FmYmYtOGJkZi00MTY2LTgxNDAtOTM0YzQxZGZjZDky",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -9,7 +10,7 @@
         "city": "Amsterdam",
         "available_tickets": "2",
         "sold_tickets": "786",
-        "wanted_tickets": "34091",
+        "wanted_tickets": "34101",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTM1NzY=",
@@ -46,6 +47,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:28:15.216544",
         "id": "RXZlbnQ6MDg0Y2E1MjktNzI5ZS00NDFhLWJkY2EtNWVjZTAwZWNjZDk4",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -55,7 +57,7 @@
         "city": "Amsterdam",
         "available_tickets": "10",
         "sold_tickets": "642",
-        "wanted_tickets": "21806",
+        "wanted_tickets": "21811",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTcwMzU=",
@@ -92,6 +94,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:28:21.294084",
         "id": "RXZlbnQ6YmI0NDM3ODItY2EyMi00NDk3LWFmNmEtNzg5Njk3ZWM1MGEx",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -101,7 +104,7 @@
         "city": "Amsterdam",
         "available_tickets": "9",
         "sold_tickets": "381",
-        "wanted_tickets": "19847",
+        "wanted_tickets": "19852",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTY4NTY=",
@@ -138,6 +141,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:28:27.558718",
         "id": "RXZlbnQ6YjQ0ZjI4ODItMDRlMi00OTZjLWFiZWEtN2M0NjA2MTUyMDll",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -147,7 +151,7 @@
         "city": "Amsterdam",
         "available_tickets": "16",
         "sold_tickets": "502",
-        "wanted_tickets": "18078",
+        "wanted_tickets": "18084",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTY4NjI=",
@@ -184,6 +188,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:28:33.608062",
         "id": "RXZlbnQ6YzVjYjA5ZDMtMTFkNC00YWUxLTk2ZDQtY2ZmNjhjNDE4NDVj",
         "entrance_slug": "dockyard-mystic-garden-ade",
         "name": "Dockyard & Mystic Garden | #ADE",
@@ -193,7 +198,7 @@
         "city": "Amsterdam",
         "available_tickets": "0",
         "sold_tickets": "867",
-        "wanted_tickets": "3949",
+        "wanted_tickets": "3952",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIxNDAzNDI=",
@@ -206,6 +211,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:28:35.421628",
         "id": "RXZlbnQ6MzllMjRmODgtM2Y0Mi00YzQxLTlkZDMtYjRhNmI2ZTUzY2Q2",
         "entrance_slug": "the-streamers",
         "name": "The Streamers",
@@ -213,9 +219,9 @@
         "end_date": null,
         "location": "Olympisch Stadion",
         "city": "Amsterdam",
-        "available_tickets": "417",
-        "sold_tickets": "611",
-        "wanted_tickets": "437",
+        "available_tickets": "404",
+        "sold_tickets": "622",
+        "wanted_tickets": "436",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIwNzQ2NDc=",
@@ -223,7 +229,7 @@
                 "title": "Floor",
                 "start_date": "2022-09-18T16:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 257
+                "available_tickets": 255
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTc4NDc=",
@@ -231,7 +237,7 @@
                 "title": "Golden Circle - Standing",
                 "start_date": "2022-09-18T16:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 62
+                "available_tickets": 63
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTc4NzA=",
@@ -239,7 +245,7 @@
                 "title": "Rang 1",
                 "start_date": "2022-09-18T16:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 42
+                "available_tickets": 34
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTc4NzI=",
@@ -247,7 +253,7 @@
                 "title": "Rang 2",
                 "start_date": "2022-09-18T16:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 30
+                "available_tickets": 29
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTc4NzM=",
@@ -255,11 +261,12 @@
                 "title": "Rang 3",
                 "start_date": "2022-09-18T16:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 26
+                "available_tickets": 23
             }
         ]
     },
     {
+        "updated": "2022-09-17 12:28:51.215883",
         "id": "RXZlbnQ6ODA4OTVlNmItZTMyNi00ZWM4LTllNmMtMTZmZGY0MDRlNTlk",
         "entrance_slug": "joy",
         "name": "JOY",
@@ -267,9 +274,9 @@
         "end_date": "2022-09-18T01:00:00+02:00",
         "location": "Ijland",
         "city": "Amsterdam",
-        "available_tickets": "137",
-        "sold_tickets": "387",
-        "wanted_tickets": "152",
+        "available_tickets": "114",
+        "sold_tickets": "414",
+        "wanted_tickets": "154",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzODA0ODQ=",
@@ -277,11 +284,12 @@
                 "title": "Regular",
                 "start_date": "2022-09-17T16:00:00+02:00",
                 "end_date": "2022-09-18T01:00:00+02:00",
-                "available_tickets": 137
+                "available_tickets": 114
             }
         ]
     },
     {
+        "updated": "2022-09-17 12:28:56.318671",
         "id": "RXZlbnQ6MzU1ZGNiMWUtZDhhYy00MTJmLWI2YzItYzMzOTZhY2Q3ZDQ4",
         "entrance_slug": "verknipt-hard-special-taets-zaandam",
         "name": "Verknipt HARD Special - Taets Zaandam",
@@ -289,9 +297,9 @@
         "end_date": null,
         "location": "Taets Art and Event Park",
         "city": "Zaandam",
-        "available_tickets": "29",
-        "sold_tickets": "1143",
-        "wanted_tickets": "545",
+        "available_tickets": "27",
+        "sold_tickets": "1153",
+        "wanted_tickets": "551",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNDg3ODA=",
@@ -299,11 +307,12 @@
                 "title": "Regular",
                 "start_date": "2022-09-17T12:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 29
+                "available_tickets": 27
             }
         ]
     },
     {
+        "updated": "2022-09-17 12:29:00.119837",
         "id": "RXZlbnQ6NTM5MWZhNjUtNGRlNS00ZTM4LWI2NjMtNmE2MTA3YTNkZGY1",
         "entrance_slug": "the-streamers",
         "name": "The Streamers",
@@ -311,9 +320,9 @@
         "end_date": null,
         "location": "Olympisch Stadion",
         "city": "Amsterdam",
-        "available_tickets": "364",
-        "sold_tickets": "1078",
-        "wanted_tickets": "1101",
+        "available_tickets": "346",
+        "sold_tickets": "1108",
+        "wanted_tickets": "1094",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIwNzgxOTg=",
@@ -321,7 +330,7 @@
                 "title": "Veldkaart",
                 "start_date": "2022-09-17T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 173
+                "available_tickets": 157
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MDk5NTU=",
@@ -329,7 +338,7 @@
                 "title": "Golden Circle",
                 "start_date": "2022-09-17T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 49
+                "available_tickets": 37
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MDk5NTk=",
@@ -337,7 +346,7 @@
                 "title": "Rang 1",
                 "start_date": "2022-09-17T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 59
+                "available_tickets": 61
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MDk5NjA=",
@@ -353,11 +362,12 @@
                 "title": "Rang 3",
                 "start_date": "2022-09-17T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 65
+                "available_tickets": 73
             }
         ]
     },
     {
+        "updated": "2022-09-17 12:29:16.749234",
         "id": "RXZlbnQ6ZjdmZWE1ZDgtNjIwOC00MmRhLTgwZjgtZTZhMmVkNDcxZGQz",
         "entrance_slug": "justin-bieber",
         "name": "Justin Bieber",
@@ -460,6 +470,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:29:43.553282",
         "id": "RXZlbnQ6NGI1MmY0ZmYtNzEwMy00M2E0LWI0MzItMWQyZmJkY2IzMzE4",
         "entrance_slug": "blackpink-world-tour-born-pink",
         "name": "BLACKPINK - World Tour Born Pink",
@@ -469,7 +480,7 @@
         "city": "Amsterdam",
         "available_tickets": "0",
         "sold_tickets": "0",
-        "wanted_tickets": "1661",
+        "wanted_tickets": "1671",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0MzAxNTI=",
@@ -506,6 +517,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:29:46.614963",
         "id": "RXZlbnQ6YTkzZDc3OGYtZTAzNS00YmFkLTg0MTQtNjEyMWY0NGMxNWM4",
         "entrance_slug": "awakenings-x-charlotte-de-witte-presents-kntxt-ade",
         "name": "Awakenings x Charlotte De Witte Presents KNTXT | #ADE",
@@ -515,7 +527,7 @@
         "city": "Amsterdam",
         "available_tickets": "0",
         "sold_tickets": "554",
-        "wanted_tickets": "3756",
+        "wanted_tickets": "3762",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzI4MzI=",
@@ -528,6 +540,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:29:48.426203",
         "id": "RXZlbnQ6NWUzNjRhZjUtNWVjNi00MjQ2LWEzYzEtNmM5NDY4ZGJiMzdh",
         "entrance_slug": "justin-bieber",
         "name": "Justin Bieber",
@@ -630,6 +643,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:30:13.341265",
         "id": "RXZlbnQ6MDI5YmZlZmYtNTM1OC00YTE4LWFkYWMtZDI2YzVmNWRlN2Fj",
         "entrance_slug": "thuishaven-technospecial-w-bart-skils-fadi-mohem-speedy-j-more",
         "name": "Thuishaven Technospecial w/ Bart Skils / Fadi Mohem / Speedy J & more",
@@ -637,9 +651,9 @@
         "end_date": "2022-09-18T04:00:00+02:00",
         "location": "Thuishaven",
         "city": "Amsterdam",
-        "available_tickets": "30",
-        "sold_tickets": "329",
-        "wanted_tickets": "119",
+        "available_tickets": "29",
+        "sold_tickets": "337",
+        "wanted_tickets": "120",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNTE5MDg=",
@@ -647,7 +661,7 @@
                 "title": "Day ticket",
                 "start_date": "2022-09-17T13:00:00+02:00",
                 "end_date": "2022-09-18T04:00:00+02:00",
-                "available_tickets": 21
+                "available_tickets": 20
             },
             {
                 "id": "RXZlbnRUeXBlOjIzNTE5MDk=",
@@ -660,6 +674,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:30:20.112302",
         "id": "RXZlbnQ6ZTM2ZjRhMzktYzRkZC00YzdiLTg3NmItODc3ZTdiM2ZhOTll",
         "entrance_slug": "backstreet-boys",
         "name": "Backstreet Boys",
@@ -669,7 +684,7 @@
         "city": "Amsterdam",
         "available_tickets": "4",
         "sold_tickets": "372",
-        "wanted_tickets": "3257",
+        "wanted_tickets": "3259",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIxMzEzMzc=",
@@ -762,6 +777,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:30:33.618413",
         "id": "RXZlbnQ6YTA2NmJkM2UtOTY1MC00NjRiLWE0ZmUtNmJmMDRlNzUzYzRl",
         "entrance_slug": "goldband",
         "name": "Goldband",
@@ -792,6 +808,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:30:35.857729",
         "id": "RXZlbnQ6ZDhkMWRhODgtMjJhMS00OTE5LTkwZTgtMWIxYTI1NDEwMjc4",
         "entrance_slug": "goldband",
         "name": "Goldband",
@@ -801,7 +818,7 @@
         "city": "Amsterdam",
         "available_tickets": "8",
         "sold_tickets": "71",
-        "wanted_tickets": "2816",
+        "wanted_tickets": "2817",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTk1ODQ=",
@@ -822,6 +839,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:30:37.958997",
         "id": "RXZlbnQ6MmYwOTY2MzctYzYyYy00NjJjLTllMTktYWEzOGZiNzliOGY4",
         "entrance_slug": "kendrick-lamar",
         "name": "Kendrick Lamar",
@@ -829,9 +847,9 @@
         "end_date": null,
         "location": "Ziggo Dome",
         "city": "Amsterdam",
-        "available_tickets": "87",
+        "available_tickets": "88",
         "sold_tickets": "1293",
-        "wanted_tickets": "2511",
+        "wanted_tickets": "2513",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIyMTMxODE=",
@@ -863,7 +881,7 @@
                 "title": "Category 3",
                 "start_date": "2022-10-07T21:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 2
+                "available_tickets": 3
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMjE2OTc=",
@@ -908,6 +926,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:03.058097",
         "id": "RXZlbnQ6NDBlYWViYTItMjBkMC00MzM0LWFlYjMtNjUxZmFiMTI2YzQ4",
         "entrance_slug": "verknipt-ade-hard-special-the-big-closing-sunday-ade",
         "name": "Verknipt ADE Hard Special - The Big Closing (Sunday) | #ADE",
@@ -916,8 +935,8 @@
         "location": "AFAS Live",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "949",
-        "wanted_tickets": "1705",
+        "sold_tickets": "950",
+        "wanted_tickets": "1709",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNDQwMDI=",
@@ -938,6 +957,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:05.958449",
         "id": "RXZlbnQ6ZmViOTAzZjUtOWQ0MS00ZGI5LWExNzUtZDRlZWRmMmNhMzg0",
         "entrance_slug": "justin-bieber",
         "name": "Justin Bieber",
@@ -1040,6 +1060,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:29.932143",
         "id": "RXZlbnQ6MWQwNjI2NjEtZjgyZi00MDFhLTk4MTAtOTc2NzVhOTE1ZDU4",
         "entrance_slug": "amf-2022-ade",
         "name": "AMF 2022 | #ADE",
@@ -1049,7 +1070,7 @@
         "city": "Amsterdam",
         "available_tickets": "0",
         "sold_tickets": "0",
-        "wanted_tickets": "2614",
+        "wanted_tickets": "2615",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzQwMDg=",
@@ -1134,6 +1155,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:36.535938",
         "id": "RXZlbnQ6MDBjZWExMzctOTE0Yy00ZDgwLWIxN2ItZjBjODdkNjFhNThk",
         "entrance_slug": "luke-combs",
         "name": "Luke Combs",
@@ -1143,7 +1165,7 @@
         "city": "Amsterdam",
         "available_tickets": "0",
         "sold_tickets": "10",
-        "wanted_tickets": "1081",
+        "wanted_tickets": "1091",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0Mjk3NjI=",
@@ -1180,6 +1202,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:39.610364",
         "id": "RXZlbnQ6ZmFlOGVkYzAtN2M2ZS00YmUyLWFiMjAtNmVmNTE5MzZlODg4",
         "entrance_slug": "kendrick-lamar",
         "name": "Kendrick Lamar",
@@ -1187,9 +1210,9 @@
         "end_date": null,
         "location": "Ziggo Dome",
         "city": "Amsterdam",
-        "available_tickets": "20",
+        "available_tickets": "21",
         "sold_tickets": "741",
-        "wanted_tickets": "1588",
+        "wanted_tickets": "1587",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIyMjEzNDE=",
@@ -1213,7 +1236,7 @@
                 "title": "Category 2",
                 "start_date": "2022-10-08T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 5
+                "available_tickets": 6
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMjE3MzE=",
@@ -1258,6 +1281,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:31:57.781209",
         "id": "RXZlbnQ6YzZiYjQzMWItZjgzNS00OGMwLTlhMzItYmQwNWIwNGE5MjYx",
         "entrance_slug": "the-cure-tour-euro-22",
         "name": "The Cure - Tour Euro 22",
@@ -1312,6 +1336,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.722741",
         "id": "RXZlbnQ6YjE0ZThkMDAtOGI3OS00YmExLTljMmEtODc1MWM1MTkxZTE0",
         "entrance_slug": "awakenings-x-exhale-with-amelie-lens-by-day-ade",
         "name": "Awakenings x Exhale With Amelie Lens (By Day) | #ADE",
@@ -1334,6 +1359,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.722903",
         "id": "RXZlbnQ6MWE2MmRhNDEtMWY3NS00NTAwLWEzNTgtNzhiYjM1NDk0OGNm",
         "entrance_slug": "parcels",
         "name": "Parcels",
@@ -1372,6 +1398,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.722986",
         "id": "RXZlbnQ6OTllZjkxYjYtOTI3OC00ZmUzLWFmYWItY2ExZTQ3OTNlMzVh",
         "entrance_slug": "verknipt-ade-techno-special-ade-friday",
         "name": "Verknipt ADE Techno Special | #ADE (Friday)",
@@ -1394,6 +1421,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723062",
         "id": "RXZlbnQ6Y2JhMDRiMjItOTg4Yi00YjQ5LTkyNTctYzY0NWNhMWU1YzIw",
         "entrance_slug": "verknipt-ade-hard-special-thursday-night-ade",
         "name": "Verknipt ADE Hard Special (Thursday Night) | #ADE",
@@ -1416,6 +1444,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723108",
         "id": "RXZlbnQ6YTljOTU2ZDgtZmI3OS00MmQyLTk5ZDMtOGNjZmEyNGJmMWQz",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -1486,6 +1515,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723242",
         "id": "RXZlbnQ6ZTAzMDJiZTQtMTc0Yy00MjFkLTkxMTctNDdkYjFhNTRjOTc3",
         "entrance_slug": "goldband",
         "name": "Goldband",
@@ -1516,6 +1546,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723300",
         "id": "RXZlbnQ6YWVhNDFmMjMtNTNmNC00Mjc1LWFhZGYtMGM3OTc5ZWZiZGZi",
         "entrance_slug": "awakenings-afterlife-ade",
         "name": "Awakenings | Afterlife | #ADE",
@@ -1538,6 +1569,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723439",
         "id": "RXZlbnQ6YmFhMTRhMzUtY2UwNC00MmM2LTg4MjEtMTQ0MmJjYTMxY2I2",
         "entrance_slug": "thuishaven-zomer-w-joris-voorn-5hrs",
         "name": "Thuishaven Zomer w/ Joris Voorn 5HRS",
@@ -1560,6 +1592,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723486",
         "id": "RXZlbnQ6YWViODQ2N2MtYTUwZS00ZjE5LWE4OTgtMGQ4NmMwMjIyN2Mz",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -1646,6 +1679,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723649",
         "id": "RXZlbnQ6Y2QzNDA5MDMtNDUxYy00OWIyLTg4MzctNmZlNWViYTU0YmUw",
         "entrance_slug": "verknipt-hard-special",
         "name": "Verknipt HARD Special",
@@ -1668,6 +1702,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723692",
         "id": "RXZlbnQ6YzBhMTliMDEtZGEwMi00YmYwLThiYmQtZDBiY2Y1MzUzYjE2",
         "entrance_slug": "awakenings-x-joris-voorn-presents-spectrum-by-day-ade",
         "name": "Awakenings x Joris Voorn Presents Spectrum (By Day) | #ADE",
@@ -1690,6 +1725,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723735",
         "id": "RXZlbnQ6YTliYzA4OWUtMGY3OS00OWZmLWJhNjgtMzlkYTA1NDZjYWE0",
         "entrance_slug": "kaleo-fight-or-flight-tour",
         "name": "Kaleo Fight or Flight Tour",
@@ -1728,6 +1764,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.723807",
         "id": "RXZlbnQ6MWQ3MGEwMWItOTFlOC00YjNhLWEyNzYtNDQ2MGExMThiZjFl",
         "entrance_slug": "verknipt-ade-hard-special-wednesday-night-ade",
         "name": "Verknipt ADE Hard Special (Wednesday Night) | #ADE",
@@ -1750,6 +1787,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.724382",
         "id": "RXZlbnQ6ODgzZWExODEtZDlhNS00MjBmLWE5MWQtOWI4MGYwMWJiMTY5",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -1820,6 +1858,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.724559",
         "id": "RXZlbnQ6ODIzZjBiYjItZGU2MS00MGMyLWFlMDQtYmRhZWQwNjE3NGE2",
         "entrance_slug": "tomorrowland-presents-eric-prydz-holo-ade",
         "name": "Tomorrowland presents: Eric Prydz HOLO | #ADE",
@@ -1866,6 +1905,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.724659",
         "id": "RXZlbnQ6NDdiYzZjZGUtNGU3MS00MDdmLTk4ZTQtYTk5MzgzNWJiZWM3",
         "entrance_slug": "world-padel-tour-amsterdam-open",
         "name": "World Padel Tour Amsterdam Open",
@@ -2096,6 +2136,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725094",
         "id": "RXZlbnQ6NWNhYWE0MjAtZjlmZC00OGI5LWJiOGEtMDFlZjQyMTFiNjA0",
         "entrance_slug": "toppers-in-concert",
         "name": "Toppers in Concert",
@@ -2182,6 +2223,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725257",
         "id": "RXZlbnQ6YWY1ZjM3MzAtNTg2Zi00YWYwLTlmNzQtMDVlMDE0YTBjZGQw",
         "entrance_slug": "de-dijk",
         "name": "De Dijk",
@@ -2268,6 +2310,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725417",
         "id": "RXZlbnQ6MDk3NjdhMWItZDE2Ny00ZTkxLTgzYjctMmQ3YjQxNzdjY2Rm",
         "entrance_slug": "kid-cudi-to-the-moon-world-tour",
         "name": "Kid Cudi - To The Moon World Tour",
@@ -2322,6 +2365,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725518",
         "id": "RXZlbnQ6MzMwMmMwZmQtMzM0Yy00Yzc2LWFjMzQtODhlZDhhYjQ4OWZi",
         "entrance_slug": "maneskin",
         "name": "Måneskin",
@@ -2408,6 +2452,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725678",
         "id": "RXZlbnQ6ODc4NDQ0NTktNjdhMC00NDA1LWIxZmMtYzI1NjkxZmFlYzRh",
         "entrance_slug": "arcade-fire",
         "name": "Arcade Fire",
@@ -2478,6 +2523,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725807",
         "id": "RXZlbnQ6N2JjMzQ4MTMtMDMxMC00ZDQzLTk5MTMtMWQyZTlkYTQyMGVm",
         "entrance_slug": "thuishaven-techno-special-w-cynthia-spiering-10hrs",
         "name": "Thuishaven Techno Special W/ Cynthia Spiering 10HRS",
@@ -2500,6 +2546,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725849",
         "id": "RXZlbnQ6ODYyOTY2ZjAtNzYzNC00ODE3LTgyZjctMmFjYThhODcxMDA5",
         "entrance_slug": "goldband",
         "name": "Goldband",
@@ -2522,6 +2569,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725891",
         "id": "RXZlbnQ6MTcyNjJiZDgtYjBiNi00ZTdmLThhOGQtYTc5YzkxNGY3MTdj",
         "entrance_slug": "awakenings-x-carl-cox-invites-reinier-zonneveld-more-live-by-day-ade",
         "name": "Awakenings x Carl Cox Invites Reinier Zonneveld & More LIVE (By Day) | #ADE",
@@ -2544,6 +2592,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.725933",
         "id": "RXZlbnQ6OGU0ZTM1NmYtNTRiZS00MDg0LTkyOWUtOTFlNTljNmQwMTkw",
         "entrance_slug": "no-art-ade-weekender-ade",
         "name": "No Art ADE Weekender | #ADE",
@@ -2582,6 +2631,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726005",
         "id": "RXZlbnQ6OWUzNzAzM2UtMTVhYi00NzU5LWFlYmEtMjA0OWQ1OTZiYzhk",
         "entrance_slug": "de-dijk",
         "name": "De Dijk",
@@ -2668,6 +2718,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726164",
         "id": "RXZlbnQ6M2MxNGQ5OGQtM2E3Yi00MjE5LWIzNTUtNWIwNjI0YjQ4NDkw",
         "entrance_slug": "bruce-springsteen-the-e-street-band",
         "name": "Bruce Springsteen & The E Street Band",
@@ -2730,6 +2781,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726278",
         "id": "RXZlbnQ6OWVlNTY4MGMtMDU0ZS00NTJjLWE4MTItMjExMzg1ZmEwMWVi",
         "entrance_slug": "amapiano-nl",
         "name": "Amapiano NL",
@@ -2752,6 +2804,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726319",
         "id": "RXZlbnQ6MGJmOTNmNGQtMjY2MS00OTU0LTkxMmYtYTc2OTRhNDMyYTY0",
         "entrance_slug": "nederland-belgie",
         "name": "Nederland - Belgie",
@@ -2774,6 +2827,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726361",
         "id": "RXZlbnQ6OThlNGNlMDMtOGZjZi00MDkzLTgyMDItYzY1NmMxZmRiYTdk",
         "entrance_slug": "awakenings-x-adam-beyer-presents-drumcode-ade",
         "name": "Awakenings x Adam Beyer Presents Drumcode | #ADE",
@@ -2796,6 +2850,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726403",
         "id": "RXZlbnQ6NjI0Njk3ODgtOWVmMC00Y2FkLWFlYzctOGU3M2I3NDZmNDNj",
         "entrance_slug": "tisjeboy-jay",
         "name": "Tisjeboy Jay",
@@ -2882,6 +2937,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726558",
         "id": "RXZlbnQ6NzgzODhiZmUtOTIzOS00YWNjLTljMzUtZTQzZGVkYzM0ZmNm",
         "entrance_slug": "bruce-springsteen-the-e-street-band",
         "name": "Bruce Springsteen & The E Street Band",
@@ -2960,6 +3016,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726700",
         "id": "RXZlbnQ6Y2VjMWZlYWEtODhmYi00ZjgwLTk2MDYtZjRlMjc4MTgyODAz",
         "entrance_slug": "machine-gun-kelly",
         "name": "Machine Gun Kelly",
@@ -3006,6 +3063,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726785",
         "id": "RXZlbnQ6ZTMwODY4NjktZWE5MC00OGJiLTg0NzItN2VjZTllYWM0ZDAz",
         "entrance_slug": "toppers-in-concert",
         "name": "Toppers in Concert",
@@ -3092,6 +3150,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.726971",
         "id": "RXZlbnQ6NmI5MDY4NWUtZjdlNy00NTViLThiMGYtY2Q4MTJhODY1NDJk",
         "entrance_slug": "moderat",
         "name": "Moderat",
@@ -3130,6 +3189,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727097",
         "id": "RXZlbnQ6YmViMGYwMDctMDEwNS00MjZhLWJhM2UtNjNmYjY5MTI2ODhk",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -3200,6 +3260,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727244",
         "id": "RXZlbnQ6MmU1NTVmNjYtNTZkOS00M2JmLWJmNjUtMTg4NWQ1MzM4Yjg5",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -3278,6 +3339,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727406",
         "id": "RXZlbnQ6MzcxMzAyNzUtMjFiNy00YWViLWE4MjUtNWEyNDljOGQwYWM1",
         "entrance_slug": "de-dijk",
         "name": "De Dijk",
@@ -3364,6 +3426,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727605",
         "id": "RXZlbnQ6MDYxMzlhYWUtYmI4My00N2M2LTg2MGEtMGEyNjdiYzc4ODA2",
         "entrance_slug": "simply-red",
         "name": "Simply Red",
@@ -3434,6 +3497,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727788",
         "id": "RXZlbnQ6OTRhMjhlMTgtY2QyNS00OGM0LTg0YjgtZWMxOWI3YjQzZTQ0",
         "entrance_slug": "la-femme",
         "name": "La Femme",
@@ -3456,6 +3520,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727832",
         "id": "RXZlbnQ6YTJlYzNjOGYtZjE1YS00MzFiLTlkZGQtN2JiY2RlNTI2MTA2",
         "entrance_slug": "breakfast-club-saturday-ade-weekender-2022-ade",
         "name": "Breakfast Club - Saturday ADE Weekender 2022 | #ADE",
@@ -3478,6 +3543,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727876",
         "id": "RXZlbnQ6ODg5OTg4ZTctMGUzNi00ZDkyLTliZTAtNzExMzM5MjE2ZDI5",
         "entrance_slug": "warface-presents-live-for-this-2021-art-of-dance-event",
         "name": "Warface presents Live For This 2021 - Art of Dance event",
@@ -3508,6 +3574,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.727939",
         "id": "RXZlbnQ6MDdkN2MxMWItOThkNS00MGUzLThiOGMtZDVkNDI3M2UyNzQ0",
         "entrance_slug": "simply-red",
         "name": "Simply Red",
@@ -3570,6 +3637,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728062",
         "id": "RXZlbnQ6M2RiYzk0YjUtOWYyMS00NWU1LWI0NjMtZDgzMzY5ZWMxNzQ1",
         "entrance_slug": "harry-styles-love-on-tour-2023",
         "name": "Harry Styles - Love On Tour 2023",
@@ -3656,6 +3724,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728224",
         "id": "RXZlbnQ6MTE1YjdhM2YtOGFiOS00YzVjLThmMDgtNGRkZmVjNDI5NTlj",
         "entrance_slug": "danny-vera",
         "name": "Danny Vera",
@@ -3702,6 +3771,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728327",
         "id": "RXZlbnQ6OGNjNGYyOGUtMGM5Yi00Yzk5LWE1YjYtNmE2MGRiYzZjODAz",
         "entrance_slug": "swedish-house-mafia-paradise-again-european-tour-2022",
         "name": "Swedish House Mafia - Paradise Again European Tour 2022",
@@ -3780,6 +3850,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728564",
         "id": "RXZlbnQ6YmViZTg3NzEtMWViMC00YmI0LWI5MTMtZjc2OTE4NmI3OTMx",
         "entrance_slug": "dgtl-ade-dax-j-paula-temple-ki-ki-and-more-ade",
         "name": "DGTL ADE: Dax J, Paula Temple, KI/KI, and more | #ADE",
@@ -3802,6 +3873,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728609",
         "id": "RXZlbnQ6ZGMwZjBmOWEtYzEwMC00ZjE0LWE4MjQtNjc4ZmJmMWEyOTVi",
         "entrance_slug": "techno-special-w-cynthia-spiering-10hrs",
         "name": "Techno Special w - Cynthia Spiering 10Hrs",
@@ -3824,6 +3896,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728656",
         "id": "RXZlbnQ6NTJkYzA1MzYtYTg3Yi00ZDYwLThiNDAtMWY4YWQyZDljNzUw",
         "entrance_slug": "nightwish",
         "name": "Nightwish",
@@ -3878,6 +3951,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.728831",
         "id": "RXZlbnQ6YjRmZTE4NmMtZWI1NS00YmQ5LThhMDktZWM1NDg5NGI1NWUz",
         "entrance_slug": "the-analogues",
         "name": "The Analogues",
@@ -3956,6 +4030,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729000",
         "id": "RXZlbnQ6OWRkNGZlZDctMWZhNy00MWJhLWE2ZTQtMjEyNGYyMDNkN2Zm",
         "entrance_slug": "elrow-ade-2022-nowmads-new-world-ade",
         "name": "elrow ADE 2022 - Nowmads: New World | #ADE",
@@ -3978,6 +4053,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729051",
         "id": "RXZlbnQ6YjJkODhmMzctZDRhNS00ZjkwLWEwNjAtMWI0OTliYWJkMGJi",
         "entrance_slug": "nmnh-techno-special-w-nico-moreno",
         "name": "NMNH Techno Special W/ Nico Moreno",
@@ -4000,6 +4076,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729100",
         "id": "RXZlbnQ6MWExNzk4NDAtYjRkMi00NGY0LWFiMzMtYjYyYmY1OWQzMDQw",
         "entrance_slug": "anne-frank-huis",
         "name": "Anne Frank Huis",
@@ -4046,6 +4123,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729222",
         "id": "RXZlbnQ6NzBhZjM2OWMtZDNiYy00ZDdkLWI4ZTctNTk0OWVjYjNkMTA5",
         "entrance_slug": "de-dijk",
         "name": "De Dijk",
@@ -4132,6 +4210,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729435",
         "id": "RXZlbnQ6YWRmMGViOGMtM2ZmMi00OGJiLThmNTEtMDMzMTA2NzU0Njdm",
         "entrance_slug": "extrema-presents-keinemusik-ade",
         "name": "Extrema presents Keinemusik | #ADE",
@@ -4154,6 +4233,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729479",
         "id": "RXZlbnQ6MTg0NDUzYTktMTIxOS00Mjg2LWIwYmQtNzUyM2RhYjU5Yzg4",
         "entrance_slug": "thuishaven-de-zomerclosing",
         "name": "Thuishaven - De Zomerclosing",
@@ -4192,6 +4272,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729558",
         "id": "RXZlbnQ6ZjgzNzc3ODAtNjk2YS00YmY3LWIxNjctY2IwY2Y1ZjczOGJh",
         "entrance_slug": "nightwish",
         "name": "Nightwish",
@@ -4246,6 +4327,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729712",
         "id": "RXZlbnQ6OTQwYWM5ODAtZjI0Ny00ZDI1LWFmMDUtNDA1OGIxMmZiMTgw",
         "entrance_slug": "2022-worlds-series-of-darts-semi-finals-and-final",
         "name": "2022 World's Series Of Darts | Semi-Finals and Final",
@@ -4292,6 +4374,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729803",
         "id": "RXZlbnQ6ZDJkODA4ZTQtNTkzNC00YjQ4LTgxZmItYjNiZmUwOGZhNmUy",
         "entrance_slug": "wizkid",
         "name": "WizKid",
@@ -4362,6 +4445,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729941",
         "id": "RXZlbnQ6NTM2OTdjODEtYThkZS00NGY0LWFiYjYtZDM0Nzc4ZTRlMWNm",
         "entrance_slug": "dgtl-presents-ben-bohmer-live-ade",
         "name": "DGTL Presents: Ben Böhmer [live] | #ADE",
@@ -4384,6 +4468,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.729982",
         "id": "RXZlbnQ6MTc2MWExNDEtNjEzNi00NDFhLWJlN2ItYzI3MjBhY2U0MzQw",
         "entrance_slug": "vbx-day-night",
         "name": "VBX -  Day & Night",
@@ -4422,6 +4507,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730057",
         "id": "RXZlbnQ6MmVkNmY3ODctMThiNC00OWZmLWEzM2UtNDE3MzhmYmM4YTI1",
         "entrance_slug": "beth-hart",
         "name": "Beth Hart",
@@ -4484,6 +4570,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730207",
         "id": "RXZlbnQ6NDlhZjVmODQtNzZjNC00ODgxLTk3M2ItN2FjZTk1OTdjYjJj",
         "entrance_slug": "intercell-x-999999999-invites-by-night-ade",
         "name": "Intercell x 999999999 Invites  (by Night) | #ADE",
@@ -4506,6 +4593,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730260",
         "id": "RXZlbnQ6ZjQ0N2M2OGEtNWI0ZS00OGM2LThiNDMtNWViMmNhNjgyZDI3",
         "entrance_slug": "dgtl-ade-floating-points-fatima-yamaha-and-more-ade",
         "name": "DGTL ADE: Floating Points, Fatima Yamaha, and more | #ADE",
@@ -4528,6 +4616,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730310",
         "id": "RXZlbnQ6MTdkMjI0MTQtYTQ0NC00N2E0LTgxYzktYTAyYTQ5OWZhYWRj",
         "entrance_slug": "lil-nas-x-the-long-live-montero-tour",
         "name": "Lil Nas X - The Long Live Montero Tour",
@@ -4566,6 +4655,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730424",
         "id": "RXZlbnQ6OTk5NGM2ZTUtMzRiZi00ZTZjLWE5MmUtODJlMzEyMjdmMTQ5",
         "entrance_slug": "bon-iver",
         "name": "Bon Iver",
@@ -4620,6 +4710,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730541",
         "id": "RXZlbnQ6Yjg3Mjk5ODMtODgxMy00MDFhLTg5NDAtODdmNzkxMDkwZTIw",
         "entrance_slug": "dgtl-presents-we-still-believe-the-blessed-madonna-ade",
         "name": "DGTL Presents: We Still Believe: The Blessed Madonna | #ADE",
@@ -4642,6 +4733,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730588",
         "id": "RXZlbnQ6MGM3NjZmZWUtNTM0OC00NWY5LTgzZGQtYTEyOTE0YWEzZDJj",
         "entrance_slug": "milkshake-indoor-amsterdam-ade",
         "name": "Milkshake Indoor Amsterdam | #ADE",
@@ -4664,6 +4756,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730638",
         "id": "RXZlbnQ6Njk3MjgxOTAtOTlmNy00ZTBkLTk4OTEtNTgwMzg2NjhjZGQ4",
         "entrance_slug": "bring-me-the-horizon",
         "name": "Bring Me The Horizon",
@@ -4702,6 +4795,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730720",
         "id": "RXZlbnQ6NjFlZTdiMjMtNWI0Ny00ZmNhLThhMDgtODcyNWU2YzcxOGFj",
         "entrance_slug": "sw-presents-solid-grooves-ade",
         "name": "SW presents Solid Grooves | #ADE",
@@ -4724,6 +4818,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730778",
         "id": "RXZlbnQ6MjdjZWUyNzgtNzQ1Ny00ZjA2LThmN2ItYjkyNjRjOTU2OGRi",
         "entrance_slug": "horse-event-pro",
         "name": "Horse Event Pro",
@@ -4778,6 +4873,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730909",
         "id": "RXZlbnQ6N2E1OTdhNGItZGM3ZC00YzkzLWI5YzMtZDI3ZTRmNzQ0MjQw",
         "entrance_slug": "lucky-daye",
         "name": "Lucky Daye",
@@ -4800,6 +4896,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.730957",
         "id": "RXZlbnQ6ZWZhMTY2YjctN2ZjYi00YjAwLWIyN2UtMTZhZjQwYzVlNzk3",
         "entrance_slug": "placebo",
         "name": "Placebo",
@@ -4862,6 +4959,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731123",
         "id": "RXZlbnQ6MDAxY2ZlODQtNzhlNC00Mjg5LTk3YWEtZjg2NGUxNTllNzI1",
         "entrance_slug": "pandemonium-go-hard-or-go-home",
         "name": "Pandemonium - Go Hard Or Go Home",
@@ -4908,6 +5006,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731209",
         "id": "RXZlbnQ6YmY1YjEzNTktZmI4MC00YjdkLWE2MWEtMmI4YWFhMjcyYTg0",
         "entrance_slug": "valhalla-festival-2022",
         "name": "Valhalla Festival 2022",
@@ -4930,6 +5029,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731255",
         "id": "RXZlbnQ6MTI3MWZlNDItNWExMC00M2U2LWFiMGQtZTY0ZDg0OGFhZThm",
         "entrance_slug": "john-waite",
         "name": "John Waite",
@@ -4952,6 +5052,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731301",
         "id": "RXZlbnQ6N2IzYWRkZjEtOWVkYi00YmE5LWFkZmUtZmQ2MjVjMWZhYzRk",
         "entrance_slug": "avonturenpark-hellendoorn",
         "name": "Avonturenpark Hellendoorn",
@@ -4982,6 +5083,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731357",
         "id": "RXZlbnQ6NTc3ZDQwOTctZDc4ZS00ZjY1LWE3ODMtYjI0YWE3ODA3ZGJi",
         "entrance_slug": "coalafield-koos-en-moos",
         "name": "Coalafield Koos en Moos",
@@ -5004,6 +5106,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731401",
         "id": "RXZlbnQ6YTIxNDcwZjctNGMwMC00YTQwLWFhNmUtMzU0NmJjNTUyZTQz",
         "entrance_slug": "the-brother-brothers",
         "name": "The Brother Brothers",
@@ -5026,6 +5129,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731447",
         "id": "RXZlbnQ6YzA2MmJhMzQtOTcyZS00YzVlLTg2NTYtMjE2MTRlOGUwY2Mx",
         "entrance_slug": "tavares-with-uk-live-band",
         "name": "Tavares with UK Live Band",
@@ -5048,6 +5152,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731488",
         "id": "RXZlbnQ6OWIxMzg1MzktMjc3NC00OTgxLTkyM2MtMWMxZjhiNWUwNjA2",
         "entrance_slug": "frenna-freak-in-the-weekend",
         "name": "Frenna Freak In The Weekend",
@@ -5070,6 +5175,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731528",
         "id": "RXZlbnQ6NjUwNTYxZmYtZTEzNi00OGM5LWEzNmEtYmY0MTZiM2Y5N2E2",
         "entrance_slug": "legends-of-rock-tribute-tour-monsters-of-rock",
         "name": "Legends of Rock Tribute Tour - Monsters of Rock",
@@ -5100,6 +5206,7 @@
         ]
     },
     {
+        "updated": "2022-09-17 12:32:43.731588",
         "id": "RXZlbnQ6YjcyNTRlOTEtZDU3OC00NWFhLThkZGItMjY5M2I0Mjg1OTE1",
         "entrance_slug": "paulien-cornelisse-aanstalten",
         "name": "Paulien Cornelisse - Aanstalten",
