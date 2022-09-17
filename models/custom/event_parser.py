@@ -136,20 +136,10 @@ class EventParser:
         """Convert price amount in cents to decimal"""
         return float(price / 100)
 
-    def store(self, path: str):
+    def store_events(self, path: str):
         # read existing file and keep old results
         with open(path, "r") as f_read:
             data = json.load(f_read)
-            ticket_for_sale_ids = [ticket.id for ticket in self.tickets_for_sale]
-            for ticket in data['tickets_for_sale']:
-                if ticket['id'] not in ticket_for_sale_ids:
-                    self.tickets_for_sale.append(EventTicketForSale(**ticket))
-
-            ticket_sold_ids = [ticket.id for ticket in self.tickets_sold]
-            for ticket in data['tickets_sold']:
-                if ticket['id'] not in ticket_sold_ids:
-                    self.tickets_sold.append(EventTicketSold(**ticket))
-
             event_ids = [event.id for event in self.events]
             for event in data['events']:
                 if event['id'] not in event_ids:
@@ -158,11 +148,47 @@ class EventParser:
         with open(path, "w", encoding="utf-8") as f_write:
             json.dump(
                 {
-                    "tickets_for_sale": [
-                        ticket.dict() for ticket in self.tickets_for_sale
-                    ],
-                    "tickets_sold": [ticket.dict() for ticket in self.tickets_sold],
                     "events": [event.dict() for event in self.events],
+                },
+                f_write,
+                ensure_ascii=False,
+                indent=4,
+                default=str,
+            )
+
+    def store_tickets_for_sale(self, path: str):
+        # read existing file and keep old results
+        with open(path, "r") as f_read:
+            data = json.load(f_read)
+            ticket_for_sale_ids = [ticket.id for ticket in self.tickets_for_sale]
+            for ticket in data['tickets_for_sale']:
+                if ticket['id'] not in ticket_for_sale_ids:
+                    self.tickets_for_sale.append(EventTicketForSale(**ticket))
+
+        with open(path, "w", encoding="utf-8") as f_write:
+            json.dump(
+                {
+                    "tickets_for_sale": [ ticket.dict() for ticket in self.tickets_for_sale ]
+                },
+                f_write,
+                ensure_ascii=False,
+                indent=4,
+                default=str,
+            )
+
+    def store_tickets_sold(self, path: str):
+        # read existing file and keep old results
+        with open(path, "r") as f_read:
+            data = json.load(f_read)
+            ticket_sold_ids = [ticket.id for ticket in self.tickets_sold]
+            for ticket in data['tickets_sold']:
+                if ticket['id'] not in ticket_sold_ids:
+                    self.tickets_sold.append(EventTicketSold(**ticket))
+
+        with open(path, "w", encoding="utf-8") as f_write:
+            json.dump(
+                {
+                    "tickets_sold": [ticket.dict() for ticket in self.tickets_sold],
                 },
                 f_write,
                 ensure_ascii=False,
