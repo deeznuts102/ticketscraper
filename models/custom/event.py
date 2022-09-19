@@ -20,3 +20,4 @@ class Event(BaseModel):
     sold_tickets: str
     wanted_tickets: str
     entrance_types: List[EventEntranceType]
+    url: Optional[str]

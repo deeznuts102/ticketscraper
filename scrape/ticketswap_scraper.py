@@ -20,6 +20,7 @@ class TicketSwapScraper:
         for nearby_event in nearby_events:
             try:
                 event_data_json = self.graphql_scraper.get_event_data(nearby_event.id)
+                event_data_json[0]['url'] = nearby_event.uri_path
                 event = self.ticket_parser.parse_event(event_data_json)
                 for entrance_type in event.entrance_types:
                     try:

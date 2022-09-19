@@ -114,6 +114,7 @@ class EventParser:
                 sold_tickets=event_data_response.sold_tickets_count,
                 wanted_tickets=event_data_response.ticket_alerts_count,
                 entrance_types=event_entrance_types,
+                url=BASE_URL + event_data_json[0]['url']
             )
             self.events.append(event)
         except AttributeError as e:
