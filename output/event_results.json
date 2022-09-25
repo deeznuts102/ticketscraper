@@ -1,6 +1,6 @@
 [
     {
-        "updated": "2022-09-24 07:08:30.742970",
+        "updated": "2022-09-25 07:08:08.055156",
         "id": "RXZlbnQ6MjY0M2FmYmYtOGJkZi00MTY2LTgxNDAtOTM0YzQxZGZjZDky",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -10,7 +10,7 @@
         "city": "Amsterdam",
         "available_tickets": "4",
         "sold_tickets": "814",
-        "wanted_tickets": "34292",
+        "wanted_tickets": "34403",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTM1NzY=",
@@ -48,7 +48,7 @@
         "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/2643afbf-8bdf-4166-8140-934c41dfcd92"
     },
     {
-        "updated": "2022-09-24 07:08:35.018405",
+        "updated": "2022-09-25 07:08:12.486974",
         "id": "RXZlbnQ6MDg0Y2E1MjktNzI5ZS00NDFhLWJkY2EtNWVjZTAwZWNjZDk4",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -58,7 +58,7 @@
         "city": "Amsterdam",
         "available_tickets": "8",
         "sold_tickets": "658",
-        "wanted_tickets": "22268",
+        "wanted_tickets": "22383",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTcwMzU=",
@@ -96,7 +96,7 @@
         "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/084ca529-729e-441a-bdca-5ece00eccd98"
     },
     {
-        "updated": "2022-09-24 07:08:38.810018",
+        "updated": "2022-09-25 07:08:16.477677",
         "id": "RXZlbnQ6YmI0NDM3ODItY2EyMi00NDk3LWFmNmEtNzg5Njk3ZWM1MGEx",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -106,7 +106,7 @@
         "city": "Amsterdam",
         "available_tickets": "9",
         "sold_tickets": "393",
-        "wanted_tickets": "20233",
+        "wanted_tickets": "20347",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTY4NTY=",
@@ -144,7 +144,7 @@
         "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/bb443782-ca22-4497-af6a-789697ec50a1"
     },
     {
-        "updated": "2022-09-24 07:08:43.114507",
+        "updated": "2022-09-25 07:08:20.516536",
         "id": "RXZlbnQ6YjQ0ZjI4ODItMDRlMi00OTZjLWFiZWEtN2M0NjA2MTUyMDll",
         "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
         "name": "Coldplay - Music Of The Spheres World Tour",
@@ -152,9 +152,9 @@
         "end_date": null,
         "location": "Johan Cruijff ArenA",
         "city": "Amsterdam",
-        "available_tickets": "11",
-        "sold_tickets": "527",
-        "wanted_tickets": "18440",
+        "available_tickets": "10",
+        "sold_tickets": "530",
+        "wanted_tickets": "18541",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTY4NjI=",
@@ -178,7 +178,7 @@
                 "title": "Platinum",
                 "start_date": "2023-07-19T20:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 11
+                "available_tickets": 10
             },
             {
                 "id": "RXZlbnRUeXBlOjIzOTc0Mjc=",
@@ -192,31 +192,7 @@
         "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/b44f2882-04e2-496c-abea-7c460615209e"
     },
     {
-        "updated": "2022-09-24 07:08:47.176668",
-        "id": "RXZlbnQ6MGJmOTNmNGQtMjY2MS00OTU0LTkxMmYtYTc2OTRhNDMyYTY0",
-        "entrance_slug": "nederland-belgie",
-        "name": "Nederland - België",
-        "start_date": "2022-09-25T20:45:00+02:00",
-        "end_date": null,
-        "location": "Johan Cruijff ArenA",
-        "city": "Amsterdam",
-        "available_tickets": "1",
-        "sold_tickets": "136",
-        "wanted_tickets": "1100",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNzU5ODE=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2022-09-25T20:45:00+02:00",
-                "end_date": null,
-                "available_tickets": 1
-            }
-        ],
-        "url": "http://ticketswap.com/event/nederland-belgie/0bf93f4d-2661-4954-912f-a7694a432a64"
-    },
-    {
-        "updated": "2022-09-24 07:08:49.551617",
+        "updated": "2022-09-25 07:08:24.678839",
         "id": "RXZlbnQ6YzVjYjA5ZDMtMTFkNC00YWUxLTk2ZDQtY2ZmNjhjNDE4NDVj",
         "entrance_slug": "dockyard-mystic-garden-ade",
         "name": "Dockyard & Mystic Garden | #ADE",
@@ -225,8 +201,8 @@
         "location": "Havenpark",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "1356",
-        "wanted_tickets": "4688",
+        "sold_tickets": "1383",
+        "wanted_tickets": "4923",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIxNDAzNDI=",
@@ -240,17 +216,17 @@
         "url": "http://ticketswap.com/event/dockyard-mystic-garden-ade/c5cb09d3-11d4-4ae1-96d4-cff68c41845c"
     },
     {
-        "updated": "2022-09-24 07:08:50.791200",
+        "updated": "2022-09-25 07:08:25.863528",
         "id": "RXZlbnQ6MmZlMTVjYzEtYjE2ZS00YTYwLWEzODctZGYwOGY4MzhlZjBk",
-        "entrance_slug": "fred-again-",
-        "name": "Fred Again …",
+        "entrance_slug": "fred-again",
+        "name": "Fred again..",
         "start_date": "2022-11-25T20:00:00+01:00",
         "end_date": null,
         "location": "AFAS Live",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "58",
-        "wanted_tickets": "2558",
+        "sold_tickets": "65",
+        "wanted_tickets": "2917",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NDg1NjQ=",
@@ -259,36 +235,12 @@
                 "start_date": "2022-11-25T20:00:00+01:00",
                 "end_date": null,
                 "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NDg1NjU=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2022-11-25T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NDg1NjY=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2022-11-25T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NDg1Njc=",
-                "slug": "parking-tickets",
-                "title": "Parking",
-                "start_date": "2022-11-25T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
             }
         ],
-        "url": "http://ticketswap.com/event/fred-again-/2fe15cc1-b16e-4a60-a387-df08f838ef0d"
+        "url": "http://ticketswap.com/event/fred-again/2fe15cc1-b16e-4a60-a387-df08f838ef0d"
     },
     {
-        "updated": "2022-09-24 07:08:52.769753",
+        "updated": "2022-09-25 07:08:26.760773",
         "id": "RXZlbnQ6NDdiYzZjZGUtNGU3MS00MDdmLTk4ZTQtYTk5MzgzNWJiZWM3",
         "entrance_slug": "world-padel-tour-amsterdam-open",
         "name": "World Padel Tour Amsterdam Open",
@@ -296,9 +248,9 @@
         "end_date": "2022-10-02T23:00:00+02:00",
         "location": "Centrale Markthal",
         "city": "Amsterdam",
-        "available_tickets": "33",
-        "sold_tickets": "231",
-        "wanted_tickets": "243",
+        "available_tickets": "31",
+        "sold_tickets": "248",
+        "wanted_tickets": "265",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NDc1MTA=",
@@ -834,7 +786,7 @@
                 "title": "Thursday Day - Grandstand B/C",
                 "start_date": "2022-09-29T16:00:00+02:00",
                 "end_date": "2022-09-29T23:00:00+02:00",
-                "available_tickets": 3
+                "available_tickets": 0
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2MzQ=",
@@ -842,7 +794,7 @@
                 "title": "Friday Day - Grandstand A",
                 "start_date": "2022-09-30T09:30:00+02:00",
                 "end_date": "2022-09-30T16:00:00+02:00",
-                "available_tickets": 3
+                "available_tickets": 5
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2Mzg=",
@@ -850,7 +802,7 @@
                 "title": "Friday Day - Grandstand B/C",
                 "start_date": "2022-09-30T09:30:00+02:00",
                 "end_date": "2022-09-30T16:00:00+02:00",
-                "available_tickets": 4
+                "available_tickets": 6
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2MzU=",
@@ -866,7 +818,7 @@
                 "title": "Friday Evening - Grandstand B/C",
                 "start_date": "2022-09-30T16:00:00+02:00",
                 "end_date": "2022-09-30T23:00:00+02:00",
-                "available_tickets": 0
+                "available_tickets": 1
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2NDE=",
@@ -890,7 +842,7 @@
                 "title": "Saturday Day - Grandstand A",
                 "start_date": "2022-10-01T09:30:00+02:00",
                 "end_date": "2022-10-01T16:00:00+02:00",
-                "available_tickets": 7
+                "available_tickets": 6
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2NDU=",
@@ -898,7 +850,7 @@
                 "title": "Saturday Evening - Grandstand A",
                 "start_date": "2022-10-01T16:00:00+02:00",
                 "end_date": "2022-10-01T23:00:00+02:00",
-                "available_tickets": 2
+                "available_tickets": 0
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2NDc=",
@@ -906,7 +858,7 @@
                 "title": "Saturday Day - Grandstand B/C",
                 "start_date": "2022-10-01T09:30:00+02:00",
                 "end_date": "2022-10-01T16:00:00+02:00",
-                "available_tickets": 9
+                "available_tickets": 8
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MTA2NDk=",
@@ -960,47 +912,7 @@
         "url": "http://ticketswap.com/event/world-padel-tour-amsterdam-open/47bc6cde-4e71-407f-98e4-a993835bbec7"
     },
     {
-        "updated": "2022-09-24 07:09:34.762458",
-        "id": "RXZlbnQ6MTg0NDUzYTktMTIxOS00Mjg2LWIwYmQtNzUyM2RhYjU5Yzg4",
-        "entrance_slug": "thuishaven-de-zomerclosing",
-        "name": "Thuishaven - De Zomerclosing",
-        "start_date": "2022-09-24T13:00:00+02:00",
-        "end_date": "2022-09-25T23:00:00+02:00",
-        "location": "Thuishaven",
-        "city": "Amsterdam",
-        "available_tickets": "58",
-        "sold_tickets": "427",
-        "wanted_tickets": "228",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNjQ3ODA=",
-                "slug": "24-09-zaterdagticket-1300-2300",
-                "title": "24-09 | Zaterdagticket (13:00 - 23:00)",
-                "start_date": "2022-09-24T13:00:00+02:00",
-                "end_date": "2022-09-24T23:00:00+02:00",
-                "available_tickets": 17
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzNzEyMzA=",
-                "slug": "24-09-afterticket-2300-0400",
-                "title": "24-09 | Afterticket (23:00 - 04:00)",
-                "start_date": "2022-09-24T23:00:00+02:00",
-                "end_date": "2022-09-25T04:00:00+02:00",
-                "available_tickets": 26
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzNzEyMzE=",
-                "slug": "25-09-zondagticket-1300-2300",
-                "title": "25-09 | Zondagticket (13:00 - 23:00)",
-                "start_date": "2022-09-25T13:00:00+02:00",
-                "end_date": "2022-09-25T23:00:00+02:00",
-                "available_tickets": 15
-            }
-        ],
-        "url": "http://ticketswap.com/event/thuishaven-de-zomerclosing/184453a9-1219-4286-b0bd-7523dab59c88"
-    },
-    {
-        "updated": "2022-09-24 07:09:41.021579",
+        "updated": "2022-09-25 07:09:06.703535",
         "id": "RXZlbnQ6MmYwOTY2MzctYzYyYy00NjJjLTllMTktYWEzOGZiNzliOGY4",
         "entrance_slug": "kendrick-lamar",
         "name": "Kendrick Lamar",
@@ -1008,9 +920,9 @@
         "end_date": null,
         "location": "Ziggo Dome",
         "city": "Amsterdam",
-        "available_tickets": "87",
-        "sold_tickets": "1450",
-        "wanted_tickets": "2506",
+        "available_tickets": "88",
+        "sold_tickets": "1476",
+        "wanted_tickets": "2517",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIyMTMxODE=",
@@ -1026,7 +938,7 @@
                 "title": "Category 1",
                 "start_date": "2022-10-07T21:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 5
+                "available_tickets": 7
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMjE2OTM=",
@@ -1050,7 +962,7 @@
                 "title": "Premium",
                 "start_date": "2022-10-07T21:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 10
+                "available_tickets": 9
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMTMxNzk=",
@@ -1088,39 +1000,31 @@
         "url": "http://ticketswap.com/event/kendrick-lamar/2f096637-c62c-462c-9e19-aa38fb79b8f8"
     },
     {
-        "updated": "2022-09-24 07:09:57.908088",
-        "id": "RXZlbnQ6MDUwMWMyMjEtY2M0Yy00YmVmLTgwY2ItNTM1ZTY1OTZiNjVm",
-        "entrance_slug": "amsterdam-wine-festival",
-        "name": "Amsterdam Wine Festival",
-        "start_date": "2022-09-22T15:00:00+02:00",
-        "end_date": "2022-09-25T22:00:00+02:00",
-        "location": "Gashouder Westergasfabriek",
+        "updated": "2022-09-25 07:09:22.927450",
+        "id": "RXZlbnQ6MTg0NDUzYTktMTIxOS00Mjg2LWIwYmQtNzUyM2RhYjU5Yzg4",
+        "entrance_slug": "thuishaven-de-zomerclosing",
+        "name": "Thuishaven - De Zomerclosing",
+        "start_date": "2022-09-24T13:00:00+02:00",
+        "end_date": "2022-09-25T23:00:00+02:00",
+        "location": "Thuishaven",
         "city": "Amsterdam",
-        "available_tickets": "11",
-        "sold_tickets": "471",
-        "wanted_tickets": "125",
+        "available_tickets": "8",
+        "sold_tickets": "761",
+        "wanted_tickets": "288",
         "entrance_types": [
             {
-                "id": "RXZlbnRUeXBlOjIzNzE2ODY=",
-                "slug": "sunday-tickets",
-                "title": "Sunday",
+                "id": "RXZlbnRUeXBlOjIzNzEyMzE=",
+                "slug": "25-09-zondagticket-1300-2300",
+                "title": "25-09 | Zondagticket (13:00 - 23:00)",
                 "start_date": "2022-09-25T13:00:00+02:00",
-                "end_date": "2022-09-25T22:00:00+02:00",
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzNzQxMjY=",
-                "slug": "saturday-tickets",
-                "title": "Saturday",
-                "start_date": "2022-09-24T13:00:00+02:00",
-                "end_date": "2022-09-25T01:00:00+02:00",
-                "available_tickets": 11
+                "end_date": "2022-09-25T23:00:00+02:00",
+                "available_tickets": 8
             }
         ],
-        "url": "http://ticketswap.com/event/amsterdam-wine-festival/0501c221-cc4c-4bef-80cb-535e6596b65f"
+        "url": "http://ticketswap.com/event/thuishaven-de-zomerclosing/184453a9-1219-4286-b0bd-7523dab59c88"
     },
     {
-        "updated": "2022-09-24 07:10:00.952044",
+        "updated": "2022-09-25 07:09:25.951944",
         "id": "RXZlbnQ6YTkzZDc3OGYtZTAzNS00YmFkLTg0MTQtNjEyMWY0NGMxNWM4",
         "entrance_slug": "awakenings-x-charlotte-de-witte-presents-kntxt-ade",
         "name": "Awakenings x Charlotte De Witte Presents KNTXT | #ADE",
@@ -1129,8 +1033,8 @@
         "location": "Ziggo Dome",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "682",
-        "wanted_tickets": "4747",
+        "sold_tickets": "699",
+        "wanted_tickets": "4931",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzI4MzI=",
@@ -1144,7 +1048,167 @@
         "url": "http://ticketswap.com/event/awakenings-x-charlotte-de-witte-presents-kntxt-ade/a93d778f-e035-4bad-8414-6121f44c15c8"
     },
     {
-        "updated": "2022-09-24 07:10:02.175352",
+        "updated": "2022-09-25 07:09:27.178223",
+        "id": "RXZlbnQ6ZTM2ZjRhMzktYzRkZC00YzdiLTg3NmItODc3ZTdiM2ZhOTll",
+        "entrance_slug": "backstreet-boys",
+        "name": "Backstreet Boys",
+        "start_date": "2022-10-09T20:00:00+02:00",
+        "end_date": null,
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "5",
+        "sold_tickets": "457",
+        "wanted_tickets": "3236",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIxMzEzMzc=",
+                "slug": "platinum-ticket",
+                "title": "Platinum Ticket",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 4
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNDI=",
+                "slug": "staanplaatsen-side-pits",
+                "title": "Staanplaatsen - Side Pits",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNDQ=",
+                "slug": "1e-rang-zitplaatsen",
+                "title": "1e rang – Zitplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNDg=",
+                "slug": "2e-rang-zitplaatsen",
+                "title": "2e rang - Zitplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNDk=",
+                "slug": "3e-rang-zitplaatsen",
+                "title": "3e rang - Zitplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 1
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNTM=",
+                "slug": "4e-rang-zitplaatsen",
+                "title": "4e rang - Zitplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNTQ=",
+                "slug": "5e-rang-zitplaatsen",
+                "title": "5e rang - Zitplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNTU=",
+                "slug": "rolstoel-en-begeleidersplaatsen",
+                "title": "Rolstoel- en begeleidersplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxMzg=",
+                "slug": "staanplaatsen-centre-pit",
+                "title": "Staanplaatsen - Centre Pit",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxMzk=",
+                "slug": "reguliere-staanplaatsen",
+                "title": "Reguliere staanplaatsen",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIxMzAxNDA=",
+                "slug": "parking-tickets",
+                "title": "Parking",
+                "start_date": "2022-10-09T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/backstreet-boys/e36f4a39-c4dd-4c7b-876b-877e7b3fa99e"
+    },
+    {
+        "updated": "2022-09-25 07:09:35.394961",
+        "id": "RXZlbnQ6ZDI3YTYxYTMtYWE2OS00OWQwLTgzYzYtNDgyOTkwMzk2Mzc1",
+        "entrance_slug": "steve-lacy",
+        "name": "Steve Lacy",
+        "start_date": "2022-12-14T20:00:00+01:00",
+        "end_date": null,
+        "location": "Melkweg",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "2",
+        "wanted_tickets": "3735",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjI0NTIzODI=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-12-14T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/steve-lacy/d27a61a3-aa69-49d0-83c6-482990396375"
+    },
+    {
+        "updated": "2022-09-25 07:09:36.098771",
+        "id": "RXZlbnQ6NDBlYWViYTItMjBkMC00MzM0LWFlYjMtNjUxZmFiMTI2YzQ4",
+        "entrance_slug": "verknipt-ade-hard-special-the-big-closing-sunday-ade",
+        "name": "Verknipt ADE Hard Special - The Big Closing (Sunday) | #ADE",
+        "start_date": "2022-10-23T12:00:00+02:00",
+        "end_date": null,
+        "location": "AFAS Live",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1081",
+        "wanted_tickets": "2517",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNDQwMDI=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-23T12:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzNDQwMDQ=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2022-10-23T12:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-the-big-closing-sunday-ade/40eaeba2-20d0-4334-aeb3-651fab126c48"
+    },
+    {
+        "updated": "2022-09-25 07:09:37.648526",
         "id": "RXZlbnQ6ZjdmZWE1ZDgtNjIwOC00MmRhLTgwZjgtZTZhMmVkNDcxZGQz",
         "entrance_slug": "justin-bieber",
         "name": "Justin Bieber",
@@ -1153,8 +1217,8 @@
         "location": "Ziggo Dome",
         "city": "Amsterdam",
         "available_tickets": "36",
-        "sold_tickets": "1144",
-        "wanted_tickets": "2410",
+        "sold_tickets": "1150",
+        "wanted_tickets": "2404",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIyMjg3NzQ=",
@@ -1186,7 +1250,7 @@
                 "title": "Category 2",
                 "start_date": "2023-01-11T19:30:00+01:00",
                 "end_date": null,
-                "available_tickets": 2
+                "available_tickets": 1
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMjg3NjY=",
@@ -1234,7 +1298,7 @@
                 "title": "Vip 3: Peaches Vip Package",
                 "start_date": "2023-01-11T19:30:00+01:00",
                 "end_date": null,
-                "available_tickets": 9
+                "available_tickets": 10
             },
             {
                 "id": "RXZlbnRUeXBlOjIyMjg3NzI=",
@@ -1248,164 +1312,60 @@
         "url": "http://ticketswap.com/event/justin-bieber/f7fea5d8-6208-42da-80f8-e6a2ed471dd3"
     },
     {
-        "updated": "2022-09-24 07:10:18.864757",
-        "id": "RXZlbnQ6ZTM2ZjRhMzktYzRkZC00YzdiLTg3NmItODc3ZTdiM2ZhOTll",
-        "entrance_slug": "backstreet-boys",
-        "name": "Backstreet Boys",
-        "start_date": "2022-10-09T20:00:00+02:00",
+        "updated": "2022-09-24 07:08:47.176668",
+        "id": "RXZlbnQ6MGJmOTNmNGQtMjY2MS00OTU0LTkxMmYtYTc2OTRhNDMyYTY0",
+        "entrance_slug": "nederland-belgie",
+        "name": "Nederland - België",
+        "start_date": "2022-09-25T20:45:00+02:00",
         "end_date": null,
-        "location": "Ziggo Dome",
+        "location": "Johan Cruijff ArenA",
         "city": "Amsterdam",
-        "available_tickets": "7",
-        "sold_tickets": "442",
-        "wanted_tickets": "3252",
+        "available_tickets": "1",
+        "sold_tickets": "136",
+        "wanted_tickets": "1100",
         "entrance_types": [
             {
-                "id": "RXZlbnRUeXBlOjIxMzEzMzc=",
-                "slug": "platinum-ticket",
-                "title": "Platinum Ticket",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 4
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNDI=",
-                "slug": "staanplaatsen-side-pits",
-                "title": "Staanplaatsen - Side Pits",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNDQ=",
-                "slug": "1e-rang-zitplaatsen",
-                "title": "1e rang – Zitplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
+                "id": "RXZlbnRUeXBlOjIzNzU5ODE=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2022-09-25T20:45:00+02:00",
                 "end_date": null,
                 "available_tickets": 1
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNDg=",
-                "slug": "2e-rang-zitplaatsen",
-                "title": "2e rang - Zitplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNDk=",
-                "slug": "3e-rang-zitplaatsen",
-                "title": "3e rang - Zitplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNTM=",
-                "slug": "4e-rang-zitplaatsen",
-                "title": "4e rang - Zitplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 2
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNTQ=",
-                "slug": "5e-rang-zitplaatsen",
-                "title": "5e rang - Zitplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNTU=",
-                "slug": "rolstoel-en-begeleidersplaatsen",
-                "title": "Rolstoel- en begeleidersplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxMzg=",
-                "slug": "staanplaatsen-centre-pit",
-                "title": "Staanplaatsen - Centre Pit",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxMzk=",
-                "slug": "reguliere-staanplaatsen",
-                "title": "Reguliere staanplaatsen",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIxMzAxNDA=",
-                "slug": "parking-tickets",
-                "title": "Parking",
-                "start_date": "2022-10-09T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
             }
         ],
-        "url": "http://ticketswap.com/event/backstreet-boys/e36f4a39-c4dd-4c7b-876b-877e7b3fa99e"
+        "url": "http://ticketswap.com/event/nederland-belgie/0bf93f4d-2661-4954-912f-a7694a432a64"
     },
     {
-        "updated": "2022-09-24 07:10:28.521692",
-        "id": "RXZlbnQ6ZDI3YTYxYTMtYWE2OS00OWQwLTgzYzYtNDgyOTkwMzk2Mzc1",
-        "entrance_slug": "steve-lacy",
-        "name": "Steve Lacy",
-        "start_date": "2022-12-14T20:00:00+01:00",
-        "end_date": null,
-        "location": "Melkweg",
+        "updated": "2022-09-24 07:09:57.908088",
+        "id": "RXZlbnQ6MDUwMWMyMjEtY2M0Yy00YmVmLTgwY2ItNTM1ZTY1OTZiNjVm",
+        "entrance_slug": "amsterdam-wine-festival",
+        "name": "Amsterdam Wine Festival",
+        "start_date": "2022-09-22T15:00:00+02:00",
+        "end_date": "2022-09-25T22:00:00+02:00",
+        "location": "Gashouder Westergasfabriek",
         "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "2",
-        "wanted_tickets": "3421",
+        "available_tickets": "11",
+        "sold_tickets": "471",
+        "wanted_tickets": "125",
         "entrance_types": [
             {
-                "id": "RXZlbnRUeXBlOjI0NTIzODI=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-12-14T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/steve-lacy/d27a61a3-aa69-49d0-83c6-482990396375"
-    },
-    {
-        "updated": "2022-09-24 07:10:29.273654",
-        "id": "RXZlbnQ6NDBlYWViYTItMjBkMC00MzM0LWFlYjMtNjUxZmFiMTI2YzQ4",
-        "entrance_slug": "verknipt-ade-hard-special-the-big-closing-sunday-ade",
-        "name": "Verknipt ADE Hard Special - The Big Closing (Sunday) | #ADE",
-        "start_date": "2022-10-23T12:00:00+02:00",
-        "end_date": null,
-        "location": "AFAS Live",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1069",
-        "wanted_tickets": "2419",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNDQwMDI=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-23T12:00:00+02:00",
-                "end_date": null,
+                "id": "RXZlbnRUeXBlOjIzNzE2ODY=",
+                "slug": "sunday-tickets",
+                "title": "Sunday",
+                "start_date": "2022-09-25T13:00:00+02:00",
+                "end_date": "2022-09-25T22:00:00+02:00",
                 "available_tickets": 0
             },
             {
-                "id": "RXZlbnRUeXBlOjIzNDQwMDQ=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2022-10-23T12:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
+                "id": "RXZlbnRUeXBlOjIzNzQxMjY=",
+                "slug": "saturday-tickets",
+                "title": "Saturday",
+                "start_date": "2022-09-24T13:00:00+02:00",
+                "end_date": "2022-09-25T01:00:00+02:00",
+                "available_tickets": 11
             }
         ],
-        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-the-big-closing-sunday-ade/40eaeba2-20d0-4334-aeb3-651fab126c48"
+        "url": "http://ticketswap.com/event/amsterdam-wine-festival/0501c221-cc4c-4bef-80cb-535e6596b65f"
     },
     {
         "updated": "2022-09-24 07:10:31.093425",
