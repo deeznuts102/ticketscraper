@@ -53,6 +53,6 @@ class TicketSwapScraper:
             except Exception as e:
                 print(f"Error for {nearby_event}: {e}")
 
-        self.ticket_parser.store_events("output/event_results.json")
+        self.ticket_parser.store_events("output/events.json")
         self.ticket_parser.store_tickets_for_sale("output/tickets_for_sale.json")
         self.ticket_parser.store_tickets_sold("output/tickets_sold.json")
