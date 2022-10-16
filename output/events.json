@@ -1,6 +1,6 @@
 [
     {
-        "updated": "2022-10-15 07:11:10.905211",
+        "updated": "2022-10-16 07:10:51.528621",
         "id": "RXZlbnQ6YzVjYjA5ZDMtMTFkNC00YWUxLTk2ZDQtY2ZmNjhjNDE4NDVj",
         "entrance_slug": "dockyard-mystic-garden-ade",
         "name": "Dockyard & Mystic Garden | #ADE",
@@ -8,9 +8,9 @@
         "end_date": null,
         "location": "Havenpark",
         "city": "Amsterdam",
-        "available_tickets": "1",
-        "sold_tickets": "3086",
-        "wanted_tickets": "5482",
+        "available_tickets": "2",
+        "sold_tickets": "3224",
+        "wanted_tickets": "5538",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIxNDAzNDI=",
@@ -24,7 +24,7 @@
         "url": "http://ticketswap.com/event/dockyard-mystic-garden-ade/c5cb09d3-11d4-4ae1-96d4-cff68c41845c"
     },
     {
-        "updated": "2022-10-15 07:11:12.557566",
+        "updated": "2022-10-16 07:10:53.057494",
         "id": "RXZlbnQ6ODIzZjBiYjItZGU2MS00MGMyLWFlMDQtYmRhZWQwNjE3NGE2",
         "entrance_slug": "tomorrowland-presents-eric-prydz-holo-ade",
         "name": "Tomorrowland presents: Eric Prydz HOLO | #ADE",
@@ -32,9 +32,9 @@
         "end_date": "2022-10-20T23:59:00+02:00",
         "location": "Ziggo Dome",
         "city": "Amsterdam",
-        "available_tickets": "491",
-        "sold_tickets": "2324",
-        "wanted_tickets": "1500",
+        "available_tickets": "556",
+        "sold_tickets": "2422",
+        "wanted_tickets": "1490",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzQwNTY=",
@@ -42,7 +42,7 @@
                 "title": "Wednesday",
                 "start_date": "2022-10-19T20:00:00+02:00",
                 "end_date": "2022-10-19T23:45:00+02:00",
-                "available_tickets": 307
+                "available_tickets": 358
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MzI0MDc=",
@@ -50,7 +50,7 @@
                 "title": "Thursday",
                 "start_date": "2022-10-20T20:00:00+02:00",
                 "end_date": "2022-10-20T23:59:00+02:00",
-                "available_tickets": 179
+                "available_tickets": 192
             },
             {
                 "id": "RXZlbnRUeXBlOjIzNzQwNTQ=",
@@ -64,7 +64,7 @@
         "url": "http://ticketswap.com/event/tomorrowland-presents-eric-prydz-holo-ade/823f0bb2-de61-40c2-ae04-bdaed06174a6"
     },
     {
-        "updated": "2022-10-15 07:11:19.897478",
+        "updated": "2022-10-16 07:11:01.660031",
         "id": "RXZlbnQ6MWQwNjI2NjEtZjgyZi00MDFhLTk4MTAtOTc2NzVhOTE1ZDU4",
         "entrance_slug": "amf-2022-ade",
         "name": "AMF 2022 | #ADE",
@@ -72,9 +72,9 @@
         "end_date": null,
         "location": "Johan Cruijff ArenA",
         "city": "Amsterdam",
-        "available_tickets": "8",
-        "sold_tickets": "24",
-        "wanted_tickets": "4136",
+        "available_tickets": "5",
+        "sold_tickets": "28",
+        "wanted_tickets": "4269",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzQwMDg=",
@@ -152,7 +152,375 @@
         "url": "http://ticketswap.com/event/amf-2022-ade/1d062661-f82f-401a-9810-97675a915d58"
     },
     {
-        "updated": "2022-10-15 07:11:24.540919",
+        "updated": "2022-10-16 07:11:06.269570",
+        "id": "RXZlbnQ6YWVhNDFmMjMtNTNmNC00Mjc1LWFhZGYtMGM3OTc5ZWZiZGZi",
+        "entrance_slug": "awakenings-afterlife-ade",
+        "name": "Awakenings | Afterlife | #ADE",
+        "start_date": "2022-10-22T23:00:00+02:00",
+        "end_date": "2022-10-23T07:00:00+02:00",
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1204",
+        "wanted_tickets": "4273",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzODM1ODI=",
+                "slug": "regular",
+                "title": "Regular",
+                "start_date": "2022-10-22T23:00:00+02:00",
+                "end_date": "2022-10-23T07:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/awakenings-afterlife-ade/aea41f23-53f4-4275-aadf-0c7979efbdfb"
+    },
+    {
+        "updated": "2022-10-16 07:11:07.944126",
+        "id": "RXZlbnQ6MTcyNjJiZDgtYjBiNi00ZTdmLThhOGQtYTc5YzkxNGY3MTdj",
+        "entrance_slug": "awakenings-x-carl-cox-invites-reinier-zonneveld-more-live-by-day-ade",
+        "name": "Awakenings x Carl Cox Invites Reinier Zonneveld & More LIVE (By Day) | #ADE",
+        "start_date": "2022-10-22T14:00:00+02:00",
+        "end_date": "2022-10-22T22:00:00+02:00",
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1124",
+        "wanted_tickets": "3214",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNzI4NDI=",
+                "slug": "regular",
+                "title": "Regular",
+                "start_date": "2022-10-22T14:00:00+02:00",
+                "end_date": "2022-10-22T22:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/awakenings-x-carl-cox-invites-reinier-zonneveld-more-live-by-day-ade/17262bd8-b0b6-4e7f-8a8d-a79c914f717c"
+    },
+    {
+        "updated": "2022-10-16 07:11:09.607215",
+        "id": "RXZlbnQ6MjY0M2FmYmYtOGJkZi00MTY2LTgxNDAtOTM0YzQxZGZjZDky",
+        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
+        "name": "Coldplay - Music Of The Spheres World Tour",
+        "start_date": "2023-07-16T20:00:00+02:00",
+        "end_date": null,
+        "location": "Johan Cruijff ArenA",
+        "city": "Amsterdam",
+        "available_tickets": "5",
+        "sold_tickets": "873",
+        "wanted_tickets": "34893",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzOTM1NzY=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2023-07-16T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTM1Nzc=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2023-07-16T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY3ODk=",
+                "slug": "platinum",
+                "title": "Platinum",
+                "start_date": "2023-07-16T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 5
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTc0MzI=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2023-07-16T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/2643afbf-8bdf-4166-8140-934c41dfcd92"
+    },
+    {
+        "updated": "2022-10-16 07:11:14.979809",
+        "id": "RXZlbnQ6MDg0Y2E1MjktNzI5ZS00NDFhLWJkY2EtNWVjZTAwZWNjZDk4",
+        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
+        "name": "Coldplay - Music Of The Spheres World Tour",
+        "start_date": "2023-07-15T20:00:00+02:00",
+        "end_date": null,
+        "location": "Johan Cruijff ArenA",
+        "city": "Amsterdam",
+        "available_tickets": "9",
+        "sold_tickets": "722",
+        "wanted_tickets": "23359",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzOTcwMzU=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2023-07-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTcwMzY=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2023-07-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 1
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTcwMzc=",
+                "slug": "platinum",
+                "title": "Platinum",
+                "start_date": "2023-07-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 8
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTc0NDc=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2023-07-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/084ca529-729e-441a-bdca-5ece00eccd98"
+    },
+    {
+        "updated": "2022-10-16 07:11:21.246257",
+        "id": "RXZlbnQ6YmI0NDM3ODItY2EyMi00NDk3LWFmNmEtNzg5Njk3ZWM1MGEx",
+        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
+        "name": "Coldplay - Music Of The Spheres World Tour",
+        "start_date": "2023-07-18T20:00:00+02:00",
+        "end_date": null,
+        "location": "Johan Cruijff ArenA",
+        "city": "Amsterdam",
+        "available_tickets": "5",
+        "sold_tickets": "434",
+        "wanted_tickets": "21491",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NTY=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2023-07-18T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NTc=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2023-07-18T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NTg=",
+                "slug": "platinum",
+                "title": "Platinum",
+                "start_date": "2023-07-18T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 5
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTc0MTc=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2023-07-18T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/bb443782-ca22-4497-af6a-789697ec50a1"
+    },
+    {
+        "updated": "2022-10-16 07:11:26.718122",
+        "id": "RXZlbnQ6YjQ0ZjI4ODItMDRlMi00OTZjLWFiZWEtN2M0NjA2MTUyMDll",
+        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
+        "name": "Coldplay - Music Of The Spheres World Tour",
+        "start_date": "2023-07-19T20:00:00+02:00",
+        "end_date": null,
+        "location": "Johan Cruijff ArenA",
+        "city": "Amsterdam",
+        "available_tickets": "4",
+        "sold_tickets": "617",
+        "wanted_tickets": "19372",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NjI=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2023-07-19T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NjM=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2023-07-19T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTY4NjQ=",
+                "slug": "platinum",
+                "title": "Platinum",
+                "start_date": "2023-07-19T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 4
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzOTc0Mjc=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2023-07-19T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/b44f2882-04e2-496c-abea-7c460615209e"
+    },
+    {
+        "updated": "2022-10-16 07:11:32.161030",
+        "id": "RXZlbnQ6OWRkNGZlZDctMWZhNy00MWJhLWE2ZTQtMjEyNGYyMDNkN2Zm",
+        "entrance_slug": "elrow-ade-2022-nowmads-new-world-ade",
+        "name": "elrow ADE 2022 - Nowmads: New World | #ADE",
+        "start_date": "2022-10-22T12:00:00+02:00",
+        "end_date": "2022-10-22T23:00:00+02:00",
+        "location": "Riekerhaven",
+        "city": "Amsterdam",
+        "available_tickets": "433",
+        "sold_tickets": "626",
+        "wanted_tickets": "965",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNTIzNDY=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-22T12:00:00+02:00",
+                "end_date": "2022-10-22T23:00:00+02:00",
+                "available_tickets": 433
+            }
+        ],
+        "url": "http://ticketswap.com/event/elrow-ade-2022-nowmads-new-world-ade/9dd4fed7-1fa7-41ba-a6e4-2124f203d7ff"
+    },
+    {
+        "updated": "2022-10-16 07:11:36.334444",
+        "id": "RXZlbnQ6YTkzZDc3OGYtZTAzNS00YmFkLTg0MTQtNjEyMWY0NGMxNWM4",
+        "entrance_slug": "awakenings-x-charlotte-de-witte-presents-kntxt-ade",
+        "name": "Awakenings x Charlotte De Witte Presents KNTXT | #ADE",
+        "start_date": "2022-10-21T22:00:00+02:00",
+        "end_date": "2022-10-22T07:00:00+02:00",
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1373",
+        "wanted_tickets": "6088",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNzI4MzI=",
+                "slug": "regular",
+                "title": "Regular",
+                "start_date": "2022-10-21T22:00:00+02:00",
+                "end_date": "2022-10-22T07:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/awakenings-x-charlotte-de-witte-presents-kntxt-ade/a93d778f-e035-4bad-8414-6121f44c15c8"
+    },
+    {
+        "updated": "2022-10-16 07:11:38.022359",
+        "id": "RXZlbnQ6MDU2OTI3Y2QtYTllMy00Y2M5LTg2NWQtMGFmNzNhOTY3Nzlk",
+        "entrance_slug": "awakenings-ade-opening-night-ade",
+        "name": "Awakenings ADE Opening Night | #ADE",
+        "start_date": "2022-10-19T22:00:00+02:00",
+        "end_date": "2022-10-20T08:00:00+02:00",
+        "location": "Gashouder Westergasfabriek",
+        "city": "Amsterdam",
+        "available_tickets": "16",
+        "sold_tickets": "590",
+        "wanted_tickets": "1581",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNzI4MTQ=",
+                "slug": "regular",
+                "title": "Regular",
+                "start_date": "2022-10-19T22:00:00+02:00",
+                "end_date": "2022-10-20T08:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/awakenings-ade-opening-night-ade/056927cd-a9e3-4cc9-865d-0af73a96779d"
+    },
+    {
+        "updated": "2022-10-16 07:11:39.660883",
+        "id": "RXZlbnQ6Y2JhMDRiMjItOTg4Yi00YjQ5LTkyNTctYzY0NWNhMWU1YzIw",
+        "entrance_slug": "verknipt-ade-hard-special-thursday-night-ade",
+        "name": "Verknipt ADE Hard Special (Thursday Night) | #ADE",
+        "start_date": "2022-10-20T20:00:00+02:00",
+        "end_date": "2022-10-21T06:00:00+02:00",
+        "location": "United Studios",
+        "city": "Amsterdam",
+        "available_tickets": "9",
+        "sold_tickets": "1704",
+        "wanted_tickets": "3052",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIyNTY2Mzg=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-20T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-thursday-night-ade/cba04b22-988b-4b49-9257-c645ca1e5c20"
+    },
+    {
+        "updated": "2022-10-16 07:11:41.377884",
+        "id": "RXZlbnQ6NDBlYWViYTItMjBkMC00MzM0LWFlYjMtNjUxZmFiMTI2YzQ4",
+        "entrance_slug": "verknipt-ade-hard-special-the-big-closing-sunday-ade",
+        "name": "Verknipt ADE Hard Special - The Big Closing (Sunday) | #ADE",
+        "start_date": "2022-10-23T12:00:00+02:00",
+        "end_date": null,
+        "location": "AFAS Live",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1516",
+        "wanted_tickets": "3665",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNDQwMDI=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-23T12:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIzNDQwMDQ=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2022-10-23T12:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-the-big-closing-sunday-ade/40eaeba2-20d0-4334-aeb3-651fab126c48"
+    },
+    {
+        "updated": "2022-10-16 07:11:43.546301",
         "id": "RXZlbnQ6ODJhYzlmMTAtZDcyMC00MjJkLTk1Y2YtNWYxMmRlMDM4NjEx",
         "entrance_slug": "tcs-amsterdam-marathon",
         "name": "TCS Amsterdam Marathon",
@@ -160,9 +528,9 @@
         "end_date": null,
         "location": "Olympisch Stadion",
         "city": "Amsterdam",
-        "available_tickets": "10",
-        "sold_tickets": "127",
-        "wanted_tickets": "529",
+        "available_tickets": "6",
+        "sold_tickets": "142",
+        "wanted_tickets": "530",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NzQyNjc=",
@@ -210,7 +578,7 @@
                 "title": "TCS Marathon - Pink 09:00",
                 "start_date": "2022-10-16T09:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 1
+                "available_tickets": 0
             },
             {
                 "id": "RXZlbnRUeXBlOjI0NzQxOTU=",
@@ -218,7 +586,7 @@
                 "title": "TCS Marathon - Orange 09:00",
                 "start_date": "2022-10-16T09:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 6
+                "available_tickets": 4
             },
             {
                 "id": "RXZlbnRUeXBlOjI0NzQxOTY=",
@@ -226,7 +594,7 @@
                 "title": "TCS Marathon - Green 09:00",
                 "start_date": "2022-10-16T09:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 1
+                "available_tickets": 0
             },
             {
                 "id": "RXZlbnRUeXBlOjI0NzQxOTc=",
@@ -234,7 +602,7 @@
                 "title": "TCS Marathon - Blue 09:00",
                 "start_date": "2022-10-16T09:00:00+02:00",
                 "end_date": null,
-                "available_tickets": 0
+                "available_tickets": 1
             },
             {
                 "id": "RXZlbnRUeXBlOjI0NzQyMTU=",
@@ -290,413 +658,13 @@
                 "title": "Regular",
                 "start_date": "2022-10-16T08:30:00+02:00",
                 "end_date": null,
-                "available_tickets": 1
+                "available_tickets": 0
             }
         ],
         "url": "http://ticketswap.com/event/tcs-amsterdam-marathon/82ac9f10-d720-422d-95cf-5f12de038611"
     },
     {
-        "updated": "2022-10-15 07:11:40.977151",
-        "id": "RXZlbnQ6MjY0M2FmYmYtOGJkZi00MTY2LTgxNDAtOTM0YzQxZGZjZDky",
-        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
-        "name": "Coldplay - Music Of The Spheres World Tour",
-        "start_date": "2023-07-16T20:00:00+02:00",
-        "end_date": null,
-        "location": "Johan Cruijff ArenA",
-        "city": "Amsterdam",
-        "available_tickets": "5",
-        "sold_tickets": "871",
-        "wanted_tickets": "34846",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzOTM1NzY=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2023-07-16T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTM1Nzc=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2023-07-16T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY3ODk=",
-                "slug": "platinum",
-                "title": "Platinum",
-                "start_date": "2023-07-16T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 5
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTc0MzI=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2023-07-16T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/2643afbf-8bdf-4166-8140-934c41dfcd92"
-    },
-    {
-        "updated": "2022-10-15 07:11:46.560707",
-        "id": "RXZlbnQ6MTcyNjJiZDgtYjBiNi00ZTdmLThhOGQtYTc5YzkxNGY3MTdj",
-        "entrance_slug": "awakenings-x-carl-cox-invites-reinier-zonneveld-more-live-by-day-ade",
-        "name": "Awakenings x Carl Cox Invites Reinier Zonneveld & More LIVE (By Day) | #ADE",
-        "start_date": "2022-10-22T14:00:00+02:00",
-        "end_date": "2022-10-22T22:00:00+02:00",
-        "location": "Ziggo Dome",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1079",
-        "wanted_tickets": "3104",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNzI4NDI=",
-                "slug": "regular",
-                "title": "Regular",
-                "start_date": "2022-10-22T14:00:00+02:00",
-                "end_date": "2022-10-22T22:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/awakenings-x-carl-cox-invites-reinier-zonneveld-more-live-by-day-ade/17262bd8-b0b6-4e7f-8a8d-a79c914f717c"
-    },
-    {
-        "updated": "2022-10-15 07:11:48.279493",
-        "id": "RXZlbnQ6YWVhNDFmMjMtNTNmNC00Mjc1LWFhZGYtMGM3OTc5ZWZiZGZi",
-        "entrance_slug": "awakenings-afterlife-ade",
-        "name": "Awakenings | Afterlife | #ADE",
-        "start_date": "2022-10-22T23:00:00+02:00",
-        "end_date": "2022-10-23T07:00:00+02:00",
-        "location": "Ziggo Dome",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1129",
-        "wanted_tickets": "4257",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzODM1ODI=",
-                "slug": "regular",
-                "title": "Regular",
-                "start_date": "2022-10-22T23:00:00+02:00",
-                "end_date": "2022-10-23T07:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/awakenings-afterlife-ade/aea41f23-53f4-4275-aadf-0c7979efbdfb"
-    },
-    {
-        "updated": "2022-10-15 07:11:49.974553",
-        "id": "RXZlbnQ6MDg0Y2E1MjktNzI5ZS00NDFhLWJkY2EtNWVjZTAwZWNjZDk4",
-        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
-        "name": "Coldplay - Music Of The Spheres World Tour",
-        "start_date": "2023-07-15T20:00:00+02:00",
-        "end_date": null,
-        "location": "Johan Cruijff ArenA",
-        "city": "Amsterdam",
-        "available_tickets": "9",
-        "sold_tickets": "718",
-        "wanted_tickets": "23308",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzOTcwMzU=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2023-07-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTcwMzY=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2023-07-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 1
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTcwMzc=",
-                "slug": "platinum",
-                "title": "Platinum",
-                "start_date": "2023-07-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 8
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTc0NDc=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2023-07-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/084ca529-729e-441a-bdca-5ece00eccd98"
-    },
-    {
-        "updated": "2022-10-15 07:11:56.406403",
-        "id": "RXZlbnQ6YmI0NDM3ODItY2EyMi00NDk3LWFmNmEtNzg5Njk3ZWM1MGEx",
-        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
-        "name": "Coldplay - Music Of The Spheres World Tour",
-        "start_date": "2023-07-18T20:00:00+02:00",
-        "end_date": null,
-        "location": "Johan Cruijff ArenA",
-        "city": "Amsterdam",
-        "available_tickets": "7",
-        "sold_tickets": "432",
-        "wanted_tickets": "21420",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NTY=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2023-07-18T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NTc=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2023-07-18T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NTg=",
-                "slug": "platinum",
-                "title": "Platinum",
-                "start_date": "2023-07-18T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 7
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTc0MTc=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2023-07-18T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/bb443782-ca22-4497-af6a-789697ec50a1"
-    },
-    {
-        "updated": "2022-10-15 07:12:01.659999",
-        "id": "RXZlbnQ6MmVkMjhlYTYtYzkwNS00YjE1LTg3ZjEtMDE3NWI2YTFjMzI0",
-        "entrance_slug": "thuishaven-w-fatboy-slim-more-nachtshow",
-        "name": "Thuishaven w/ Fatboy Slim & more + Nachtshow",
-        "start_date": "2022-10-15T13:00:00+02:00",
-        "end_date": "2022-10-16T04:00:00+02:00",
-        "location": "Thuishaven",
-        "city": "Amsterdam",
-        "available_tickets": "27",
-        "sold_tickets": "879",
-        "wanted_tickets": "278",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjI0MTU4ODM=",
-                "slug": "zaterdag-ticket-dagshow",
-                "title": "Zaterdag Ticket | Dagshow",
-                "start_date": "2022-10-15T13:00:00+02:00",
-                "end_date": "2022-10-15T23:00:00+02:00",
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0MTY0NjQ=",
-                "slug": "after-ticket-nachtshow",
-                "title": "After Ticket | Nachtshow",
-                "start_date": "2022-10-15T23:00:00+02:00",
-                "end_date": "2022-10-16T04:00:00+02:00",
-                "available_tickets": 27
-            }
-        ],
-        "url": "http://ticketswap.com/event/thuishaven-w-fatboy-slim-more-nachtshow/2ed28ea6-c905-4b15-87f1-0175b6a1c324"
-    },
-    {
-        "updated": "2022-10-15 07:12:06.117772",
-        "id": "RXZlbnQ6YjQ0ZjI4ODItMDRlMi00OTZjLWFiZWEtN2M0NjA2MTUyMDll",
-        "entrance_slug": "coldplay-music-of-the-spheres-world-tour",
-        "name": "Coldplay - Music Of The Spheres World Tour",
-        "start_date": "2023-07-19T20:00:00+02:00",
-        "end_date": null,
-        "location": "Johan Cruijff ArenA",
-        "city": "Amsterdam",
-        "available_tickets": "4",
-        "sold_tickets": "617",
-        "wanted_tickets": "19315",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NjI=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2023-07-19T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NjM=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2023-07-19T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTY4NjQ=",
-                "slug": "platinum",
-                "title": "Platinum",
-                "start_date": "2023-07-19T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 4
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzOTc0Mjc=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2023-07-19T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/coldplay-music-of-the-spheres-world-tour/b44f2882-04e2-496c-abea-7c460615209e"
-    },
-    {
-        "updated": "2022-10-15 07:12:11.704006",
-        "id": "RXZlbnQ6OWRkNGZlZDctMWZhNy00MWJhLWE2ZTQtMjEyNGYyMDNkN2Zm",
-        "entrance_slug": "elrow-ade-2022-nowmads-new-world-ade",
-        "name": "elrow ADE 2022 - Nowmads: New World | #ADE",
-        "start_date": "2022-10-22T12:00:00+02:00",
-        "end_date": "2022-10-22T23:00:00+02:00",
-        "location": "Riekerhaven",
-        "city": "Amsterdam",
-        "available_tickets": "447",
-        "sold_tickets": "527",
-        "wanted_tickets": "977",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNTIzNDY=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-22T12:00:00+02:00",
-                "end_date": "2022-10-22T23:00:00+02:00",
-                "available_tickets": 447
-            }
-        ],
-        "url": "http://ticketswap.com/event/elrow-ade-2022-nowmads-new-world-ade/9dd4fed7-1fa7-41ba-a6e4-2124f203d7ff"
-    },
-    {
-        "updated": "2022-10-15 07:12:16.584192",
-        "id": "RXZlbnQ6YTkzZDc3OGYtZTAzNS00YmFkLTg0MTQtNjEyMWY0NGMxNWM4",
-        "entrance_slug": "awakenings-x-charlotte-de-witte-presents-kntxt-ade",
-        "name": "Awakenings x Charlotte De Witte Presents KNTXT | #ADE",
-        "start_date": "2022-10-21T22:00:00+02:00",
-        "end_date": "2022-10-22T07:00:00+02:00",
-        "location": "Ziggo Dome",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1330",
-        "wanted_tickets": "6012",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNzI4MzI=",
-                "slug": "regular",
-                "title": "Regular",
-                "start_date": "2022-10-21T22:00:00+02:00",
-                "end_date": "2022-10-22T07:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/awakenings-x-charlotte-de-witte-presents-kntxt-ade/a93d778f-e035-4bad-8414-6121f44c15c8"
-    },
-    {
-        "updated": "2022-10-15 07:12:18.264092",
-        "id": "RXZlbnQ6NDBlYWViYTItMjBkMC00MzM0LWFlYjMtNjUxZmFiMTI2YzQ4",
-        "entrance_slug": "verknipt-ade-hard-special-the-big-closing-sunday-ade",
-        "name": "Verknipt ADE Hard Special - The Big Closing (Sunday) | #ADE",
-        "start_date": "2022-10-23T12:00:00+02:00",
-        "end_date": null,
-        "location": "AFAS Live",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1495",
-        "wanted_tickets": "3630",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNDQwMDI=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-23T12:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIzNDQwMDQ=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2022-10-23T12:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-the-big-closing-sunday-ade/40eaeba2-20d0-4334-aeb3-651fab126c48"
-    },
-    {
-        "updated": "2022-10-15 07:12:20.368030",
-        "id": "RXZlbnQ6MDU2OTI3Y2QtYTllMy00Y2M5LTg2NWQtMGFmNzNhOTY3Nzlk",
-        "entrance_slug": "awakenings-ade-opening-night-ade",
-        "name": "Awakenings ADE Opening Night | #ADE",
-        "start_date": "2022-10-19T22:00:00+02:00",
-        "end_date": "2022-10-20T08:00:00+02:00",
-        "location": "Gashouder Westergasfabriek",
-        "city": "Amsterdam",
-        "available_tickets": "14",
-        "sold_tickets": "569",
-        "wanted_tickets": "1514",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNzI4MTQ=",
-                "slug": "regular",
-                "title": "Regular",
-                "start_date": "2022-10-19T22:00:00+02:00",
-                "end_date": "2022-10-20T08:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/awakenings-ade-opening-night-ade/056927cd-a9e3-4cc9-865d-0af73a96779d"
-    },
-    {
-        "updated": "2022-10-15 07:12:22.055252",
-        "id": "RXZlbnQ6Y2JhMDRiMjItOTg4Yi00YjQ5LTkyNTctYzY0NWNhMWU1YzIw",
-        "entrance_slug": "verknipt-ade-hard-special-thursday-night-ade",
-        "name": "Verknipt ADE Hard Special (Thursday Night) | #ADE",
-        "start_date": "2022-10-20T20:00:00+02:00",
-        "end_date": "2022-10-21T06:00:00+02:00",
-        "location": "United Studios",
-        "city": "Amsterdam",
-        "available_tickets": "9",
-        "sold_tickets": "1675",
-        "wanted_tickets": "3092",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIyNTY2Mzg=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-20T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/verknipt-ade-hard-special-thursday-night-ade/cba04b22-988b-4b49-9257-c645ca1e5c20"
-    },
-    {
-        "updated": "2022-10-15 07:12:23.800664",
+        "updated": "2022-10-16 07:11:57.332635",
         "id": "RXZlbnQ6OGU0ZTM1NmYtNTRiZS00MDg0LTkyOWUtOTFlNTljNmQwMTkw",
         "entrance_slug": "no-art-ade-hollandsche-manege-ade",
         "name": "No Art ADE - Hollandsche Manege | #ADE",
@@ -704,9 +672,9 @@
         "end_date": "2022-10-23T23:00:00+02:00",
         "location": "De Hollandsche Manege",
         "city": "Amsterdam",
-        "available_tickets": "41",
-        "sold_tickets": "531",
-        "wanted_tickets": "1749",
+        "available_tickets": "37",
+        "sold_tickets": "570",
+        "wanted_tickets": "1785",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0MDI1Mzk=",
@@ -722,7 +690,7 @@
                 "title": "Sunday",
                 "start_date": "2022-10-23T14:00:00+02:00",
                 "end_date": "2022-10-23T23:00:00+02:00",
-                "available_tickets": 41
+                "available_tickets": 37
             },
             {
                 "id": "RXZlbnRUeXBlOjI0MjIyNzE=",
@@ -736,7 +704,31 @@
         "url": "http://ticketswap.com/event/no-art-ade-hollandsche-manege-ade/8e4e356f-54be-4084-929e-91e59c6d0190"
     },
     {
-        "updated": "2022-10-15 07:12:29.752337",
+        "updated": "2022-10-16 07:12:02.895139",
+        "id": "RXZlbnQ6NGFhMmY5OTAtZTM3OC00MjdjLTk5ZjQtMDE2MzUzYTNmOTli",
+        "entrance_slug": "audio-obscura-x-peggy-gou-presents-gou-talk-ade",
+        "name": "Audio Obscura x Peggy Gou presents GOU TALK | #ADE",
+        "start_date": "2022-10-20T22:00:00+02:00",
+        "end_date": "2022-10-21T06:00:00+02:00",
+        "location": "RAW factory",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "620",
+        "wanted_tickets": "3345",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNDMzODg=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-20T22:00:00+02:00",
+                "end_date": "2022-10-21T06:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/audio-obscura-x-peggy-gou-presents-gou-talk-ade/4aa2f990-e378-427c-99f4-016353a3f99b"
+    },
+    {
+        "updated": "2022-10-16 07:12:04.529085",
         "id": "RXZlbnQ6NWRhYTA0NmQtMGE2My00ZjQ4LThkZTctYmU5YjRhZjM1NTY0",
         "entrance_slug": "secret-project-ade",
         "name": "Secret Project #ADE",
@@ -744,9 +736,9 @@
         "end_date": "2022-10-22T23:00:00+02:00",
         "location": "Hembrugterrein",
         "city": "Zaandam",
-        "available_tickets": "198",
-        "sold_tickets": "219",
-        "wanted_tickets": "515",
+        "available_tickets": "210",
+        "sold_tickets": "284",
+        "wanted_tickets": "533",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0OTMzODA=",
@@ -754,7 +746,7 @@
                 "title": "Friday",
                 "start_date": "2022-10-21T12:00:00+02:00",
                 "end_date": "2022-10-21T23:00:00+02:00",
-                "available_tickets": 62
+                "available_tickets": 69
             },
             {
                 "id": "RXZlbnRUeXBlOjI0OTMzODM=",
@@ -770,7 +762,7 @@
                 "title": "Saturday",
                 "start_date": "2022-10-22T12:00:00+02:00",
                 "end_date": "2022-10-22T23:00:00+02:00",
-                "available_tickets": 135
+                "available_tickets": 140
             },
             {
                 "id": "RXZlbnRUeXBlOjIzNjQ3NTc=",
@@ -784,7 +776,7 @@
         "url": "http://ticketswap.com/event/secret-project-ade/5daa046d-0a63-4f48-8de7-be9b4af35564"
     },
     {
-        "updated": "2022-10-15 07:12:38.458079",
+        "updated": "2022-10-16 07:12:13.305763",
         "id": "RXZlbnQ6ZGI1ODg1YjMtMTFmNS00NDVkLWI5MTAtZmRjMzY1ZjVkMjY5",
         "entrance_slug": "circoloco-x-loveland-ade",
         "name": "Circoloco x Loveland | #ADE",
@@ -793,8 +785,8 @@
         "location": "Mediahaven",
         "city": "Amsterdam",
         "available_tickets": "26",
-        "sold_tickets": "499",
-        "wanted_tickets": "771",
+        "sold_tickets": "509",
+        "wanted_tickets": "860",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIyOTM2NTg=",
@@ -816,79 +808,7 @@
         "url": "http://ticketswap.com/event/circoloco-x-loveland-ade/db5885b3-11f5-445d-b910-fdc365f5d269"
     },
     {
-        "updated": "2022-10-15 07:12:40.634665",
-        "id": "RXZlbnQ6OGFjMjEzYmItN2VlOS00MWYxLThiNmItYjc4MzcwYjdmMDQx",
-        "entrance_slug": "audio-obscura-finale-w-solomun-b2b-adriatique-ade",
-        "name": "Audio Obscura Finale w/ Solomun b2b Adriatique | #ADE",
-        "start_date": "2022-10-23T16:00:00+02:00",
-        "end_date": null,
-        "location": "A'DAM The Loft",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "40",
-        "wanted_tickets": "2933",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjI0NzkzMzE=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-23T16:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/audio-obscura-finale-w-solomun-b2b-adriatique-ade/8ac213bb-7ee9-41f1-8b6b-b78370b7f041"
-    },
-    {
-        "updated": "2022-10-15 07:12:41.608104",
-        "id": "RXZlbnQ6OTllZjkxYjYtOTI3OC00ZmUzLWFmYWItY2ExZTQ3OTNlMzVh",
-        "entrance_slug": "verknipt-ade-techno-special-friday-ade",
-        "name": "Verknipt ADE Techno Special (Friday) | #ADE",
-        "start_date": "2022-10-21T15:00:00+02:00",
-        "end_date": "2022-10-21T23:00:00+02:00",
-        "location": "World Fashion Centre",
-        "city": "Amsterdam",
-        "available_tickets": "22",
-        "sold_tickets": "977",
-        "wanted_tickets": "2233",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIyNzYyOTg=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-21T15:00:00+02:00",
-                "end_date": "2022-10-21T23:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/verknipt-ade-techno-special-friday-ade/99ef91b6-9278-4fe3-afab-ca1e4793e35a"
-    },
-    {
-        "updated": "2022-10-15 07:12:43.154276",
-        "id": "RXZlbnQ6YTJlYzNjOGYtZjE1YS00MzFiLTlkZGQtN2JiY2RlNTI2MTA2",
-        "entrance_slug": "breakfast-club-saturday-ade-weekender-2022-ade",
-        "name": "Breakfast Club - Saturday ADE Weekender 2022 | #ADE",
-        "start_date": "2022-10-22T10:00:00+02:00",
-        "end_date": "2022-10-22T22:00:00+02:00",
-        "location": "Hemkade 48",
-        "city": "Zaandam",
-        "available_tickets": "0",
-        "sold_tickets": "531",
-        "wanted_tickets": "1981",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjE4OTc5MjM=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-22T10:00:00+02:00",
-                "end_date": "2022-10-22T22:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/breakfast-club-saturday-ade-weekender-2022-ade/a2ec3c8f-f15a-431b-9ddd-7bbcde526106"
-    },
-    {
-        "updated": "2022-10-15 07:12:45.148957",
+        "updated": "2022-10-16 07:12:15.452948",
         "id": "RXZlbnQ6OThlNGNlMDMtOGZjZi00MDkzLTgyMDItYzY1NmMxZmRiYTdk",
         "entrance_slug": "awakenings-x-adam-beyer-presents-drumcode-ade",
         "name": "Awakenings x Adam Beyer Presents Drumcode | #ADE",
@@ -896,9 +816,9 @@
         "end_date": "2022-10-21T08:00:00+02:00",
         "location": "Gashouder Westergasfabriek",
         "city": "Amsterdam",
-        "available_tickets": "24",
-        "sold_tickets": "541",
-        "wanted_tickets": "1173",
+        "available_tickets": "28",
+        "sold_tickets": "578",
+        "wanted_tickets": "1168",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzI4Mjc=",
@@ -912,39 +832,31 @@
         "url": "http://ticketswap.com/event/awakenings-x-adam-beyer-presents-drumcode-ade/98e4ce03-8fcf-4093-8202-c656c1fdba7d"
     },
     {
-        "updated": "2022-10-15 07:12:46.829751",
-        "id": "RXZlbnQ6OGVhMTUxZGUtYTgyMC00MWIzLThiNTItYjhiODUwOWI2M2Zj",
-        "entrance_slug": "paradise-x-loveland-ade",
-        "name": "Paradise x Loveland | #ADE",
-        "start_date": "2022-10-21T22:00:00+02:00",
-        "end_date": null,
-        "location": "Warehouse Houthavens",
+        "updated": "2022-10-16 07:12:17.008360",
+        "id": "RXZlbnQ6OTllZjkxYjYtOTI3OC00ZmUzLWFmYWItY2ExZTQ3OTNlMzVh",
+        "entrance_slug": "verknipt-ade-techno-special-friday-ade",
+        "name": "Verknipt ADE Techno Special (Friday) | #ADE",
+        "start_date": "2022-10-21T15:00:00+02:00",
+        "end_date": "2022-10-21T23:00:00+02:00",
+        "location": "World Fashion Centre",
         "city": "Amsterdam",
-        "available_tickets": "3",
-        "sold_tickets": "270",
-        "wanted_tickets": "1525",
+        "available_tickets": "22",
+        "sold_tickets": "1000",
+        "wanted_tickets": "2242",
         "entrance_types": [
             {
-                "id": "RXZlbnRUeXBlOjI0OTM0NjI=",
-                "slug": "backstage-ticket",
-                "title": "Backstage ticket",
-                "start_date": "2022-10-21T22:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjIyOTM2NTA=",
+                "id": "RXZlbnRUeXBlOjIyNzYyOTg=",
                 "slug": "regular-tickets",
                 "title": "Regular",
-                "start_date": "2022-10-21T22:00:00+02:00",
-                "end_date": null,
+                "start_date": "2022-10-21T15:00:00+02:00",
+                "end_date": "2022-10-21T23:00:00+02:00",
                 "available_tickets": 0
             }
         ],
-        "url": "http://ticketswap.com/event/paradise-x-loveland-ade/8ea151de-a820-41b3-8b52-b8b8509b63fc"
+        "url": "http://ticketswap.com/event/verknipt-ade-techno-special-friday-ade/99ef91b6-9278-4fe3-afab-ca1e4793e35a"
     },
     {
-        "updated": "2022-10-15 07:12:48.807295",
+        "updated": "2022-10-16 07:12:18.664905",
         "id": "RXZlbnQ6YzQ5MmJhZDctZDI4Yi00ZGNjLTg5YmMtMWU1Y2IxNzJjNzFm",
         "entrance_slug": "solomun-x-loveland-ade",
         "name": "Solomun x Loveland | #ADE",
@@ -952,9 +864,9 @@
         "end_date": "2022-10-21T22:00:00+02:00",
         "location": "Warehouse Houthavens",
         "city": "Amsterdam",
-        "available_tickets": "2",
-        "sold_tickets": "363",
-        "wanted_tickets": "1111",
+        "available_tickets": "4",
+        "sold_tickets": "389",
+        "wanted_tickets": "1140",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0MDc4ODE=",
@@ -976,7 +888,111 @@
         "url": "http://ticketswap.com/event/solomun-x-loveland-ade/c492bad7-d28b-4dcc-89bc-1e5cb172c71f"
     },
     {
-        "updated": "2022-10-15 07:12:50.755525",
+        "updated": "2022-10-16 07:12:20.807164",
+        "id": "RXZlbnQ6YTJlYzNjOGYtZjE1YS00MzFiLTlkZGQtN2JiY2RlNTI2MTA2",
+        "entrance_slug": "breakfast-club-saturday-ade-weekender-2022-ade",
+        "name": "Breakfast Club - Saturday ADE Weekender 2022 | #ADE",
+        "start_date": "2022-10-22T10:00:00+02:00",
+        "end_date": "2022-10-22T22:00:00+02:00",
+        "location": "Hemkade 48",
+        "city": "Zaandam",
+        "available_tickets": "0",
+        "sold_tickets": "547",
+        "wanted_tickets": "2025",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjE4OTc5MjM=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-22T10:00:00+02:00",
+                "end_date": "2022-10-22T22:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/breakfast-club-saturday-ade-weekender-2022-ade/a2ec3c8f-f15a-431b-9ddd-7bbcde526106"
+    },
+    {
+        "updated": "2022-10-16 07:12:22.559568",
+        "id": "RXZlbnQ6OGVhMTUxZGUtYTgyMC00MWIzLThiNTItYjhiODUwOWI2M2Zj",
+        "entrance_slug": "paradise-x-loveland-ade",
+        "name": "Paradise x Loveland | #ADE",
+        "start_date": "2022-10-21T22:00:00+02:00",
+        "end_date": null,
+        "location": "Warehouse Houthavens",
+        "city": "Amsterdam",
+        "available_tickets": "4",
+        "sold_tickets": "283",
+        "wanted_tickets": "1559",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjI0OTM0NjI=",
+                "slug": "backstage-ticket",
+                "title": "Backstage ticket",
+                "start_date": "2022-10-21T22:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjIyOTM2NTA=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-21T22:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/paradise-x-loveland-ade/8ea151de-a820-41b3-8b52-b8b8509b63fc"
+    },
+    {
+        "updated": "2022-10-16 07:12:24.614786",
+        "id": "RXZlbnQ6OGFjMjEzYmItN2VlOS00MWYxLThiNmItYjc4MzcwYjdmMDQx",
+        "entrance_slug": "audio-obscura-finale-w-solomun-b2b-adriatique-ade",
+        "name": "Audio Obscura Finale w/ Solomun b2b Adriatique | #ADE",
+        "start_date": "2022-10-23T16:00:00+02:00",
+        "end_date": null,
+        "location": "A'DAM The Loft",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "41",
+        "wanted_tickets": "3058",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjI0NzkzMzE=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-23T16:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/audio-obscura-finale-w-solomun-b2b-adriatique-ade/8ac213bb-7ee9-41f1-8b6b-b78370b7f041"
+    },
+    {
+        "updated": "2022-10-16 07:12:25.598312",
+        "id": "RXZlbnQ6ZmQ4NDk3ODUtODk1OC00NzExLTg3ZTItZTRlOTczOTk4NjNk",
+        "entrance_slug": "awakenings-x-richie-hawtin-from-our-minds-ade",
+        "name": "Awakenings x Richie Hawtin - From Our Minds | #ADE",
+        "start_date": "2022-10-21T22:00:00+02:00",
+        "end_date": "2022-10-22T08:00:00+02:00",
+        "location": "Gashouder Westergasfabriek",
+        "city": "Amsterdam",
+        "available_tickets": "33",
+        "sold_tickets": "565",
+        "wanted_tickets": "896",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIzNzI4MzA=",
+                "slug": "regular",
+                "title": "Regular",
+                "start_date": "2022-10-21T22:00:00+02:00",
+                "end_date": "2022-10-22T08:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/awakenings-x-richie-hawtin-from-our-minds-ade/fd849785-8958-4711-87e2-e4e97399863d"
+    },
+    {
+        "updated": "2022-10-16 07:12:27.294555",
         "id": "RXZlbnQ6YzZiYjQzMWItZjgzNS00OGMwLTlhMzItYmQwNWIwNGE5MjYx",
         "entrance_slug": "the-cure-tour-euro-22",
         "name": "The Cure - Tour Euro 22",
@@ -985,8 +1001,8 @@
         "location": "Ziggo Dome",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "386",
-        "wanted_tickets": "4484",
+        "sold_tickets": "390",
+        "wanted_tickets": "4531",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjE5NTc1MTU=",
@@ -1032,31 +1048,7 @@
         "url": "http://ticketswap.com/event/the-cure-tour-euro-22/c6bb431b-f835-48c0-9a32-bd05b04a9261"
     },
     {
-        "updated": "2022-10-15 07:12:55.117503",
-        "id": "RXZlbnQ6ZmQ4NDk3ODUtODk1OC00NzExLTg3ZTItZTRlOTczOTk4NjNk",
-        "entrance_slug": "awakenings-x-richie-hawtin-from-our-minds-ade",
-        "name": "Awakenings x Richie Hawtin - From Our Minds | #ADE",
-        "start_date": "2022-10-21T22:00:00+02:00",
-        "end_date": "2022-10-22T08:00:00+02:00",
-        "location": "Gashouder Westergasfabriek",
-        "city": "Amsterdam",
-        "available_tickets": "34",
-        "sold_tickets": "535",
-        "wanted_tickets": "866",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNzI4MzA=",
-                "slug": "regular",
-                "title": "Regular",
-                "start_date": "2022-10-21T22:00:00+02:00",
-                "end_date": "2022-10-22T08:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/awakenings-x-richie-hawtin-from-our-minds-ade/fd849785-8958-4711-87e2-e4e97399863d"
-    },
-    {
-        "updated": "2022-10-15 07:12:56.782363",
+        "updated": "2022-10-16 07:12:31.490386",
         "id": "RXZlbnQ6NjRkMWE4MDAtYzNmOC00Yzk1LTk1ZTQtZWQ1OGZmZGU4MTgz",
         "entrance_slug": "awakenings-x-joseph-capriati-invites-ade",
         "name": "Awakenings x Joseph Capriati Invites | #ADE",
@@ -1064,9 +1056,9 @@
         "end_date": "2022-10-23T08:00:00+02:00",
         "location": "Gashouder Westergasfabriek",
         "city": "Amsterdam",
-        "available_tickets": "28",
-        "sold_tickets": "568",
-        "wanted_tickets": "573",
+        "available_tickets": "27",
+        "sold_tickets": "604",
+        "wanted_tickets": "630",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzI4NDU=",
@@ -1080,31 +1072,7 @@
         "url": "http://ticketswap.com/event/awakenings-x-joseph-capriati-invites-ade/64d1a800-c3f8-4c95-95e4-ed58ffde8183"
     },
     {
-        "updated": "2022-10-15 07:12:58.483071",
-        "id": "RXZlbnQ6NGFhMmY5OTAtZTM3OC00MjdjLTk5ZjQtMDE2MzUzYTNmOTli",
-        "entrance_slug": "audio-obscura-x-peggy-gou-presents-gou-talk-ade",
-        "name": "Audio Obscura x Peggy Gou presents GOU TALK | #ADE",
-        "start_date": "2022-10-20T22:00:00+02:00",
-        "end_date": "2022-10-21T06:00:00+02:00",
-        "location": "RAW factory",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "601",
-        "wanted_tickets": "3310",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzNDMzODg=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-20T22:00:00+02:00",
-                "end_date": "2022-10-21T06:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/audio-obscura-x-peggy-gou-presents-gou-talk-ade/4aa2f990-e378-427c-99f4-016353a3f99b"
-    },
-    {
-        "updated": "2022-10-15 07:13:00.211857",
+        "updated": "2022-10-16 07:12:33.164588",
         "id": "RXZlbnQ6MGNhNTM0NWUtMDFmYi00M2I1LWE3YjktYzJjMDhkZWY4ODNj",
         "entrance_slug": "techno-special-w-dion-10hrs",
         "name": "Techno Special w/ DIØN 10Hrs",
@@ -1112,9 +1080,9 @@
         "end_date": "2022-12-04T04:00:00+01:00",
         "location": "Thuishaven",
         "city": "Amsterdam",
-        "available_tickets": "45",
-        "sold_tickets": "396",
-        "wanted_tickets": "2248",
+        "available_tickets": "36",
+        "sold_tickets": "408",
+        "wanted_tickets": "2265",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NDEzMTc=",
@@ -1130,13 +1098,13 @@
                 "title": "Nachtshow",
                 "start_date": "2022-12-03T23:00:00+01:00",
                 "end_date": "2022-12-04T04:00:00+01:00",
-                "available_tickets": 45
+                "available_tickets": 36
             }
         ],
         "url": "http://ticketswap.com/event/techno-special-w-dion-10hrs/0ca5345e-01fb-43b5-a7b9-c2c08def883c"
     },
     {
-        "updated": "2022-10-15 07:13:04.556848",
+        "updated": "2022-10-16 07:12:37.230798",
         "id": "RXZlbnQ6Y2Q1NzJjZWYtYzEyNC00ODQ4LThiMjctNWZhNTM3MzU3OTFk",
         "entrance_slug": "robbie-williams-xxv-tour-2023",
         "name": "Robbie Williams - XXV Tour 2023",
@@ -1145,8 +1113,8 @@
         "location": "Ziggo Dome",
         "city": "Amsterdam",
         "available_tickets": "35",
-        "sold_tickets": "283",
-        "wanted_tickets": "905",
+        "sold_tickets": "287",
+        "wanted_tickets": "935",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NjczNzc=",
@@ -1208,79 +1176,7 @@
         "url": "http://ticketswap.com/event/robbie-williams-xxv-tour-2023/cd572cef-c124-4848-8b27-5fa53735791d"
     },
     {
-        "updated": "2022-10-15 07:13:13.553061",
-        "id": "RXZlbnQ6NWEyYWNiZTMtYTRlOC00YmFlLWE4NDktZjY0MDc1ODY4NDYy",
-        "entrance_slug": "oscar-and-the-wolf",
-        "name": "Oscar and the Wolf",
-        "start_date": "2022-10-15T20:00:00+02:00",
-        "end_date": null,
-        "location": "Ziggo Dome",
-        "city": "Amsterdam",
-        "available_tickets": "172",
-        "sold_tickets": "718",
-        "wanted_tickets": "319",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjE5NzE5NTY=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2022-10-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 116
-            },
-            {
-                "id": "RXZlbnRUeXBlOjE5NzE5NTU=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2022-10-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 54
-            },
-            {
-                "id": "RXZlbnRUeXBlOjE5NzE5NTQ=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2022-10-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjE5NzE5NTc=",
-                "slug": "parking-tickets",
-                "title": "Parking",
-                "start_date": "2022-10-15T20:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 2
-            }
-        ],
-        "url": "http://ticketswap.com/event/oscar-and-the-wolf/5a2acbe3-a4e8-4bae-a849-f64075868462"
-    },
-    {
-        "updated": "2022-10-15 07:13:22.450829",
-        "id": "RXZlbnQ6Y2QzNDA5MDMtNDUxYy00OWIyLTg4MzctNmZlNWViYTU0YmUw",
-        "entrance_slug": "verknipt-hard-special",
-        "name": "Verknipt HARD Special",
-        "start_date": "2022-11-26T20:00:00+01:00",
-        "end_date": null,
-        "location": "AFAS Live",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "1291",
-        "wanted_tickets": "1781",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIyOTM0ODI=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-11-26T22:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/verknipt-hard-special/cd340903-451c-49b2-8837-6fe5eba54be0"
-    },
-    {
-        "updated": "2022-10-15 07:13:24.153386",
+        "updated": "2022-10-16 07:12:45.185002",
         "id": "RXZlbnQ6YjE0ZThkMDAtOGI3OS00YmExLTljMmEtODc1MWM1MTkxZTE0",
         "entrance_slug": "awakenings-x-exhale-with-amelie-lens-by-day-ade",
         "name": "Awakenings x Exhale With Amelie Lens (By Day) | #ADE",
@@ -1289,8 +1185,8 @@
         "location": "Gashouder Westergasfabriek",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "609",
-        "wanted_tickets": "3115",
+        "sold_tickets": "624",
+        "wanted_tickets": "3149",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzNzI4NDY=",
@@ -1304,7 +1200,55 @@
         "url": "http://ticketswap.com/event/awakenings-x-exhale-with-amelie-lens-by-day-ade/b14e8d00-8b79-4ba1-9c2a-8751c5191e14"
     },
     {
-        "updated": "2022-10-15 07:13:25.782619",
+        "updated": "2022-10-16 07:12:46.804428",
+        "id": "RXZlbnQ6Yjg3Mjk5ODMtODgxMy00MDFhLTg5NDAtODdmNzkxMDkwZTIw",
+        "entrance_slug": "dgtl-presents-we-still-believe-the-blessed-madonna-ade",
+        "name": "DGTL Presents: We Still Believe: The Blessed Madonna | #ADE",
+        "start_date": "2022-10-22T12:00:00+02:00",
+        "end_date": "2022-10-22T22:00:00+02:00",
+        "location": "NDSM",
+        "city": "Amsterdam",
+        "available_tickets": "9",
+        "sold_tickets": "673",
+        "wanted_tickets": "532",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIyNjQwNDc=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-22T12:00:00+02:00",
+                "end_date": "2022-10-22T22:00:00+02:00",
+                "available_tickets": 9
+            }
+        ],
+        "url": "http://ticketswap.com/event/dgtl-presents-we-still-believe-the-blessed-madonna-ade/b8729983-8813-401a-8940-87f791090e20"
+    },
+    {
+        "updated": "2022-10-16 07:12:50.192120",
+        "id": "RXZlbnQ6Y2QzNDA5MDMtNDUxYy00OWIyLTg4MzctNmZlNWViYTU0YmUw",
+        "entrance_slug": "verknipt-hard-special",
+        "name": "Verknipt HARD Special",
+        "start_date": "2022-11-26T20:00:00+01:00",
+        "end_date": null,
+        "location": "AFAS Live",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "1313",
+        "wanted_tickets": "1778",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIyOTM0ODI=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-11-26T22:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/verknipt-hard-special/cd340903-451c-49b2-8837-6fe5eba54be0"
+    },
+    {
+        "updated": "2022-10-16 07:12:51.802513",
         "id": "RXZlbnQ6MmZlMTVjYzEtYjE2ZS00YTYwLWEzODctZGYwOGY4MzhlZjBk",
         "entrance_slug": "fred-again",
         "name": "Fred again..",
@@ -1313,8 +1257,8 @@
         "location": "AFAS Live",
         "city": "Amsterdam",
         "available_tickets": "0",
-        "sold_tickets": "95",
-        "wanted_tickets": "5891",
+        "sold_tickets": "94",
+        "wanted_tickets": "6046",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjI0NDg1NjQ=",
@@ -1328,31 +1272,7 @@
         "url": "http://ticketswap.com/event/fred-again/2fe15cc1-b16e-4a60-a387-df08f838ef0d"
     },
     {
-        "updated": "2022-10-15 07:13:27.071949",
-        "id": "RXZlbnQ6ODI0MjcxN2YtYmUyMy00OWExLThlZTctOTdjN2QxMzhkZWUw",
-        "entrance_slug": "audio-obscura-w-dax-j-anetha-hector-oaks-spfdj-blawan-ade",
-        "name": "Audio Obscura w/ Dax J, Anetha, Hector Oaks, SPFDJ, Blawan | #ADE",
-        "start_date": "2022-10-21T21:00:00+02:00",
-        "end_date": null,
-        "location": "RAW factory",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "643",
-        "wanted_tickets": "873",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIzMTQwMzA=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-21T21:00:00+02:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/audio-obscura-w-dax-j-anetha-hector-oaks-spfdj-blawan-ade/8242717f-be23-49a1-8ee7-97c7d138dee0"
-    },
-    {
-        "updated": "2022-10-15 07:13:28.853638",
+        "updated": "2022-10-16 07:12:53.042523",
         "id": "RXZlbnQ6M2NhNWQ1NjctOTdlYi00ZjQzLTk4YjMtZWMzZGFjODY1ZGNm",
         "entrance_slug": "the-seekers-of-light-ade-ade",
         "name": "The Seekers of Light ADE | #ADE",
@@ -1360,9 +1280,9 @@
         "end_date": "2022-10-24T03:00:00+02:00",
         "location": "WesterUnie",
         "city": "Amsterdam",
-        "available_tickets": "9",
-        "sold_tickets": "281",
-        "wanted_tickets": "744",
+        "available_tickets": "3",
+        "sold_tickets": "311",
+        "wanted_tickets": "799",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzODA2ODc=",
@@ -1378,7 +1298,7 @@
                 "title": "Saturday Night",
                 "start_date": "2022-10-22T23:00:00+02:00",
                 "end_date": "2022-10-23T07:00:00+02:00",
-                "available_tickets": 7
+                "available_tickets": 1
             },
             {
                 "id": "RXZlbnRUeXBlOjIzODQ0MjA=",
@@ -1392,31 +1312,31 @@
         "url": "http://ticketswap.com/event/the-seekers-of-light-ade-ade/3ca5d567-97eb-4f43-98b3-ec3dac865dcf"
     },
     {
-        "updated": "2022-10-15 07:13:36.090011",
-        "id": "RXZlbnQ6Yjg3Mjk5ODMtODgxMy00MDFhLTg5NDAtODdmNzkxMDkwZTIw",
-        "entrance_slug": "dgtl-presents-we-still-believe-the-blessed-madonna-ade",
-        "name": "DGTL Presents: We Still Believe: The Blessed Madonna | #ADE",
-        "start_date": "2022-10-22T12:00:00+02:00",
-        "end_date": "2022-10-22T22:00:00+02:00",
-        "location": "NDSM",
+        "updated": "2022-10-16 07:12:59.318071",
+        "id": "RXZlbnQ6ODI0MjcxN2YtYmUyMy00OWExLThlZTctOTdjN2QxMzhkZWUw",
+        "entrance_slug": "audio-obscura-w-dax-j-anetha-hector-oaks-spfdj-blawan-ade",
+        "name": "Audio Obscura w/ Dax J, Anetha, Hector Oaks, SPFDJ, Blawan | #ADE",
+        "start_date": "2022-10-21T21:00:00+02:00",
+        "end_date": null,
+        "location": "RAW factory",
         "city": "Amsterdam",
-        "available_tickets": "26",
-        "sold_tickets": "622",
-        "wanted_tickets": "478",
+        "available_tickets": "0",
+        "sold_tickets": "667",
+        "wanted_tickets": "938",
         "entrance_types": [
             {
-                "id": "RXZlbnRUeXBlOjIyNjQwNDc=",
+                "id": "RXZlbnRUeXBlOjIzMTQwMzA=",
                 "slug": "regular-tickets",
                 "title": "Regular",
-                "start_date": "2022-10-22T12:00:00+02:00",
-                "end_date": "2022-10-22T22:00:00+02:00",
-                "available_tickets": 26
+                "start_date": "2022-10-21T21:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
             }
         ],
-        "url": "http://ticketswap.com/event/dgtl-presents-we-still-believe-the-blessed-madonna-ade/b8729983-8813-401a-8940-87f791090e20"
+        "url": "http://ticketswap.com/event/audio-obscura-w-dax-j-anetha-hector-oaks-spfdj-blawan-ade/8242717f-be23-49a1-8ee7-97c7d138dee0"
     },
     {
-        "updated": "2022-10-15 07:13:39.311995",
+        "updated": "2022-10-16 07:13:01.019686",
         "id": "RXZlbnQ6ODgzZWExODEtZDlhNS00MjBmLWE5MWQtOWI4MGYwMWJiMTY5",
         "entrance_slug": "stromae-multitude-tour",
         "name": "Stromae - Multitude Tour",
@@ -1425,8 +1345,8 @@
         "location": "Ziggo Dome",
         "city": "Amsterdam",
         "available_tickets": "7",
-        "sold_tickets": "261",
-        "wanted_tickets": "618",
+        "sold_tickets": "264",
+        "wanted_tickets": "637",
         "entrance_types": [
             {
                 "id": "RXZlbnRUeXBlOjIzOTQ1NjQ=",
@@ -1488,6 +1408,174 @@
         "url": "http://ticketswap.com/event/stromae-multitude-tour/883ea181-d9a5-420f-a91d-9b80f01bb169"
     },
     {
+        "updated": "2022-10-16 07:13:08.848377",
+        "id": "RXZlbnQ6NTM2OTdjODEtYThkZS00NGY0LWFiYjYtZDM0Nzc4ZTRlMWNm",
+        "entrance_slug": "dgtl-presents-ben-bohmer-live-ade",
+        "name": "DGTL Presents: Ben Böhmer [live] | #ADE",
+        "start_date": "2022-10-21T18:30:00+02:00",
+        "end_date": "2022-10-21T22:00:00+02:00",
+        "location": "NDSM",
+        "city": "Amsterdam",
+        "available_tickets": "0",
+        "sold_tickets": "438",
+        "wanted_tickets": "2157",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjIyODM3MzA=",
+                "slug": "regular-tickets",
+                "title": "Regular",
+                "start_date": "2022-10-21T18:30:00+02:00",
+                "end_date": "2022-10-21T22:00:00+02:00",
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/dgtl-presents-ben-bohmer-live-ade/53697c81-a8de-44f4-abb6-d34778e4e1cf"
+    },
+    {
+        "updated": "2022-10-16 07:13:10.562144",
+        "id": "RXZlbnQ6ZGJjMmEzYmItYWMwOS00OTQzLWFlMTctZTM4OWM4ZDFmNDAx",
+        "entrance_slug": "robbie-williams-xxv-tour-2023",
+        "name": "Robbie Williams - XXV Tour 2023",
+        "start_date": "2023-02-13T20:00:00+01:00",
+        "end_date": null,
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "11",
+        "sold_tickets": "143",
+        "wanted_tickets": "331",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjI0NzA5OTI=",
+                "slug": "platinum-tickets",
+                "title": "Platinum",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 1
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0Njc0MzQ=",
+                "slug": "staanplaatsen-voorste-vak",
+                "title": "Staanplaatsen Voorste Vak",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 7
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0NjcwMzE=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0NzA5ODU=",
+                "slug": "premium-zitplaatsen",
+                "title": "Premium - Zitplaatsen",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 2
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0NjcwMzA=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 1
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0NjcwMjk=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2023-02-13T20:00:00+01:00",
+                "end_date": null,
+                "available_tickets": 0
+            }
+        ],
+        "url": "http://ticketswap.com/event/robbie-williams-xxv-tour-2023/dbc2a3bb-ac09-4943-ae17-e389c8d1f401"
+    },
+    {
+        "updated": "2022-10-15 07:12:01.659999",
+        "id": "RXZlbnQ6MmVkMjhlYTYtYzkwNS00YjE1LTg3ZjEtMDE3NWI2YTFjMzI0",
+        "entrance_slug": "thuishaven-w-fatboy-slim-more-nachtshow",
+        "name": "Thuishaven w/ Fatboy Slim & more + Nachtshow",
+        "start_date": "2022-10-15T13:00:00+02:00",
+        "end_date": "2022-10-16T04:00:00+02:00",
+        "location": "Thuishaven",
+        "city": "Amsterdam",
+        "available_tickets": "27",
+        "sold_tickets": "879",
+        "wanted_tickets": "278",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjI0MTU4ODM=",
+                "slug": "zaterdag-ticket-dagshow",
+                "title": "Zaterdag Ticket | Dagshow",
+                "start_date": "2022-10-15T13:00:00+02:00",
+                "end_date": "2022-10-15T23:00:00+02:00",
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjI0MTY0NjQ=",
+                "slug": "after-ticket-nachtshow",
+                "title": "After Ticket | Nachtshow",
+                "start_date": "2022-10-15T23:00:00+02:00",
+                "end_date": "2022-10-16T04:00:00+02:00",
+                "available_tickets": 27
+            }
+        ],
+        "url": "http://ticketswap.com/event/thuishaven-w-fatboy-slim-more-nachtshow/2ed28ea6-c905-4b15-87f1-0175b6a1c324"
+    },
+    {
+        "updated": "2022-10-15 07:13:13.553061",
+        "id": "RXZlbnQ6NWEyYWNiZTMtYTRlOC00YmFlLWE4NDktZjY0MDc1ODY4NDYy",
+        "entrance_slug": "oscar-and-the-wolf",
+        "name": "Oscar and the Wolf",
+        "start_date": "2022-10-15T20:00:00+02:00",
+        "end_date": null,
+        "location": "Ziggo Dome",
+        "city": "Amsterdam",
+        "available_tickets": "172",
+        "sold_tickets": "718",
+        "wanted_tickets": "319",
+        "entrance_types": [
+            {
+                "id": "RXZlbnRUeXBlOjE5NzE5NTY=",
+                "slug": "floor-tickets",
+                "title": "Floor",
+                "start_date": "2022-10-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 116
+            },
+            {
+                "id": "RXZlbnRUeXBlOjE5NzE5NTU=",
+                "slug": "seats-tickets",
+                "title": "Seats",
+                "start_date": "2022-10-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 54
+            },
+            {
+                "id": "RXZlbnRUeXBlOjE5NzE5NTQ=",
+                "slug": "wheelchair-attendant-tickets",
+                "title": "Wheelchair / attendant",
+                "start_date": "2022-10-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 0
+            },
+            {
+                "id": "RXZlbnRUeXBlOjE5NzE5NTc=",
+                "slug": "parking-tickets",
+                "title": "Parking",
+                "start_date": "2022-10-15T20:00:00+02:00",
+                "end_date": null,
+                "available_tickets": 2
+            }
+        ],
+        "url": "http://ticketswap.com/event/oscar-and-the-wolf/5a2acbe3-a4e8-4bae-a849-f64075868462"
+    },
+    {
         "updated": "2022-10-15 07:13:47.067983",
         "id": "RXZlbnQ6M2I5MWM0N2EtNTBhOC00ZDg3LTk4YzgtZWFmNzZlMzA0NGQ5",
         "entrance_slug": "bob-dylan-rough-and-rowdy-ways-tour-2022",
@@ -1534,30 +1622,6 @@
             }
         ],
         "url": "http://ticketswap.com/event/bob-dylan-rough-and-rowdy-ways-tour-2022/3b91c47a-50a8-4d87-98c8-eaf76e3044d9"
-    },
-    {
-        "updated": "2022-10-14 07:20:07.210760",
-        "id": "RXZlbnQ6NTM2OTdjODEtYThkZS00NGY0LWFiYjYtZDM0Nzc4ZTRlMWNm",
-        "entrance_slug": "dgtl-presents-ben-bohmer-live-ade",
-        "name": "DGTL Presents: Ben Böhmer [live] | #ADE",
-        "start_date": "2022-10-21T18:30:00+02:00",
-        "end_date": "2022-10-21T22:00:00+02:00",
-        "location": "NDSM",
-        "city": "Amsterdam",
-        "available_tickets": "0",
-        "sold_tickets": "378",
-        "wanted_tickets": "2165",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjIyODM3MzA=",
-                "slug": "regular-tickets",
-                "title": "Regular",
-                "start_date": "2022-10-21T18:30:00+02:00",
-                "end_date": "2022-10-21T22:00:00+02:00",
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/dgtl-presents-ben-bohmer-live-ade/53697c81-a8de-44f4-abb6-d34778e4e1cf"
     },
     {
         "updated": "2022-10-14 07:20:22.158606",
@@ -1814,70 +1878,6 @@
             }
         ],
         "url": "http://ticketswap.com/event/stromae-multitude-tour/aeb8467c-a50e-4f19-a898-0d86c02227c3"
-    },
-    {
-        "updated": "2022-10-13 07:21:11.891796",
-        "id": "RXZlbnQ6ZGJjMmEzYmItYWMwOS00OTQzLWFlMTctZTM4OWM4ZDFmNDAx",
-        "entrance_slug": "robbie-williams-xxv-tour-2023",
-        "name": "Robbie Williams - XXV Tour 2023",
-        "start_date": "2023-01-30T20:00:00+01:00",
-        "end_date": null,
-        "location": "Ziggo Dome",
-        "city": "Amsterdam",
-        "available_tickets": "15",
-        "sold_tickets": "122",
-        "wanted_tickets": "285",
-        "entrance_types": [
-            {
-                "id": "RXZlbnRUeXBlOjI0NzA5OTI=",
-                "slug": "platinum-tickets",
-                "title": "Platinum",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0Njc0MzQ=",
-                "slug": "staanplaatsen-voorste-vak",
-                "title": "Staanplaatsen Voorste Vak",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 13
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NjcwMzE=",
-                "slug": "floor-tickets",
-                "title": "Floor",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NzA5ODU=",
-                "slug": "premium-zitplaatsen",
-                "title": "Premium - Zitplaatsen",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 2
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NjcwMzA=",
-                "slug": "seats-tickets",
-                "title": "Seats",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            },
-            {
-                "id": "RXZlbnRUeXBlOjI0NjcwMjk=",
-                "slug": "wheelchair-attendant-tickets",
-                "title": "Wheelchair / attendant",
-                "start_date": "2023-01-30T20:00:00+01:00",
-                "end_date": null,
-                "available_tickets": 0
-            }
-        ],
-        "url": "http://ticketswap.com/event/robbie-williams-xxv-tour-2023/dbc2a3bb-ac09-4943-ae17-e389c8d1f401"
     },
     {
         "updated": "2022-10-12 07:14:32.959856",
